@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+java.version,sysinfo,,,"1.5.0_22",1401222936210
+java.vm.info,sysinfo,,,"mixed mode, sharing",1401222936210
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1401222936210
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1401222936210
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1401222936210
+java.vm.specification.version,sysinfo,,,"1.0",1401222936210
+java.vm.vendor,sysinfo,,,"Sun Microsystems Inc.",1401222936210
+java.vm.version,sysinfo,,,"1.5.0_22-b03",1401222936210
+started,bundle,org.eclipse.jsch.core,1.1.100.I20090430-0408,"org.eclipse.jsch.core",1401222936677
+started,bundle,org.eclipse.team.cvs.core,3.3.200.I20090430-0408,"org.eclipse.team.cvs.core",1401222936679
+started,bundle,org.eclipse.team.cvs.ui,3.3.200.I20090521-1750,"org.eclipse.team.cvs.ui",1401222936911
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401222942348
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401223047448
+opened,view,tv.osmosys.sdk.ui.tools,2.2.1,"tv.osmosys.sdk.ui.rcu.RCUView",1401223057232
+opened,view,tv.osmosys.sdk.ui.tools,2.2.1,"tv.osmosys.sdk.ui.memorymonitor.MemoryView",1401223057326
+opened,view,tv.osmosys.sdk.ui.tools,2.2.1,"tv.osmosys.sdk.ui.taskmonitor.TasksView",1401223057371
+opened,view,tv.osmosys.sdk.ui.tools,2.2.1,"tv.osmosys.sdk.ui.console.ConsoleView",1401223057529
+activated,view,tv.osmosys.sdk.ui.tools,2.2.1,"tv.osmosys.sdk.ui.console.ConsoleView",1401223057564
+activated,perspective,tv.osmosys.sdk.perspective,,"tv.osmosys.sdk.perspective.PerspectiveFactory",1401223057585
+activated,view,tv.osmosys.sdk.ui.tools,2.2.1,"tv.osmosys.sdk.ui.rcu.RCUView",1401223070150
+activated,perspective,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.JavaPerspective",1401223494875
+activated,view,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.PackageExplorer",1401223494885
+started,bundle,org.eclipse.debug.ui,3.5.0.v20090603,"org.eclipse.debug.ui",1401223498016
+started,bundle,tv.osmosys.sdk.launching,2.2.1,"tv.osmosys.sdk.launching",1401223498128
+started,bundle,org.eclipse.jdt.debug,3.5.0.v20090526,"org.eclipse.jdt.debug",1401223498881

@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401207905803
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401207907026
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401207908098
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401207911408
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401207911450
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401208626755
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401208626777
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401208632082
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401208632150
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1401208633246
+activated,perspective,tv.osmosys.sdk.perspective,2.2.1,"tv.osmosys.sdk.perspective.PerspectiveFactory",1401208633268
+error,log,,,"connot send query",1401208634511
+activated,perspective,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.JavaPerspective",1401208636525
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401208638920
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401208716894
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401208716924
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401210564740
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401222442823
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1401222445452
+activated,perspective,tv.osmosys.sdk.perspective,2.2.1,"tv.osmosys.sdk.perspective.PerspectiveFactory",1401222445473
+activated,view,tv.osmosys.sdk.ui.tools,2.2.1,"tv.osmosys.sdk.ui.console.ConsoleView",1401222449042
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401222454102
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401222456470
+error,log,,,"No target selected",1401222456479
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401222456538

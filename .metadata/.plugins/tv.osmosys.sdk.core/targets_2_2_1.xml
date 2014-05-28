@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><!--Osmosys SDK targets configuration file - DO NOT EDIT-->
+<config version="2.2.1">
+   <global-config>
+      <parameters>
+          <parameter name="sound-for-pc" value="false"/>
+      </parameters>
+   </global-config>
+   <target id="STB on COM2" pid="tv.osmosys.sdk.platform.proxy">
+      <description>Box</description>
+      <platform-config>
+         <host com="2" isLocal="true" uri="stbproxy://localhost:4447"/>
+      </platform-config>
+   </target>
+   <target id="STB on COM1" pid="tv.osmosys.sdk.platform.proxy">
+      <description>Box</description>
+      <platform-config>
+         <host com="1" isLocal="true" uri="stbproxy://localhost:4444"/>
+      </platform-config>
+   </target>
+   <target id="MHP 1.1.2" pid="tv.osmosys.sdk.platform.mhp4win">
+      <description>Mhp4Win (MHP 1.1.2)</description>
+      <platform-config>
+         <connection port="4447" timeout="60000"/>
+         <emulator eeprom="exe/win32/emulator/mhp112/mhp.eeprom" flash="exe/win32/emulator/mhp112/mhp.flash" path="exe/win32/emulator/mhp112.exe"/>
+         <tuners>
+            <tuner frequency="200" kind="file" stream="exe\win32\emulator\streams\stream1.mpg" type="1"/>
+         </tuners>
+         <video frameSkipping="0" isEnabled="true"/>
+         <window isAlwaysOnTop="true"/>
+         <graphicPlane colors="1"/>
+         <roms>
+            <rom path="exe\win32\emulator\navigator\classes.rom"/>
+            <rom path="exe\win32\emulator\navigator\env.rom"/>
+            <rom path="exe\win32\emulator\navigator\settings.rom"/>
+            <rom path="exe\win32\emulator\navigator\skins.rom"/>
+         </roms>
+         <dvrs/>
+      </platform-config>
+   </target>
+</config>

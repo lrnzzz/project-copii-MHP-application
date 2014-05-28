@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+java.vm.vendor,sysinfo,,,"Sun Microsystems Inc.",1401204234982
+java.vm.version,sysinfo,,,"1.5.0_22-b03",1401204234982
+activated,view,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.PackageExplorer",1401204245029
+activated,view,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.PackageExplorer",1401204245057
+closed,view,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.internal.introview",1401204245087
+started,bundle,tv.osmosys.sdk.perspective,2.2.1,"tv.osmosys.sdk.perspective",1401204249231
+started,bundle,org.eclipse.debug.core,3.5.0.v20090526-1600,"org.eclipse.debug.core",1401204249254
+started,bundle,org.eclipse.debug.ui,3.5.0.v20090603,"org.eclipse.debug.ui",1401204249317
+opened,view,tv.osmosys.sdk.ui.tools,2.2.1,"tv.osmosys.sdk.ui.rcu.RCUView",1401204249370
+opened,view,tv.osmosys.sdk.ui.tools,2.2.1,"tv.osmosys.sdk.ui.memorymonitor.MemoryView",1401204249395
+opened,view,tv.osmosys.sdk.ui.tools,2.2.1,"tv.osmosys.sdk.ui.taskmonitor.TasksView",1401204249415
+opened,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1401204249449
+opened,view,tv.osmosys.sdk.ui.tools,2.2.1,"tv.osmosys.sdk.ui.console.ConsoleView",1401204249482
+activated,perspective,tv.osmosys.sdk.perspective,2.2.1,"tv.osmosys.sdk.perspective.PerspectiveFactory",1401204249501
+activated,view,tv.osmosys.sdk.ui.tools,2.2.1,"tv.osmosys.sdk.ui.rcu.RCUView",1401204249594
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.perspectives.showPerspective",1401204249599
+executed,command,,,"tv.osmosys.sdk.perspective.PerspectiveFactory",1401204249599
+activated,perspective,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.JavaPerspective",1401204255879
+activated,view,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.PackageExplorer",1401204255888
+started,bundle,tv.osmosys.sdk.ui.mhp,2.2.1,"tv.osmosys.sdk.ui.mhp",1401204259861
+started,bundle,org.eclipse.core.filesystem,1.2.0.v20090507,"org.eclipse.core.filesystem",1401204259908
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401204260120
+started,bundle,org.eclipse.jdt.launching,3.5.0.v20090527,"org.eclipse.jdt.launching",1401204305083
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401204324460
+started,bundle,org.tigris.subversion.clientadapter.javahl,1.6.5,"org.tigris.subversion.clientadapter.javahl",1401204324698

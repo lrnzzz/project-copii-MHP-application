@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.eclipse.mylyn.monitor.ui,3.2.1.v20090722-0200-e3x,"org.eclipse.mylyn.monitor.ui",1401222936087
+started,bundle,org.eclipse.mylyn.tasks.ui,3.2.1.v20090722-0200-e3x,"org.eclipse.mylyn.tasks.ui",1401222936099
+started,bundle,org.eclipse.mylyn.team.ui,3.2.1.v20090722-0200-e3x,"org.eclipse.mylyn.team.ui",1401222936111
+started,bundle,tv.osmosys.sdk.core,2.2.1,"tv.osmosys.sdk.core",1401222936113
+started,bundle,tv.osmosys.sdk.platforms,2.2.1,"tv.osmosys.sdk.platforms",1401222936121
+started,bundle,tv.osmosys.sdk.ui.mhp,2.2.1,"tv.osmosys.sdk.ui.mhp",1401222936144
+started,bundle,tv.osmosys.sdk.ui.tools,2.2.1,"tv.osmosys.sdk.ui.tools",1401222936163
+started,bundle,tv.osmosys.sdk.util,2.2.1,"tv.osmosys.sdk.util",1401222936164
+started,bundle,com.collabnet.subversion.merge,1.10.0,"com.collabnet.subversion.merge",1401222936176
+started,bundle,org.tigris.subversion.clientadapter,1.6.4.1,"org.tigris.subversion.clientadapter",1401222936176
+started,bundle,org.tigris.subversion.subclipse.core,1.6.5,"org.tigris.subversion.subclipse.core",1401222936180
+started,bundle,org.tigris.subversion.subclipse.mylyn,3.0.0,"org.tigris.subversion.subclipse.mylyn",1401222936180
+started,bundle,org.tigris.subversion.subclipse.ui,1.6.5,"org.tigris.subversion.subclipse.ui",1401222936195
+started,bundle,org.eclipse.equinox.simpleconfigurator,1.0.100.v20090520-1905,"org.eclipse.equinox.simpleconfigurator",1401222936206
+os,sysinfo,,,"win32",1401222936210
+arch,sysinfo,,,"x86",1401222936210
+ws,sysinfo,,,"win32",1401222936210
+locale,sysinfo,,,"nl_BE",1401222936210
+processors,sysinfo,,,"2",1401222936210
+java.runtime.name,sysinfo,,,"Java(TM) 2 Runtime Environment, Standard Edition",1401222936210
+java.runtime.version,sysinfo,,,"1.5.0_22-b03",1401222936210
+java.specification.name,sysinfo,,,"Java Platform API Specification",1401222936210
+java.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1401222936210
+java.specification.version,sysinfo,,,"1.5",1401222936210
+java.vendor,sysinfo,,,"Sun Microsystems Inc.",1401222936210

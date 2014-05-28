@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,view,tv.osmosys.sdk.ui.tools,2.2.1,"tv.osmosys.sdk.ui.console.ConsoleView",1401277911685
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1401277913107
+error,log,,,"Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.",1401277915524
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401277915539
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401277916873
+activated,perspective,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.JavaPerspective",1401277931463
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401277939379
+activated,perspective,tv.osmosys.sdk.perspective,,"tv.osmosys.sdk.perspective.PerspectiveFactory",1401277940278
+activated,view,tv.osmosys.sdk.ui.tools,2.2.1,"tv.osmosys.sdk.ui.console.ConsoleView",1401277940292
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1401277941607
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401277960021
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401277961423
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401277961754
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401277965052
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401277965106
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401277984515
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401277984666
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401277986085
+error,log,,,"connot send query",1401277987110
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401277988451
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401277989901
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401277990244
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401277993470
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401277993516
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401278005835

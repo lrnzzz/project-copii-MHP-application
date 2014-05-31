@@ -6,6 +6,7 @@ import javax.tv.xlet.*;
 import org.dvb.ui.*;
 import java.awt.*;
 import java.io.IOException;
+import java.io.InputStream;
 
 import org.havi.ui.*;
 
@@ -67,27 +68,89 @@ public class Main implements Xlet {
 		
 		
 		//::TEST api call
-		String url = "http://api.openweathermap.org/data/2.5/weather?q=Antwerp,be";
+//		String url = "http://api.openweathermap.org/data/2.5/weather?q=Antwerp,be";
+//		
+//		// new http connection
+//		try {
+//			HttpConnection con = (HttpConnection) Connector.open(url, Connector.READ_WRITE, true);
+//			con.setRequestMethod(HttpConnection.GET);
+//			con.setRequestProperty("User-Agent", "Mozilla/5.0 (Series40)");
+//			con.setRequestProperty("Connection", "close");          
+//			int responseCode = con.getResponseCode();
+//
+//			if(responseCode == HttpConnection.HTTP_OK) {
+//				// handle result, read data ...
+//				System.out.println("HTTP 200 OK");
+//			} else {
+//				System.out.println("HTTP NOT OK");         
+//			}
+//			con.close();
+//		}
+//		catch(IOException ie) {
+//			ie.printStackTrace();
+//		}
 		
-		// new http connection
-		try {
-			HttpConnection con = (HttpConnection) Connector.open(url, Connector.READ_WRITE, true);
-			con.setRequestMethod(HttpConnection.GET);
-			con.setRequestProperty("User-Agent", "Mozilla/5.0 (Series40)");
-			con.setRequestProperty("Connection", "close");          
-			int responseCode = con.getResponseCode();
-
-			if(responseCode == HttpConnection.HTTP_OK) {
-				// handle result, read data ...
-				System.out.println("HTTP 200 OK");
-			} else {
-				System.out.println("HTTP NOT OK");         
+		
+		int iResponseCode;
+		HttpConnection http = null;		
+		InputStream iStrm = null;
+		//String url = "http://api.openweathermap.org/data/2.5/weather?q=Antwerp,be";
+		String url = "https://www.kernel.org/pub/software/scm/git/docs/v1.7.9.1/git-check-attr.txt";
+		
+		try { 
+			try { 			
+				http = (HttpConnection) Connector.open(url); 			
+				// ----------------			
+				// Client Request			
+				// ----------------			
+				// 1) Set request method			
+				http.setRequestMethod(HttpConnection.GET); 			
+				// 2) Set header information (this header is optional)			
+				http.setRequestProperty("User-Agent",					
+						"Profile/MIDP-1.0 Configuration/CLDC-1.0"); 			
+				// 3) Set body/data - No data for this request 			
+				// ----------------			
+				// Server Response			
+				// ----------------			
+				// 1) Get response status message and code			
+				iResponseCode = http.getResponseCode(); 	
+				System.out.println("Msg: " + http.getResponseMessage());			
+				System.out.println("Code: " + iResponseCode); 			
+				// 2) Check response status			
+				if (iResponseCode == HttpConnection.HTTP_OK) {	
+					// 3) Get data and show the file contents	
+					iStrm = http.openInputStream();				
+					int length = (int) http.getLength();				
+					if (length > 0) {					
+						byte serverData[] = new byte[length];					
+						iStrm.read(serverData);
+						//get the data
+					}			
+				}
+				else {
+					System.out.println("No data can be read if response was not HTTP_OK");
+				}
+					
+			}catch (Exception e){
+				e.printStackTrace();
 			}
-			con.close();
+			finally 
+			{ 			
+				// Close the stream
+				if (iStrm != null)				
+					iStrm.close();			
+				// Close the connection
+				if (http != null)				
+					http.close();
+			}
 		}
 		catch(IOException ie) {
 			ie.printStackTrace();
 		}
+			
+		
+		
+		
 		
 		
 		// show scene
@@ -95,6 +158,7 @@ public class Main implements Xlet {
 		scene.setVisible(true);
 	}
 
+	
 	public void destroyXlet(boolean unconditional) throws XletStateChangeException {
 		if(unconditional) {
 			System.out.println("The Xlet must be terminated");
@@ -104,11 +168,13 @@ public class Main implements Xlet {
 		}
 	}
 
-
-
+	
 	public void pauseXlet() {
 		System.out.println("pause copii remote helper");
 	}
+	
+	
+	
 
 
 

@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.copy",1401535717246
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.paste",1401535720682
+executed,command,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.edit.text.java.toggle.comment",1401535723765
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1401535739229
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1401535967552
+error,log,,,"connot send query",1401535967662
+activated,view,org.eclipse.ui.views.log,1.0.100.v20090527,"org.eclipse.pde.runtime.LogView",1401535967686
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401535969336
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401535970466
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401535970565
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1401535971469
+error,log,,,"target 'STB Telenet' not connected",1401535977457
+activated,view,org.eclipse.ui.views.log,1.0.100.v20090527,"org.eclipse.pde.runtime.LogView",1401535977475
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401535980205
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401535981605
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1401535982895
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401535999278
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401536000715
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401536001950
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401536002268
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401536013938
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401536015890
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401536019208
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401536019252
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401536463533

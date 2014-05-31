@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="java.awt.Font"/>
+<fullyQualifiedTypeName name="javax.microedition.io.HttpConnection"/>
+<fullyQualifiedTypeName name="javax.microedition.io.Connector"/>
+<fullyQualifiedTypeName name="java.io.InputStream"/>
 </qualifiedTypeNameHistroy>

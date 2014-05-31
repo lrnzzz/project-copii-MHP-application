@@ -1,0 +1,14 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,perspective,tv.osmosys.sdk.perspective,,"tv.osmosys.sdk.perspective.PerspectiveFactory",1401296251281
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1401296254464
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401296258852
+activated,perspective,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.JavaPerspective",1401296258855
+activated,view,org.eclipse.ui.views.log,1.0.100.v20090527,"org.eclipse.pde.runtime.LogView",1401296258867
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401296259907
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401296261013
+closed,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401296261226
+stopped,bundle,org.eclipse.mylyn.ide.ant,3.2.1.v20090722-0200-e3x,"org.eclipse.mylyn.ide.ant",1401296261705
+stopped,bundle,org.eclipse.ant.ui,3.4.0.v20090520,"org.eclipse.ant.ui",1401296261711
+stopped,bundle,org.eclipse.compare.win32,1.0.0.I20090430-0408,"org.eclipse.compare.win32",1401296261715
+stopped,bundle,org.eclipse.mylyn.java.tasks,3.2.1.v20090722-0200-e3x,"org.eclipse.mylyn.java.tasks",1401296261730
+stopped,bundle,org.eclipse.mylyn.java.ui,3.2.1.v20090722-0200-e3x,"org.eclipse.mylyn.java.ui",1401296261737

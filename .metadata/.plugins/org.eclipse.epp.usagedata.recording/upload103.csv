@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401298901969
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401298910800
+activated,view,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.PackageExplorer",1401298916358
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401298928710
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401299257277
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401299259788
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401299261839
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401299267717
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401299268004
+error,log,,,"Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.",1401299268069
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401299270195
+activated,perspective,tv.osmosys.sdk.perspective,,"tv.osmosys.sdk.perspective.PerspectiveFactory",1401299271324
+activated,view,tv.osmosys.sdk.ui.tools,2.2.1,"tv.osmosys.sdk.ui.console.ConsoleView",1401299271337
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1401299273282
+activated,perspective,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.JavaPerspective",1401299276669
+activated,view,org.eclipse.ui.views.log,1.0.100.v20090527,"org.eclipse.pde.runtime.LogView",1401299276675
+activated,view,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.PackageExplorer",1401299281286
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401299281480
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401299285166
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401299286318
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401299286601
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401299332426
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1401299345650
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401299346219
+started,bundle,org.tigris.subversion.clientadapter.javahl,1.6.5,"org.tigris.subversion.clientadapter.javahl",1401299346278

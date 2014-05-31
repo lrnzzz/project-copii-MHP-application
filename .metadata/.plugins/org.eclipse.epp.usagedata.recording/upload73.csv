@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+java.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1401297399273
+java.specification.version,sysinfo,,,"1.5",1401297399273
+java.vendor,sysinfo,,,"Sun Microsystems Inc.",1401297399273
+java.version,sysinfo,,,"1.5.0_22",1401297399273
+java.vm.info,sysinfo,,,"mixed mode, sharing",1401297399273
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1401297399273
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1401297399273
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1401297399273
+java.vm.specification.version,sysinfo,,,"1.0",1401297399273
+java.vm.vendor,sysinfo,,,"Sun Microsystems Inc.",1401297399273
+java.vm.version,sysinfo,,,"1.5.0_22-b03",1401297399273
+activated,view,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.PackageExplorer",1401297399308
+started,bundle,org.eclipse.debug.ui,3.5.0.v20090603,"org.eclipse.debug.ui",1401297405022
+started,bundle,tv.osmosys.sdk.launching,2.2.1,"tv.osmosys.sdk.launching",1401297405122
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401297405197
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401297406466
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401297407174
+started,bundle,org.eclipse.jdt.debug,3.5.0.v20090526,"org.eclipse.jdt.debug",1401297407299
+started,bundle,org.eclipse.jdt.debug.ui,3.4.0.v20090527,"org.eclipse.jdt.debug.ui",1401297407350
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401297409550
+opened,view,tv.osmosys.sdk.ui.tools,2.2.1,"tv.osmosys.sdk.ui.rcu.RCUView",1401297418269
+opened,view,tv.osmosys.sdk.ui.tools,2.2.1,"tv.osmosys.sdk.ui.memorymonitor.MemoryView",1401297418316
+opened,view,tv.osmosys.sdk.ui.tools,2.2.1,"tv.osmosys.sdk.ui.taskmonitor.TasksView",1401297418345
+opened,view,tv.osmosys.sdk.ui.tools,2.2.1,"tv.osmosys.sdk.ui.console.ConsoleView",1401297418438
+activated,perspective,tv.osmosys.sdk.perspective,,"tv.osmosys.sdk.perspective.PerspectiveFactory",1401297418481

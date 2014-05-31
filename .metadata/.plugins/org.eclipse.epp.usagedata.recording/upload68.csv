@@ -1,0 +1,16 @@
+what,kind,bundleId,bundleVersion,description,time
+stopped,bundle,org.eclipse.jdt.apt.ui,3.3.200.v20090528-1135,"org.eclipse.jdt.apt.ui",1401297323274
+stopped,bundle,tv.osmosys.sdk.launching,2.2.1,"tv.osmosys.sdk.launching",1401297323274
+stopped,bundle,org.eclipse.jdt.debug.ui,3.4.0.v20090527,"org.eclipse.jdt.debug.ui",1401297323274
+stopped,bundle,tv.osmosys.sdk.cheatsheets,2.2.1,"tv.osmosys.sdk.cheatsheets",1401297323275
+stopped,bundle,tv.osmosys.sdk.perspective,2.2.1,"tv.osmosys.sdk.perspective",1401297323276
+stopped,bundle,tv.osmosys.sdk.examples,2.2.1,"tv.osmosys.sdk.examples",1401297323277
+stopped,bundle,tv.osmosys.sdk.ui.mhp,2.2.1,"tv.osmosys.sdk.ui.mhp",1401297323277
+stopped,bundle,com.collabnet.subversion.merge,1.10.0,"com.collabnet.subversion.merge",1401297323277
+stopped,bundle,org.tigris.subversion.subclipse.graph,1.0.7,"org.tigris.subversion.subclipse.graph",1401297323295
+stopped,bundle,org.tigris.subversion.subclipse.mylyn,3.0.0,"org.tigris.subversion.subclipse.mylyn",1401297323295
+stopped,bundle,org.tigris.subversion.subclipse.ui,1.6.5,"org.tigris.subversion.subclipse.ui",1401297323295
+stopped,bundle,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui",1401297323307
+stopped,bundle,org.eclipse.wst.dtd.ui,1.0.400.v200904300717,"org.eclipse.wst.dtd.ui",1401297323308
+stopped,bundle,org.eclipse.wst.xsd.ui,1.2.203.v200904300717,"org.eclipse.wst.xsd.ui",1401297323311
+stopped,bundle,org.eclipse.wst.xml.ui,1.1.0.v200905242047,"org.eclipse.wst.xml.ui",1401297323325

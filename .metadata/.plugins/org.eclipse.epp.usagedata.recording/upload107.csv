@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401299995735
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401299996826
+error,log,,,"Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.",1401299997196
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401299997289
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401299998667
+activated,perspective,tv.osmosys.sdk.perspective,,"tv.osmosys.sdk.perspective.PerspectiveFactory",1401299999570
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1401299999578
+error,log,,,"connot send query",1401300001449
+activated,perspective,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.JavaPerspective",1401300007137
+activated,view,org.eclipse.ui.views.log,1.0.100.v20090527,"org.eclipse.pde.runtime.LogView",1401300007143
+error,log,,,"Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.",1401300010062
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401300010080
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401300011537
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401300013056
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401300014392
+closed,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401300014627
+stopped,bundle,org.eclipse.mylyn.ide.ant,3.2.1.v20090722-0200-e3x,"org.eclipse.mylyn.ide.ant",1401300015006
+stopped,bundle,org.eclipse.ant.ui,3.4.0.v20090520,"org.eclipse.ant.ui",1401300015007
+stopped,bundle,org.eclipse.compare.win32,1.0.0.I20090430-0408,"org.eclipse.compare.win32",1401300015008
+stopped,bundle,org.eclipse.mylyn.java.tasks,3.2.1.v20090722-0200-e3x,"org.eclipse.mylyn.java.tasks",1401300015009
+stopped,bundle,org.eclipse.mylyn.java.ui,3.2.1.v20090722-0200-e3x,"org.eclipse.mylyn.java.ui",1401300015010
+stopped,bundle,org.eclipse.jdt.junit,3.5.0.v20090526-2000,"org.eclipse.jdt.junit",1401300015011
+stopped,bundle,org.eclipse.jdt.apt.ui,3.3.200.v20090528-1135,"org.eclipse.jdt.apt.ui",1401300015012
+stopped,bundle,tv.osmosys.sdk.launching,2.2.1,"tv.osmosys.sdk.launching",1401300015012
+stopped,bundle,org.eclipse.jdt.debug.ui,3.4.0.v20090527,"org.eclipse.jdt.debug.ui",1401300015012

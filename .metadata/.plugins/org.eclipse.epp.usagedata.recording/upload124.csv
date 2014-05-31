@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401301744560
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401301749279
+error,log,,,"cannot execute query",1401301795802
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401301795841
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401301804739
+activated,perspective,tv.osmosys.sdk.perspective,,"tv.osmosys.sdk.perspective.PerspectiveFactory",1401301806343
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1401301806351
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401301821330
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401301822634
+closed,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401301822823
+stopped,bundle,org.eclipse.mylyn.ide.ant,3.2.1.v20090722-0200-e3x,"org.eclipse.mylyn.ide.ant",1401301823122
+stopped,bundle,org.eclipse.ant.ui,3.4.0.v20090520,"org.eclipse.ant.ui",1401301823123
+stopped,bundle,org.eclipse.compare.win32,1.0.0.I20090430-0408,"org.eclipse.compare.win32",1401301823124
+stopped,bundle,org.eclipse.mylyn.java.tasks,3.2.1.v20090722-0200-e3x,"org.eclipse.mylyn.java.tasks",1401301823125
+stopped,bundle,org.eclipse.mylyn.java.ui,3.2.1.v20090722-0200-e3x,"org.eclipse.mylyn.java.ui",1401301823126
+stopped,bundle,org.eclipse.jdt.junit,3.5.0.v20090526-2000,"org.eclipse.jdt.junit",1401301823127
+stopped,bundle,org.eclipse.jdt.apt.ui,3.3.200.v20090528-1135,"org.eclipse.jdt.apt.ui",1401301823128
+stopped,bundle,tv.osmosys.sdk.launching,2.2.1,"tv.osmosys.sdk.launching",1401301823128
+stopped,bundle,org.eclipse.jdt.debug.ui,3.4.0.v20090527,"org.eclipse.jdt.debug.ui",1401301823128
+stopped,bundle,tv.osmosys.sdk.cheatsheets,2.2.1,"tv.osmosys.sdk.cheatsheets",1401301823129
+stopped,bundle,tv.osmosys.sdk.perspective,2.2.1,"tv.osmosys.sdk.perspective",1401301823130
+stopped,bundle,tv.osmosys.sdk.examples,2.2.1,"tv.osmosys.sdk.examples",1401301823131
+stopped,bundle,tv.osmosys.sdk.ui.mhp,2.2.1,"tv.osmosys.sdk.ui.mhp",1401301823131
+stopped,bundle,com.collabnet.subversion.merge,1.10.0,"com.collabnet.subversion.merge",1401301823131
+stopped,bundle,org.tigris.subversion.subclipse.graph,1.0.7,"org.tigris.subversion.subclipse.graph",1401301823132

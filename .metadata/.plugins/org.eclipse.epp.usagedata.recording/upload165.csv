@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401522344533
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401522346045
+error,log,,,"connot send query",1401522347010
+activated,view,org.eclipse.ui.views.log,1.0.100.v20090527,"org.eclipse.pde.runtime.LogView",1401522347027
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401522355004
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401522356665
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401522358532
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401522359675
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401522361491
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401522364764
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401522364812
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401522366166
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1401522366171
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401522396781
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401522397918
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401522452434
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.copy",1401522458171
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.paste",1401522459015
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1401522462047
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401525444995
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401525470880
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401525472380
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401525643154
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.cut",1401525653030
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.delete",1401525681937

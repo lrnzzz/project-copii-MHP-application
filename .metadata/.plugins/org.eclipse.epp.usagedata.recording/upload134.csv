@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+error,log,,,"Exception loading preferences from: C:/Users/MHP-dev/Documents/GitHub/project-copii-MHP-application/TestProj3/.settings/org.eclipse.jdt.core.prefs.",1401347322396
+opened,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401347322460
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401347322530
+closed,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401347322530
+activated,view,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.PackageExplorer",1401347323220
+closed,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401347323220
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401347330879
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401347332632
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1401347337582
+started,bundle,org.eclipse.ui.views.log,1.0.100.v20090527,"org.eclipse.ui.views.log",1401347339896
+opened,view,org.eclipse.ui.views.log,1.0.100.v20090527,"org.eclipse.pde.runtime.LogView",1401347340144
+activated,view,org.eclipse.ui.views.log,1.0.100.v20090527,"org.eclipse.pde.runtime.LogView",1401347340177
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401347341800
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401347342880
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1401347343526
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401349155564
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401349465989
+activated,view,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.PackageExplorer",1401349483317
+opened,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401349483598
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401349483706
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401349485313
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401349486489
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401349487148
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401349536197
+activated,view,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.PackageExplorer",1401350465859

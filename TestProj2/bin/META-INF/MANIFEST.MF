@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.8.2
+Created-By: 1.6.0_16-b01 (Sun Microsystems Inc.)
+Class-Path: lib/TelenetAPI18032011.jar lib/javax.jar lib/jvm.jar lib/m
+ hp102.jar lib/mhp103.jar lib/mhp11.jar lib/mhp112.jar lib/ocap.jar li
+ b/w3c.jar
+

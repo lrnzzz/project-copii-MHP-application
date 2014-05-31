@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launchConfiguration type="tv.osmosys.sdk.launching.launchConfigurationType.mhp">
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.adb.gfxexample.AdvancedDemoXlet"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="AdvancedGFXDemo"/>
+<stringAttribute key="process_factory_id" value="tv.osmosys.sdk.launching.mhpProcessFactory"/>
+<booleanAttribute key="tv.osmosys.sdk.launching.active_target" value="true"/>
+<stringAttribute key="tv.osmosys.sdk.launching.app_aid" value="0x178c"/>
+<booleanAttribute key="tv.osmosys.sdk.launching.app_is_signed" value="false"/>
+<stringAttribute key="tv.osmosys.sdk.launching.app_lang_code" value="eng"/>
+<stringAttribute key="tv.osmosys.sdk.launching.app_name" value="AdvancedDemoXlet"/>
+<stringAttribute key="tv.osmosys.sdk.launching.app_oid" value="0x9397ca00"/>
+<intAttribute key="tv.osmosys.sdk.launching.app_type" value="1"/>
+<intAttribute key="tv.osmosys.sdk.launching.flag_control" value="1"/>
+<booleanAttribute key="tv.osmosys.sdk.launching.flag_is_service_bound" value="false"/>
+<booleanAttribute key="tv.osmosys.sdk.launching.flag_kill_broadcast_xlets" value="false"/>
+<intAttribute key="tv.osmosys.sdk.launching.flag_priority" value="1"/>
+<intAttribute key="tv.osmosys.sdk.launching.flag_visibility" value="3"/>
+<intAttribute key="tv.osmosys.sdk.launching.type" value="0"/>
+<booleanAttribute key="tv.osmosys.sdk.launching.visibility.limited" value="false"/>
+<stringAttribute key="tv.osmosys.sdk.launching.visible.onid" value=""/>
+<stringAttribute key="tv.osmosys.sdk.launching.visible.svid" value=""/>
+<stringAttribute key="tv.osmosys.sdk.launching.visible.tsid" value=""/>
+<listAttribute key="tv.osmosys.sdk.launching.xlet.params"/>
+<stringAttribute key="tv.osmosys.sdk.launching.xlet_base_dir" value="/AdvancedDemoXlet_1134681648"/>
+<stringAttribute key="tv.osmosys.sdk.launching.xlet_classpath" value=""/>
+</launchConfiguration>

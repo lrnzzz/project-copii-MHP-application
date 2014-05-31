@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401295364491
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401295365995
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401295372991
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401295374792
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401295376268
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401295378289
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401295381587
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401295381641
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401295389047
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401295390780
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401295393198
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401295394111
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401295395552
+activated,perspective,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.JavaPerspective",1401295398197
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1401295398204
+activated,view,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.PackageExplorer",1401295399623
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401295407573
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401295408968
+error,log,,,"Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.",1401295409331
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401295409461
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401295415422
+activated,perspective,tv.osmosys.sdk.perspective,,"tv.osmosys.sdk.perspective.PerspectiveFactory",1401295416691
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1401295416699
+activated,perspective,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.JavaPerspective",1401295427321
+activated,view,org.eclipse.ui.views.log,1.0.100.v20090527,"org.eclipse.pde.runtime.LogView",1401295427328

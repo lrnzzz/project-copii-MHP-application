@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="libs/javax.jar"/>
+	<classpathentry kind="lib" path="libs/jvm.jar"/>
+	<classpathentry kind="lib" path="libs/mhp102.jar"/>
+	<classpathentry kind="lib" path="libs-u/telenet_ixc.jar"/>
+	<classpathentry kind="lib" path="libs-u/gfx-0.2.1.jar"/>
+	<classpathentry kind="lib" path="libs-u/mhp103.jar"/>
+	<classpathentry kind="lib" path="libs-u/mhp11.jar"/>
+	<classpathentry kind="lib" path="libs-u/mhp112.jar"/>
+	<classpathentry kind="lib" path="libs-u/ocap.jar"/>
+	<classpathentry kind="lib" path="libs-u/TelenetAPI18032011.jar"/>
+	<classpathentry kind="lib" path="libs-u/w3c.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

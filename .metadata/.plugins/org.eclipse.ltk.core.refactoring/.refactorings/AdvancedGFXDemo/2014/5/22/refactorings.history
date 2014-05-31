@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 1 package(s) to &apos;t-ajax-call/src&apos;&#x0D;&#x0A;- Original project: &apos;AdvancedGFXDemo&apos;&#x0D;&#x0A;- Destination element: &apos;t-ajax-call/src&apos;&#x0D;&#x0A;- Original element: &apos;AdvancedGFXDemo/src/img&apos;" description="Copy package" destination="=t-ajax-call/src" element1="/src&lt;img" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1401284238491" version="1.0"/>
+</session>

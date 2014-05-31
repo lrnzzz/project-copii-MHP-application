@@ -2,19 +2,13 @@
 <config version="2.2.1">
    <global-config>
       <parameters>
-          <parameter name="sound-for-pc" value="false"/>
+         <parameter name="sound-for-pc" value="false"/>
       </parameters>
    </global-config>
    <target id="STB on COM2" pid="tv.osmosys.sdk.platform.proxy">
       <description>Box</description>
       <platform-config>
          <host com="2" isLocal="true" uri="stbproxy://localhost:4447"/>
-      </platform-config>
-   </target>
-   <target id="STB on COM1" pid="tv.osmosys.sdk.platform.proxy">
-      <description>Box</description>
-      <platform-config>
-         <host com="1" isLocal="true" uri="stbproxy://localhost:4444"/>
       </platform-config>
    </target>
    <target id="MHP 1.1.2" pid="tv.osmosys.sdk.platform.mhp4win">
@@ -35,6 +29,18 @@
             <rom path="exe\win32\emulator\navigator\skins.rom"/>
          </roms>
          <dvrs/>
+      </platform-config>
+   </target>
+   <target id="STB Telenet" pid="tv.osmosys.sdk.platform.proxy">
+      <description>DC-AD2100</description>
+      <platform-config>
+         <host com="1" isLocal="true" uri="stbproxy://localhost:4445"/>
+      </platform-config>
+   </target>
+   <target id="STB on COM1" pid="tv.osmosys.sdk.platform.proxy">
+      <description>Box</description>
+      <platform-config>
+         <host com="1" isLocal="true" uri="stbproxy://localhost:4444"/>
       </platform-config>
    </target>
 </config>

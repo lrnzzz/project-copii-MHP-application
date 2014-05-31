@@ -1,26 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="22" version="2.0">
+<workbench progressCount="27" version="2.0">
 <workbenchAdvisor/>
-<window height="768" width="1024" x="601" y="162">
+<window height="768" maximized="true" width="1024" x="601" y="162">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="247"/>
 </perspectiveBar>
 <coolbarLayout locked="0">
 <coolItem id="group.file" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="209" y="22"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="99" y="22"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="129" y="22"/>
 <coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="99" y="22"/>
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="99" y="22"/>
-<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="130" y="22"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="84" y="22"/>
 <coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="tv.osmosys.sdk.ui.controlactionset" itemType="typeToolBarContribution" x="53" y="22"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="190" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
@@ -29,27 +30,31 @@
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AjaxCall.java" partName="AjaxCall.java" path="C:/Users/MHP-dev/Documents/GitHub/project-copii-MHP-application/t-ajax-call/src/be/copii/ajaxCall/AjaxCall.java" title="AjaxCall.java" tooltip="t-ajax-call/src/be/copii/ajaxCall/AjaxCall.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/t-ajax-call/src/be/copii/ajaxCall/AjaxCall.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="75" selectionTopPixel="0"/>
-</editor>
 </editors>
 <views>
-<view id="tv.osmosys.sdk.ui.snapshot.SnapShotView" partName="Snapshot"/>
-<view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
+<view id="tv.osmosys.sdk.ui.snapshot.SnapShotView" partName="Snapshot">
+<viewState/>
+</view>
+<view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc">
+<viewState/>
+</view>
 <view id="tv.osmosys.sdk.ui.console.ConsoleView" partName="SDK Console ">
 <viewState/>
 </view>
 <view id="tv.osmosys.sdk.ui.taskmonitor.TasksView" partName="Threads">
 <viewState/>
 </view>
+<view id="org.eclipse.pde.runtime.LogView" partName="Error Log">
+<viewState activate="true" allSessions="true" column2="507" column3="150" column4="150" error="true" groupBy="0" info="true" limit="50" ok="true" orderType="2" orderValue="-1" show_filter_text="true" useLimit="true" warning="true"/>
+</view>
 <view id="org.eclipse.jdt.ui.TypeHierarchy" partName="Hierarchy"/>
+<view id="org.eclipse.ui.views.ProgressView" partName="Progress">
+<viewState/>
+</view>
 <view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
 <viewState/>
 </view>
@@ -67,6 +72,9 @@
 </sorter>
 </sorter>
 </viewState>
+</view>
+<view id="tv.osmosys.sdk.ui.rcu.RCUView" partName="RCU">
+<viewState/>
 </view>
 <view id="org.eclipse.jdt.ui.PackageExplorer" partName="Package Explorer">
 <viewState group_libraries="1" layout="2" linkWithEditor="0" rootMode="1" workingSetName="">
@@ -96,15 +104,16 @@
 </customFilters>
 </viewState>
 </view>
-<view id="org.eclipse.jdt.ui.SourceView" partName="Declaration"/>
-<view id="tv.osmosys.sdk.ui.rcu.RCUView" partName="RCU">
+<view id="org.eclipse.jdt.ui.SourceView" partName="Declaration">
+<viewState/>
+</view>
+<view id="tv.osmosys.sdk.ui.memorymonitor.MemoryView" partName="Memory tracker">
 <viewState/>
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<expanded>
-<category IMemento.internal.id="Warnings"/>
-<category IMemento.internal.id="Warnings (2 items)"/>
+<expanded>&#x0A;<category IMemento.internal.id="Warnings"/>
+<category IMemento.internal.id="Errors"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="64" org.eclipse.ui.ide.markerType="94" org.eclipse.ui.ide.pathField="124" org.eclipse.ui.ide.resourceField="94" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
@@ -113,9 +122,6 @@
 <visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
 </viewState>
-</view>
-<view id="tv.osmosys.sdk.ui.memorymonitor.MemoryView" partName="Memory tracker">
-<viewState/>
 </view>
 </views>
 <perspectives activePart="org.eclipse.jdt.ui.PackageExplorer" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
@@ -149,62 +155,46 @@
 <perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
 <view id="tv.osmosys.sdk.ui.rcu.RCUView"/>
+<view id="org.eclipse.ui.views.ProgressView"/>
 <view id="tv.osmosys.sdk.ui.memorymonitor.MemoryView"/>
 <view id="tv.osmosys.sdk.ui.snapshot.SnapShotView"/>
 <view id="tv.osmosys.sdk.ui.taskmonitor.TasksView"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
 <view id="tv.osmosys.sdk.ui.console.ConsoleView"/>
 <fastViewBars/>
-<layout>
-<mainWindow>
-<info part="org.eclipse.ui.editorss"/>
-<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="1434" ratioRight="478" relationship="2" relative="org.eclipse.ui.editorss">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<layout>&#x0A;<mainWindow>&#x0A;<info part="org.eclipse.ui.editorss"/>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="1434" ratioRight="478" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info folder="true" part="right" ratio="0.82949793" ratioLeft="1586" ratioRight="326" relationship="2" relative="org.eclipse.ui.editorss">
-<folder activePageID="tv.osmosys.sdk.ui.rcu.RCUView" appearance="2" expanded="2">
-<page content="tv.osmosys.sdk.ui.rcu.RCUView" label="RCU"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-</presentation>
-</folder>
-</info>
-<info folder="true" part="bottom" ratio="0.749763" ratioLeft="791" ratioRight="264" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="tv.osmosys.sdk.ui.memorymonitor.MemoryView" appearance="2" expanded="2">
-<page content="tv.osmosys.sdk.ui.memorymonitor.MemoryView" label="Memory tracker"/>
-<page content="tv.osmosys.sdk.ui.snapshot.SnapShotView" label="Snapshot"/>
-<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<info folder="true" part="right" ratio="0.82949793" ratioLeft="1586" ratioRight="326" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.views.ProgressView" appearance="2" expanded="2">&#x0A;<page content="tv.osmosys.sdk.ui.rcu.RCUView" label="RCU"/>
+<page content="org.eclipse.ui.views.ProgressView" label="Progress"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 <part id="1"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="middle" ratio="0.6687737" ratioLeft="529" ratioRight="262" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="tv.osmosys.sdk.ui.taskmonitor.TasksView" appearance="2" expanded="2">
-<page content="tv.osmosys.sdk.ui.taskmonitor.TasksView" label="Threads"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<info folder="true" part="bottom" ratio="0.749763" ratioLeft="791" ratioRight="264" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="tv.osmosys.sdk.ui.memorymonitor.MemoryView" appearance="2" expanded="2">&#x0A;<page content="tv.osmosys.sdk.ui.memorymonitor.MemoryView" label="Memory tracker"/>
+<page content="tv.osmosys.sdk.ui.snapshot.SnapShotView" label="Snapshot"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<part id="1"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="console" ratio="0.5" ratioLeft="793" ratioRight="793" relationship="2" relative="middle">
-<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
-<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<info folder="true" part="middle" ratio="0.6687737" ratioLeft="529" ratioRight="262" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="tv.osmosys.sdk.ui.taskmonitor.TasksView" appearance="2" expanded="2">&#x0A;<page content="tv.osmosys.sdk.ui.taskmonitor.TasksView" label="Threads"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@10fe215" ratio="0.6994329" ratioLeft="370" ratioRight="159" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="tv.osmosys.sdk.ui.console.ConsoleView" appearance="2" expanded="2">
-<page content="tv.osmosys.sdk.ui.console.ConsoleView" label="SDK Console "/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<info folder="true" part="console" ratio="0.5" ratioLeft="793" ratioRight="793" relationship="2" relative="middle">&#x0A;<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@10fe215" ratio="0.6994329" ratioLeft="370" ratioRight="159" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="tv.osmosys.sdk.ui.console.ConsoleView" appearance="2" expanded="2">&#x0A;<page content="tv.osmosys.sdk.ui.console.ConsoleView" label="SDK Console "/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
@@ -275,6 +265,8 @@
 <view id="org.eclipse.jdt.ui.JavadocView"/>
 <view id="org.eclipse.jdt.ui.SourceView"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.pde.runtime.LogView"/>
+<view id="org.eclipse.ui.views.ProgressView"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <view id="org.eclipse.mylyn.tasks.ui.views.tasks"/>
 <fastViewBars/>
@@ -301,25 +293,28 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.16081718" ratioLeft="307" ratioRight="1602" relationship="2" relative="left"/>
-<info folder="true" part="bottom" ratio="0.7496136" ratioLeft="485" ratioRight="162" relationship="4" relative="org.eclipse.ui.editorss">
+<info part="org.eclipse.ui.editorss" ratio="0.24410686" ratioLeft="466" ratioRight="1443" relationship="2" relative="left"/>
+<info folder="true" part="bottom" ratio="0.608365" ratioLeft="640" ratioRight="412" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
 <page content="org.eclipse.jdt.ui.SourceView" label="Declaration"/>
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.pde.runtime.LogView" label="Error Log"/>
+<page content="org.eclipse.ui.views.ProgressView" label="Progress"/>
 <page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
-<page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
 <part id="2"/>
 <part id="3"/>
+<part id="4"/>
+<part id="5"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@1df3082" ratio="0.7493333" ratioLeft="562" ratioRight="188" relationship="2" relative="org.eclipse.ui.editorss">
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1df3082" ratio="0.83739835" ratioLeft="1339" ratioRight="260" relationship="2" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.mylyn.tasks.ui.views.tasks" appearance="2" expanded="2">
 <page content="org.eclipse.mylyn.tasks.ui.views.tasks" label="Task List"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
@@ -342,47 +337,7 @@
 </perspective>
 </perspectives>
 <workingSets/>
-<navigationHistory>
-<editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/t-ajax-call/src/be/copii/ajaxCall/AjaxCall.java"/>
-</editors>
-<item historyLabel="AjaxCall.java" index="0">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="AjaxCall.java" index="0">
-<position info="not_deleted" x="2091" y="0"/>
-</item>
-<item historyLabel="AjaxCall.java" index="0">
-<position info="not_deleted" x="2086" y="0"/>
-</item>
-<item historyLabel="AjaxCall.java" index="0">
-<position info="not_deleted" x="927" y="0"/>
-</item>
-<item historyLabel="AjaxCall.java" index="0">
-<position info="not_deleted" x="850" y="0"/>
-</item>
-<item historyLabel="AjaxCall.java" index="0">
-<position info="not_deleted" x="1670" y="0"/>
-</item>
-<item historyLabel="AjaxCall.java" index="0">
-<position info="not_deleted" x="322" y="0"/>
-</item>
-<item historyLabel="AjaxCall.java" index="0">
-<position info="not_deleted" x="1670" y="0"/>
-</item>
-<item historyLabel="AjaxCall.java" index="0">
-<position info="not_deleted" x="1670" y="0"/>
-</item>
-<item historyLabel="AjaxCall.java" index="0">
-<position info="not_deleted" x="1668" y="0"/>
-</item>
-<item historyLabel="AjaxCall.java" index="0">
-<position info="not_deleted" x="1841" y="0"/>
-</item>
-<item active="true" historyLabel="AjaxCall.java" index="0">
-<position info="not_deleted" x="808" y="0"/>
-</item>
-</navigationHistory>
+<navigationHistory/>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
@@ -399,8 +354,50 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AjaxCall.java" tooltip="t-ajax-call/src/be/copii/ajaxCall/AjaxCall.java">
-<persistable path="/t-ajax-call/src/be/copii/ajaxCall/AjaxCall.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AdvancedDemoXlet.java" tooltip="AdvancedGFXDemo/src/com/adb/gfxexample/AdvancedDemoXlet.java">
+<persistable path="/AdvancedGFXDemo/src/com/adb/gfxexample/AdvancedDemoXlet.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="gfx-0.2.1.jar" tooltip="AdvancedGFXDemo/libs-u/gfx-0.2.1.jar">
+<persistable path="/AdvancedGFXDemo/libs-u/gfx-0.2.1.jar"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Main.java" tooltip="TestProj3/src/be/telenet/Main.java">
+<persistable path="/TestProj3/src/be/telenet/Main.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="meerinfo_focus_nld.jpg" tooltip="TestProj2/src/be/telenet/resource/meerinfo_focus_nld.jpg">
+<persistable path="/TestProj2/src/be/telenet/resource/meerinfo_focus_nld.jpg"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Main.java" tooltip="TestProj2/src/be/telenet/Main.java">
+<persistable path="/TestProj2/src/be/telenet/Main.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Engine.java" tooltip="Testproj/src/be/telenet/Engine.java">
+<persistable path="/Testproj/src/be/telenet/Engine.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Homepage.java" tooltip="Testproj/src/be/telenet/Homepage.java">
+<persistable path="/Testproj/src/be/telenet/Homepage.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MoreInfoPage.java" tooltip="Testproj/src/be/telenet/MoreInfoPage.java">
+<persistable path="/Testproj/src/be/telenet/MoreInfoPage.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MoreInfoPage.java" tooltip="Sporting_Telenet_Infopage/src/be/telenet/MoreInfoPage.java">
+<persistable path="/Sporting_Telenet_Infopage/src/be/telenet/MoreInfoPage.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Homepage.java" tooltip="Sporting_Telenet_Infopage/src/be/telenet/Homepage.java">
+<persistable path="/Sporting_Telenet_Infopage/src/be/telenet/Homepage.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Engine.java" tooltip="Sporting_Telenet_Infopage/src/be/telenet/Engine.java">
+<persistable path="/Sporting_Telenet_Infopage/src/be/telenet/Engine.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Main.java" tooltip="Sporting_Telenet_Infopage/src/be/telenet/Main.java">
+<persistable path="/Sporting_Telenet_Infopage/src/be/telenet/Main.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Event.java" tooltip="AdvancedGFXDemo/src/com/adb/gfxexample/Event.java">
+<persistable path="/AdvancedGFXDemo/src/com/adb/gfxexample/Event.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="progressBar.png" tooltip="AdvancedGFXDemo/src/img/progressBar.png">
+<persistable path="/AdvancedGFXDemo/src/img/progressBar.png"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="gid_bg_channel_focus_down.png" tooltip="AdvancedGFXDemo/src/img/gid_bg_channel_focus_down.png">
+<persistable path="/AdvancedGFXDemo/src/img/gid_bg_channel_focus_down.png"/>
 </file>
 </mruList>
 </workbench>

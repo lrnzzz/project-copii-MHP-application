@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401294911958
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401294919132
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401294920727
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401294921063
+error,log,,,"Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.",1401294921123
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401294926843
+activated,perspective,tv.osmosys.sdk.perspective,,"tv.osmosys.sdk.perspective.PerspectiveFactory",1401294928635
+activated,view,tv.osmosys.sdk.ui.tools,2.2.1,"tv.osmosys.sdk.ui.console.ConsoleView",1401294928650
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1401294931098
+activated,perspective,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.JavaPerspective",1401294936036
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.saveAll",1401294944400
+activated,view,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.PackageExplorer",1401294966447
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1401295009808
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.copy",1401295011432
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401295011714
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401295117672
+activated,perspective,tv.osmosys.sdk.perspective,,"tv.osmosys.sdk.perspective.PerspectiveFactory",1401295119466
+activated,view,tv.osmosys.sdk.ui.tools,2.2.1,"tv.osmosys.sdk.ui.console.ConsoleView",1401295120706
+activated,perspective,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.JavaPerspective",1401295141737
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1401295141743
+activated,view,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.PackageExplorer",1401295150799
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401295156196
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401295157638
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401295160921
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401295174568

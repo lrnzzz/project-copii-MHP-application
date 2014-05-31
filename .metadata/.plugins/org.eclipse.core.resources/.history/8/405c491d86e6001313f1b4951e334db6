@@ -1,0 +1,30 @@
+package be.telenet;
+
+import javax.tv.xlet.Xlet;
+import javax.tv.xlet.XletContext;
+import javax.tv.xlet.XletStateChangeException;
+
+public class Main implements Xlet {
+
+	public void destroyXlet(boolean unconditional)
+			throws XletStateChangeException {
+		// TODO Auto-generated method stub
+
+	}
+
+	public void initXlet(XletContext ctx) throws XletStateChangeException {
+		// TODO Auto-generated method stub
+
+	}
+
+	public void pauseXlet() {
+		// TODO Auto-generated method stub
+
+	}
+
+	public void startXlet() throws XletStateChangeException {
+		// TODO Auto-generated method stub
+
+	}
+
+}

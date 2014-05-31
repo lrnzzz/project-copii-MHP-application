@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+java.specification.name,sysinfo,,,"Java Platform API Specification",1401296273428
+java.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1401296273428
+java.specification.version,sysinfo,,,"1.5",1401296273428
+java.vendor,sysinfo,,,"Sun Microsystems Inc.",1401296273428
+java.version,sysinfo,,,"1.5.0_22",1401296273428
+java.vm.info,sysinfo,,,"mixed mode, sharing",1401296273428
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1401296273428
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1401296273428
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1401296273428
+java.vm.specification.version,sysinfo,,,"1.0",1401296273428
+java.vm.vendor,sysinfo,,,"Sun Microsystems Inc.",1401296273428
+java.vm.version,sysinfo,,,"1.5.0_22-b03",1401296273428
+activated,view,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.PackageExplorer",1401296273558
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401296291252
+activated,view,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.PackageExplorer",1401296298499
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.saveAll",1401296304952
+started,bundle,org.tigris.subversion.clientadapter.javahl,1.6.5,"org.tigris.subversion.clientadapter.javahl",1401296305144
+started,bundle,org.tigris.subversion.clientadapter.svnkit,1.6.4,"org.tigris.subversion.clientadapter.svnkit",1401296305167
+started,bundle,org.eclipse.debug.ui,3.5.0.v20090603,"org.eclipse.debug.ui",1401296307132
+started,bundle,org.eclipse.jdt.debug,3.5.0.v20090526,"org.eclipse.jdt.debug",1401296307530
+started,bundle,org.eclipse.jdt.debug.ui,3.4.0.v20090527,"org.eclipse.jdt.debug.ui",1401296307600
+started,bundle,tv.osmosys.sdk.launching,2.2.1,"tv.osmosys.sdk.launching",1401296307606
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401296307679
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401296309604
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401296310791

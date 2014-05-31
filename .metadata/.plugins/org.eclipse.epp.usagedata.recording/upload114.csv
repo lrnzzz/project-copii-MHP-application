@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401300232241
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401300253378
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401300302886
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401300312893
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401300314489
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401300341664
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401300470260
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1401300470275
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401300483938
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401300524388
+activated,view,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.PackageExplorer",1401300524397
+opened,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401300524689
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401300524848
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401300526511
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401300527675
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401300527956
+error,log,,,"Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.",1401300528089
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401300530956
+opened,view,tv.osmosys.sdk.ui.tools,2.2.1,"tv.osmosys.sdk.ui.rcu.RCUView",1401300532380
+opened,view,tv.osmosys.sdk.ui.tools,2.2.1,"tv.osmosys.sdk.ui.memorymonitor.MemoryView",1401300532407
+opened,view,tv.osmosys.sdk.ui.tools,2.2.1,"tv.osmosys.sdk.ui.taskmonitor.TasksView",1401300532429
+opened,view,tv.osmosys.sdk.ui.tools,2.2.1,"tv.osmosys.sdk.ui.console.ConsoleView",1401300532473
+activated,view,tv.osmosys.sdk.ui.tools,2.2.1,"tv.osmosys.sdk.ui.console.ConsoleView",1401300532509
+activated,perspective,tv.osmosys.sdk.perspective,,"tv.osmosys.sdk.perspective.PerspectiveFactory",1401300532532
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1401300535188

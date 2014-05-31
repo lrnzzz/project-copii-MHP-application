@@ -6,6 +6,8 @@ import java.awt.*;
 
 import org.havi.ui.*;
 
+import com.adb.gfxexample.utils.Utils;
+
 
 public class AjaxCall implements Xlet {
 	
@@ -26,6 +28,9 @@ public class AjaxCall implements Xlet {
 	//fonts
 	
 	
+	//img
+	private CImage imgLogo;
+	
 	//text labels
 	private HStaticText lblCopii;
 	
@@ -44,6 +49,7 @@ public class AjaxCall implements Xlet {
 		//get Scene instance from factory
 		scene = HSceneFactory.getInstance().getBestScene(sceneTemplate);
 		
+		//::COPII LABEL
 		//create object
 		lblCopii = new HStaticText("Copii xlet is running");
 		
@@ -55,7 +61,11 @@ public class AjaxCall implements Xlet {
 		lblCopii.setBackgroundMode(HVisible.BACKGROUND_FILL);
 		
 		//add label to scene
-		scene.add(lblCopii);
+		//scene.add(lblCopii);
+		
+		
+		//::COPII LOGO
+		Utils.loadImage("img/xlet-running.png");
 	}
 	
 	public void startXlet() throws XletStateChangeException {

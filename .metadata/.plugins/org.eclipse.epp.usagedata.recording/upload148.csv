@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,tv.osmosys.sdk.core,2.2.1,"tv.osmosys.sdk.core",1401351429013
+started,bundle,tv.osmosys.sdk.platforms,2.2.1,"tv.osmosys.sdk.platforms",1401351429014
+started,bundle,tv.osmosys.sdk.ui.mhp,2.2.1,"tv.osmosys.sdk.ui.mhp",1401351429017
+started,bundle,tv.osmosys.sdk.ui.tools,2.2.1,"tv.osmosys.sdk.ui.tools",1401351429018
+started,bundle,tv.osmosys.sdk.util,2.2.1,"tv.osmosys.sdk.util",1401351429024
+started,bundle,com.collabnet.subversion.merge,1.10.0,"com.collabnet.subversion.merge",1401351429024
+started,bundle,org.tigris.subversion.clientadapter,1.6.4.1,"org.tigris.subversion.clientadapter",1401351429025
+started,bundle,org.tigris.subversion.subclipse.core,1.6.5,"org.tigris.subversion.subclipse.core",1401351429025
+started,bundle,org.tigris.subversion.subclipse.mylyn,3.0.0,"org.tigris.subversion.subclipse.mylyn",1401351429026
+started,bundle,org.tigris.subversion.subclipse.ui,1.6.5,"org.tigris.subversion.subclipse.ui",1401351429027
+started,bundle,org.eclipse.equinox.simpleconfigurator,1.0.100.v20090520-1905,"org.eclipse.equinox.simpleconfigurator",1401351429031
+os,sysinfo,,,"win32",1401351429034
+arch,sysinfo,,,"x86",1401351429034
+ws,sysinfo,,,"win32",1401351429034
+locale,sysinfo,,,"nl_BE",1401351429034
+processors,sysinfo,,,"2",1401351429034
+java.runtime.name,sysinfo,,,"Java(TM) 2 Runtime Environment, Standard Edition",1401351429034
+java.runtime.version,sysinfo,,,"1.5.0_22-b03",1401351429034
+java.specification.name,sysinfo,,,"Java Platform API Specification",1401351429034
+java.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1401351429034
+java.specification.version,sysinfo,,,"1.5",1401351429034
+java.vendor,sysinfo,,,"Sun Microsystems Inc.",1401351429035
+java.version,sysinfo,,,"1.5.0_22",1401351429035
+java.vm.info,sysinfo,,,"mixed mode, sharing",1401351429035
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1401351429035

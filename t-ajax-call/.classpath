@@ -2,5 +2,6 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="MHP_LIBS"/>
+	<classpathentry kind="lib" path="C:/Users/MHP-dev/Dropbox/copii/mhp/Telenet voorbeelden/gfx/gfx-0.3.10.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

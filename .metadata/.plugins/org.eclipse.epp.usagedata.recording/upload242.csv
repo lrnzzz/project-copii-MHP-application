@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401715404811
+error,log,,,"Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.",1401715404862
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401715405718
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1401715406537
+error,log,,,"Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.",1401715408402
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401715408424
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401715409677
+started,bundle,org.eclipse.ui.externaltools,3.2.0.v20090504,"org.eclipse.ui.externaltools",1401715414844
+activated,view,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.PackageExplorer",1401715416913
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401715422076
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401715423461
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401715424503
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401715424842
+error,log,,,"Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.",1401715424848
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401715424882
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401715424917
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401715427093
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1401715432633
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1401715435481
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401715437244
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401715438716
+executed,command,org.eclipse.ui.externaltools,3.2.0.v20090504,"org.eclipse.ui.externaltools.ExternalToolMenuDelegateToolbar",1401715438725
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401715441788
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401715442835
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401715443758

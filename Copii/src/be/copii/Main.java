@@ -5,10 +5,13 @@ import javax.microedition.io.HttpConnection;
 import javax.tv.xlet.*;
 import org.dvb.ui.*;
 import java.awt.*;
+import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 
 import org.havi.ui.*;
+
+import be.copii.utils.*;
 
 
 public class Main implements Xlet {
@@ -45,114 +48,66 @@ public class Main implements Xlet {
 		//get Scene instance from factory
 		scene = HSceneFactory.getInstance().getBestScene(sceneTemplate);
 		
-		//::COPII LABEL
-		//create object
+		//:: LABELS
+		//create label objects
 		lblCopii = new HStaticText("Copii xlet is running");
 		
-		//set properties
+		//label properties
 		lblCopii.setLocation(0,0);
-		lblCopii.setSize(250, 40);
+		lblCopii.setSize(720, 40);
 		lblCopii.setForeground(clr6);
 		lblCopii.setBackground(clr3);
 		lblCopii.setBackgroundMode(HVisible.BACKGROUND_FILL);
-		
-		//add label to scene
+
+		//lblCopii.setTextContent("Lorenz", HState.NORMAL_STATE);
+		//add labels to scene
 		scene.add(lblCopii);
-		
-
-
 	}
 	
 	public void startXlet() throws XletStateChangeException {
 		System.out.println("start copii remote helper");
 		
 		
-		//::TEST api call
-//		String url = "http://api.openweathermap.org/data/2.5/weather?q=Antwerp,be";
-//		
-//		// new http connection
-//		try {
-//			HttpConnection con = (HttpConnection) Connector.open(url, Connector.READ_WRITE, true);
-//			con.setRequestMethod(HttpConnection.GET);
-//			con.setRequestProperty("User-Agent", "Mozilla/5.0 (Series40)");
-//			con.setRequestProperty("Connection", "close");          
-//			int responseCode = con.getResponseCode();
-//
-//			if(responseCode == HttpConnection.HTTP_OK) {
-//				// handle result, read data ...
-//				System.out.println("HTTP 200 OK");
-//			} else {
-//				System.out.println("HTTP NOT OK");         
-//			}
-//			con.close();
-//		}
-//		catch(IOException ie) {
-//			ie.printStackTrace();
-//		}
-		
-		
-		int iResponseCode;
-		HttpConnection http = null;		
-		InputStream iStrm = null;
-		//String url = "http://api.openweathermap.org/data/2.5/weather?q=Antwerp,be";
-		String url = "https://www.kernel.org/pub/software/scm/git/docs/v1.7.9.1/git-check-attr.txt";
-		
-		try { 
-			try { 			
-				http = (HttpConnection) Connector.open(url); 			
-				// ----------------			
-				// Client Request			
-				// ----------------			
-				// 1) Set request method			
-				http.setRequestMethod(HttpConnection.GET); 			
-				// 2) Set header information (this header is optional)			
-				http.setRequestProperty("User-Agent",					
-						"Profile/MIDP-1.0 Configuration/CLDC-1.0"); 			
-				// 3) Set body/data - No data for this request 			
-				// ----------------			
-				// Server Response			
-				// ----------------			
-				// 1) Get response status message and code			
-				iResponseCode = http.getResponseCode(); 	
-				System.out.println("Msg: " + http.getResponseMessage());			
-				System.out.println("Code: " + iResponseCode); 			
-				// 2) Check response status			
-				if (iResponseCode == HttpConnection.HTTP_OK) {	
-					// 3) Get data and show the file contents	
-					iStrm = http.openInputStream();				
-					int length = (int) http.getLength();				
-					if (length > 0) {					
-						byte serverData[] = new byte[length];					
-						iStrm.read(serverData);
-						//get the data
-					}			
-				}
-				else {
-					System.out.println("No data can be read if response was not HTTP_OK");
-				}
-					
-			}catch (Exception e){
-				e.printStackTrace();
-			}
-			finally 
-			{ 			
-				// Close the stream
-				if (iStrm != null)				
-					iStrm.close();			
-				// Close the connection
-				if (http != null)				
-					http.close();
-			}
-		}
-		catch(IOException ie) {
-			ie.printStackTrace();
-		}
+		//:: api call
+
+		String url = "http://api.openweathermap.org/data/2.5/weather?q=Antwerp,be";
+		HttpConnection connection = null;
+		InputStream inputStream = null;
+		ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
+
+		try {
+			// open http connection
+			connection = (HttpConnection) Connector.open(url);
 			
+			//Set request method
+			connection.setRequestMethod(HttpConnection.GET); 			
+			//Set header information (this header is optional)			
+			connection.setRequestProperty("User-Agent", "Profile/MIDP-1.0 Configuration/CLDC-1.0"); 			
+
+
+			// establishing input stream from the connection
+			inputStream = connection.openInputStream();
+
+			byte[] buffer = new byte[512];
+			// reading the response from web server, character by character
+			int red;
+			while ((red = inputStream.read(buffer)) != -1 ) {
+				outputStream.write(buffer, 0, red);
+			}
+		} 
+		catch (IOException ioe) {
+			System.out.println("HTTP NOT OK");
+		} 
 		
+		finally {
+			try { if(connection != null)  connection.close(); } catch (IOException ignored) {}
+			try { if(inputStream != null) inputStream.close();} catch (IOException ignored) {} 
+		}
+		String output = new String(outputStream.toByteArray());
 		
+		System.out.println(output);
 		
-		
-		
+
 		// show scene
 		scene.validate();
 		scene.setVisible(true);

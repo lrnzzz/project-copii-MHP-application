@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+processors,sysinfo,,,"2",1401704752208
+java.runtime.name,sysinfo,,,"Java(TM) 2 Runtime Environment, Standard Edition",1401704752208
+java.runtime.version,sysinfo,,,"1.5.0_22-b03",1401704752208
+java.specification.name,sysinfo,,,"Java Platform API Specification",1401704752208
+java.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1401704752208
+java.specification.version,sysinfo,,,"1.5",1401704752208
+java.vendor,sysinfo,,,"Sun Microsystems Inc.",1401704752208
+java.version,sysinfo,,,"1.5.0_22",1401704752208
+java.vm.info,sysinfo,,,"mixed mode, sharing",1401704752208
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1401704752208
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1401704752208
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1401704752208
+java.vm.specification.version,sysinfo,,,"1.0",1401704752208
+java.vm.vendor,sysinfo,,,"Sun Microsystems Inc.",1401704752208
+java.vm.version,sysinfo,,,"1.5.0_22-b03",1401704752208
+started,bundle,org.eclipse.equinox.http.registry,1.0.200.v20090520-1800,"org.eclipse.equinox.http.registry",1401704752572
+started,bundle,org.eclipse.debug.ui,3.5.0.v20090603,"org.eclipse.debug.ui",1401704776083
+started,bundle,tv.osmosys.sdk.launching,2.2.1,"tv.osmosys.sdk.launching",1401704776166
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401704776267
+started,bundle,org.eclipse.jdt.debug,3.5.0.v20090526,"org.eclipse.jdt.debug",1401704776392
+started,bundle,org.eclipse.jdt.debug.ui,3.4.0.v20090527,"org.eclipse.jdt.debug.ui",1401704776458
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401704777264
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401704777588
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401704996767
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401704999294

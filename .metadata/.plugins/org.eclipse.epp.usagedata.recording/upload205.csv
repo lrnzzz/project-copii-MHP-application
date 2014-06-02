@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401697649303
+error,log,,,"Application with the same OID and AID is already running on 'MHP 1.1.2'. Terminate old application or change OID/AID.",1401697649624
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401697649668
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401697650726
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401697651577
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401697653984
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401697654089
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401697655475
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401697655777
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401697657117
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401697659419
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401697662737
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401697662789
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401697668336
+opened,view,org.eclipse.ui.ide,3.5.0.I20090525-2000,"org.eclipse.ui.views.ProgressView",1401697670178
+opened,view,tv.osmosys.sdk.ui.tools,2.2.1,"tv.osmosys.sdk.ui.memorymonitor.MemoryView",1401697670243
+opened,view,tv.osmosys.sdk.ui.tools,2.2.1,"tv.osmosys.sdk.ui.taskmonitor.TasksView",1401697670274
+opened,view,tv.osmosys.sdk.ui.tools,2.2.1,"tv.osmosys.sdk.ui.console.ConsoleView",1401697670354
+activated,view,tv.osmosys.sdk.ui.tools,2.2.1,"tv.osmosys.sdk.ui.console.ConsoleView",1401697670409
+activated,perspective,tv.osmosys.sdk.perspective,,"tv.osmosys.sdk.perspective.PerspectiveFactory",1401697670440
+activated,perspective,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.JavaPerspective",1401697672466
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401697672486
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401697673927
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401697675090
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401697675457

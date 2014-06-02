@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+error,log,,,"Application with the same OID and AID is already running on 'MHP 1.1.2'. Terminate old application or change OID/AID.",1401705485786
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401705485858
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401705487412
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1401705488586
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401705541616
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401705749162
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401705751049
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1401705874707
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1401705879572
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401705889491
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401706048170
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401706054774
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.paste",1401706057050
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.copy",1401706066345
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.paste",1401706067260
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.paste",1401706069197
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401706074720
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401706078439
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.paste",1401706079734
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1401706086209
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1401706088074
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401706123736
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401708197981
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401708215104
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401708233819

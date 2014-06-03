@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,view,tv.osmosys.sdk.ui.tools,2.2.1,"tv.osmosys.sdk.ui.rcu.RCUView",1401785067641
+activated,perspective,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.JavaPerspective",1401785068757
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1401785068766
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401785080076
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401785095057
+error,log,,,"connot send query",1401785095131
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401785098589
+started,bundle,org.eclipse.help.base,3.4.0.v200906111540,"org.eclipse.help.base",1401785099452
+started,bundle,org.eclipse.help.ui,3.4.0.v20090528,"org.eclipse.help.ui",1401785099460
+started,bundle,org.eclipse.equinox.http.jetty,2.0.0.v20090520-1800,"org.eclipse.equinox.http.jetty",1401785099487
+started,bundle,org.eclipse.equinox.http.servlet,1.0.200.v20090520-1800,"org.eclipse.equinox.http.servlet",1401785099516
+started,bundle,org.eclipse.equinox.http.registry,1.0.200.v20090520-1800,"org.eclipse.equinox.http.registry",1401785099961
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1401785101683
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401785123497
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401785125119
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401785125493
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401785127001
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1401785140441
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401785211064
+started,bundle,org.eclipse.jdt.junit,3.5.0.v20090526-2000,"org.eclipse.jdt.junit",1401785230403
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401785276356
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401785795984
+activated,view,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.PackageExplorer",1401785812238
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401785812844
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401785839781

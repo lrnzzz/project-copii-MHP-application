@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.cut",1401788758059
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.paste",1401788774049
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1401788778065
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1401788780298
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401788784950
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.cut",1401788787074
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1401788796253
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1401788801809
+error,log,,,"Application with the same OID and AID is already running on 'MHP 1.1.2'. Terminate old application or change OID/AID.",1401788803016
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401788803033
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401788804049
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401788822840
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401788826157
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401788832624
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.paste",1401788840252
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1401788841895
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1401788843270
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401788903699
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1401788909154
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1401788910086
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401788916110
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401788932485
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401788934087
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401788937448
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401788938477

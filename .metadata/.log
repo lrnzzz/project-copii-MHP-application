@@ -1,5 +1,5 @@
 
-!ENTRY tv.osmosys.sdk.launching 4 4 2014-06-01 16:28:00.809
+!ENTRY tv.osmosys.sdk.launching 4 4 2014-06-03 10:42:23.100
 !MESSAGE connot send query
 !STACK 0
 java.io.IOException: connot send query
@@ -33,7 +33,7 @@ java.io.IOException: connot send query
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
-!SESSION 2014-06-01 16:28:16.010 -----------------------------------------------
+!SESSION 2014-06-03 10:42:24.649 -----------------------------------------------
 eclipse.buildId=I20090611-1540
 java.version=1.5.0_22
 java.vendor=Sun Microsystems Inc.
@@ -41,7 +41,36 @@ BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=nl_BE
 Framework arguments:  -product org.eclipse.epp.package.java.product
 Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
 
-!ENTRY tv.osmosys.sdk.launching 4 4 2014-06-02 10:25:44.103
+!ENTRY tv.osmosys.sdk.launching 4 4 2014-06-03 10:44:55.123
+!MESSAGE connot send query
+!STACK 0
+java.io.IOException: connot send query
+	at tv.osmosys.sdk.platforms.mhp4win.connection.d.executeQuery(Unknown Source)
+	at tv.osmosys.stb.Protocol.open(Unknown Source)
+	at tv.osmosys.sdk.core.connection.AbstractConnection$InternalOutputStream.<init>(Unknown Source)
+	at tv.osmosys.sdk.core.connection.AbstractConnection.openFileOutputStream(Unknown Source)
+	at tv.osmosys.sdk.launching.process.f.run(Unknown Source)
+	at tv.osmosys.sdk.launching.process.e.terminate(Unknown Source)
+	at org.eclipse.debug.internal.core.commands.TerminateCommand.execute(TerminateCommand.java:29)
+	at org.eclipse.debug.internal.core.commands.ForEachCommand.doExecute(ForEachCommand.java:30)
+	at org.eclipse.debug.internal.core.commands.DebugCommand$1.run(DebugCommand.java:204)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY tv.osmosys.sdk.launching 4 1 2014-06-03 11:00:29.224
+!MESSAGE Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
+	at tv.osmosys.sdk.launching.j.a(Unknown Source)
+	at tv.osmosys.sdk.launching.MHPLaunchConfiguration.launch(Unknown Source)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1069)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 tv.osmosys.sdk.launching 4 1 2014-06-03 11:00:29.225
+!MESSAGE Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
+
+!ENTRY tv.osmosys.sdk.launching 4 4 2014-06-03 11:01:33.387
 !MESSAGE connot send query
 !STACK 0
 java.io.IOException: connot send query
@@ -75,7 +104,7 @@ java.io.IOException: connot send query
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
-!SESSION 2014-06-02 10:25:48.629 -----------------------------------------------
+!SESSION 2014-06-03 11:01:37.445 -----------------------------------------------
 eclipse.buildId=I20090611-1540
 java.version=1.5.0_22
 java.vendor=Sun Microsystems Inc.
@@ -83,7 +112,7 @@ BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=nl_BE
 Framework arguments:  -product org.eclipse.epp.package.java.product
 Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
 
-!ENTRY tv.osmosys.sdk.launching 4 1 2014-06-02 10:27:29.619
+!ENTRY tv.osmosys.sdk.launching 4 1 2014-06-03 11:06:53.138
 !MESSAGE Application with the same OID and AID is already running on 'MHP 1.1.2'. Terminate old application or change OID/AID.
 !STACK 1
 org.eclipse.core.runtime.CoreException: Application with the same OID and AID is already running on 'MHP 1.1.2'. Terminate old application or change OID/AID.
@@ -94,143 +123,10 @@ org.eclipse.core.runtime.CoreException: Application with the same OID and AID is
 	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
 	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1069)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
-!SUBENTRY 1 tv.osmosys.sdk.launching 4 1 2014-06-02 10:27:29.620
+!SUBENTRY 1 tv.osmosys.sdk.launching 4 1 2014-06-03 11:06:53.139
 !MESSAGE Application with the same OID and AID is already running on 'MHP 1.1.2'. Terminate old application or change OID/AID.
-!SESSION 2014-06-02 11:38:26.867 -----------------------------------------------
-eclipse.buildId=I20090611-1540
-java.version=1.5.0_22
-java.vendor=Sun Microsystems Inc.
-BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=nl_BE
-Framework arguments:  -product org.eclipse.epp.package.java.product
-Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
 
-!ENTRY tv.osmosys.sdk.launching 4 4 2014-06-02 11:50:38.672
-!MESSAGE connot send query
-!STACK 0
-java.io.IOException: connot send query
-	at tv.osmosys.sdk.platforms.mhp4win.connection.d.executeQuery(Unknown Source)
-	at tv.osmosys.stb.Protocol.open(Unknown Source)
-	at tv.osmosys.sdk.core.connection.AbstractConnection$InternalOutputStream.<init>(Unknown Source)
-	at tv.osmosys.sdk.core.connection.AbstractConnection.openFileOutputStream(Unknown Source)
-	at tv.osmosys.sdk.launching.process.f.run(Unknown Source)
-	at tv.osmosys.sdk.launching.process.e.terminate(Unknown Source)
-	at org.eclipse.debug.core.Launch.terminate(Launch.java:252)
-	at org.eclipse.debug.internal.core.LaunchManager.shutdown(LaunchManager.java:2314)
-	at org.eclipse.debug.core.DebugPlugin.stop(DebugPlugin.java:592)
-	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(BundleContextImpl.java:840)
-	at java.security.AccessController.doPrivileged(Native Method)
-	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:833)
-	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:474)
-	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:546)
-	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1098)
-	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:593)
-	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:261)
-	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:216)
-	at org.eclipse.osgi.framework.internal.core.InternalSystemBundle.suspend(InternalSystemBundle.java:266)
-	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:685)
-	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:583)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:409)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:200)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
-!SESSION 2014-06-02 11:50:41.961 -----------------------------------------------
-eclipse.buildId=I20090611-1540
-java.version=1.5.0_22
-java.vendor=Sun Microsystems Inc.
-BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=nl_BE
-Framework arguments:  -product org.eclipse.epp.package.java.product
-Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
-
-!ENTRY tv.osmosys.sdk.launching 4 4 2014-06-02 12:21:40.735
-!MESSAGE connot send query
-!STACK 0
-java.io.IOException: connot send query
-	at tv.osmosys.sdk.platforms.mhp4win.connection.d.executeQuery(Unknown Source)
-	at tv.osmosys.stb.Protocol.open(Unknown Source)
-	at tv.osmosys.sdk.core.connection.AbstractConnection$InternalOutputStream.<init>(Unknown Source)
-	at tv.osmosys.sdk.core.connection.AbstractConnection.openFileOutputStream(Unknown Source)
-	at tv.osmosys.sdk.launching.process.f.run(Unknown Source)
-	at tv.osmosys.sdk.launching.process.e.terminate(Unknown Source)
-	at org.eclipse.debug.core.Launch.terminate(Launch.java:252)
-	at org.eclipse.debug.internal.core.LaunchManager.shutdown(LaunchManager.java:2314)
-	at org.eclipse.debug.core.DebugPlugin.stop(DebugPlugin.java:592)
-	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(BundleContextImpl.java:840)
-	at java.security.AccessController.doPrivileged(Native Method)
-	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:833)
-	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:474)
-	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:546)
-	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1098)
-	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:593)
-	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:261)
-	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:216)
-	at org.eclipse.osgi.framework.internal.core.InternalSystemBundle.suspend(InternalSystemBundle.java:266)
-	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:685)
-	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:583)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:409)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:200)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
-!SESSION 2014-06-02 12:21:42.159 -----------------------------------------------
-eclipse.buildId=I20090611-1540
-java.version=1.5.0_22
-java.vendor=Sun Microsystems Inc.
-BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=nl_BE
-Framework arguments:  -product org.eclipse.epp.package.java.product
-Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
-
-!ENTRY tv.osmosys.sdk.launching 4 4 2014-06-02 12:25:40.312
-!MESSAGE connot send query
-!STACK 0
-java.io.IOException: connot send query
-	at tv.osmosys.sdk.platforms.mhp4win.connection.d.executeQuery(Unknown Source)
-	at tv.osmosys.stb.Protocol.open(Unknown Source)
-	at tv.osmosys.sdk.core.connection.AbstractConnection$InternalOutputStream.<init>(Unknown Source)
-	at tv.osmosys.sdk.core.connection.AbstractConnection.openFileOutputStream(Unknown Source)
-	at tv.osmosys.sdk.launching.process.f.run(Unknown Source)
-	at tv.osmosys.sdk.launching.process.e.terminate(Unknown Source)
-	at org.eclipse.debug.core.Launch.terminate(Launch.java:252)
-	at org.eclipse.debug.internal.core.LaunchManager.shutdown(LaunchManager.java:2314)
-	at org.eclipse.debug.core.DebugPlugin.stop(DebugPlugin.java:592)
-	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(BundleContextImpl.java:840)
-	at java.security.AccessController.doPrivileged(Native Method)
-	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:833)
-	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:474)
-	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:546)
-	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1098)
-	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:593)
-	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:261)
-	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:216)
-	at org.eclipse.osgi.framework.internal.core.InternalSystemBundle.suspend(InternalSystemBundle.java:266)
-	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:685)
-	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:583)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:409)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:200)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
-!SESSION 2014-06-02 12:25:42.587 -----------------------------------------------
-eclipse.buildId=I20090611-1540
-java.version=1.5.0_22
-java.vendor=Sun Microsystems Inc.
-BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=nl_BE
-Framework arguments:  -product org.eclipse.epp.package.java.product
-Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
-
-!ENTRY tv.osmosys.sdk.launching 4 1 2014-06-02 12:38:05.780
+!ENTRY tv.osmosys.sdk.launching 4 1 2014-06-03 11:06:54.987
 !MESSAGE Application with the same OID and AID is already running on 'MHP 1.1.2'. Terminate old application or change OID/AID.
 !STACK 1
 org.eclipse.core.runtime.CoreException: Application with the same OID and AID is already running on 'MHP 1.1.2'. Terminate old application or change OID/AID.
@@ -241,326 +137,10 @@ org.eclipse.core.runtime.CoreException: Application with the same OID and AID is
 	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
 	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1069)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
-!SUBENTRY 1 tv.osmosys.sdk.launching 4 1 2014-06-02 12:38:05.781
+!SUBENTRY 1 tv.osmosys.sdk.launching 4 1 2014-06-03 11:06:54.987
 !MESSAGE Application with the same OID and AID is already running on 'MHP 1.1.2'. Terminate old application or change OID/AID.
 
-!ENTRY tv.osmosys.sdk.launching 4 1 2014-06-02 13:24:02.954
-!MESSAGE Application with the same OID and AID is already running on 'MHP 1.1.2'. Terminate old application or change OID/AID.
-!STACK 1
-org.eclipse.core.runtime.CoreException: Application with the same OID and AID is already running on 'MHP 1.1.2'. Terminate old application or change OID/AID.
-	at tv.osmosys.sdk.launching.j.a(Unknown Source)
-	at tv.osmosys.sdk.launching.MHPLaunchConfiguration.launch(Unknown Source)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1069)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
-!SUBENTRY 1 tv.osmosys.sdk.launching 4 1 2014-06-02 13:24:02.955
-!MESSAGE Application with the same OID and AID is already running on 'MHP 1.1.2'. Terminate old application or change OID/AID.
-
-!ENTRY tv.osmosys.sdk.launching 4 1 2014-06-02 13:24:17.622
-!MESSAGE Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
-!STACK 1
-org.eclipse.core.runtime.CoreException: Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
-	at tv.osmosys.sdk.launching.j.a(Unknown Source)
-	at tv.osmosys.sdk.launching.MHPLaunchConfiguration.launch(Unknown Source)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1069)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
-!SUBENTRY 1 tv.osmosys.sdk.launching 4 1 2014-06-02 13:24:17.623
-!MESSAGE Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
-
-!ENTRY tv.osmosys.sdk.launching 4 1 2014-06-02 13:24:36.890
-!MESSAGE Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
-!STACK 1
-org.eclipse.core.runtime.CoreException: Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
-	at tv.osmosys.sdk.launching.j.a(Unknown Source)
-	at tv.osmosys.sdk.launching.MHPLaunchConfiguration.launch(Unknown Source)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1069)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
-!SUBENTRY 1 tv.osmosys.sdk.launching 4 1 2014-06-02 13:24:36.891
-!MESSAGE Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
-
-!ENTRY tv.osmosys.sdk.launching 4 1 2014-06-02 14:36:59.818
-!MESSAGE Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
-!STACK 1
-org.eclipse.core.runtime.CoreException: Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
-	at tv.osmosys.sdk.launching.j.a(Unknown Source)
-	at tv.osmosys.sdk.launching.MHPLaunchConfiguration.launch(Unknown Source)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1069)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
-!SUBENTRY 1 tv.osmosys.sdk.launching 4 1 2014-06-02 14:36:59.818
-!MESSAGE Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
-
-!ENTRY tv.osmosys.sdk.launching 4 1 2014-06-02 14:37:36.827
-!MESSAGE Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
-!STACK 1
-org.eclipse.core.runtime.CoreException: Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
-	at tv.osmosys.sdk.launching.j.a(Unknown Source)
-	at tv.osmosys.sdk.launching.MHPLaunchConfiguration.launch(Unknown Source)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1069)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
-!SUBENTRY 1 tv.osmosys.sdk.launching 4 1 2014-06-02 14:37:36.827
-!MESSAGE Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
-
-!ENTRY tv.osmosys.sdk.launching 4 1 2014-06-02 14:58:51.547
-!MESSAGE Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
-!STACK 1
-org.eclipse.core.runtime.CoreException: Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
-	at tv.osmosys.sdk.launching.j.a(Unknown Source)
-	at tv.osmosys.sdk.launching.MHPLaunchConfiguration.launch(Unknown Source)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1069)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
-!SUBENTRY 1 tv.osmosys.sdk.launching 4 1 2014-06-02 14:58:51.548
-!MESSAGE Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
-
-!ENTRY tv.osmosys.sdk.launching 4 1 2014-06-02 15:23:24.861
-!MESSAGE Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
-!STACK 1
-org.eclipse.core.runtime.CoreException: Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
-	at tv.osmosys.sdk.launching.j.a(Unknown Source)
-	at tv.osmosys.sdk.launching.MHPLaunchConfiguration.launch(Unknown Source)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1069)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
-!SUBENTRY 1 tv.osmosys.sdk.launching 4 1 2014-06-02 15:23:24.862
-!MESSAGE Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
-
-!ENTRY tv.osmosys.sdk.launching 4 1 2014-06-02 15:23:28.401
-!MESSAGE Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
-!STACK 1
-org.eclipse.core.runtime.CoreException: Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
-	at tv.osmosys.sdk.launching.j.a(Unknown Source)
-	at tv.osmosys.sdk.launching.MHPLaunchConfiguration.launch(Unknown Source)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1069)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
-!SUBENTRY 1 tv.osmosys.sdk.launching 4 1 2014-06-02 15:23:28.401
-!MESSAGE Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
-
-!ENTRY tv.osmosys.sdk.launching 4 1 2014-06-02 15:23:44.847
-!MESSAGE Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
-!STACK 1
-org.eclipse.core.runtime.CoreException: Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
-	at tv.osmosys.sdk.launching.j.a(Unknown Source)
-	at tv.osmosys.sdk.launching.MHPLaunchConfiguration.launch(Unknown Source)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1069)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
-!SUBENTRY 1 tv.osmosys.sdk.launching 4 1 2014-06-02 15:23:44.848
-!MESSAGE Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
-
-!ENTRY tv.osmosys.sdk.launching 4 1 2014-06-02 15:24:04.137
-!MESSAGE Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
-!STACK 1
-org.eclipse.core.runtime.CoreException: Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
-	at tv.osmosys.sdk.launching.j.a(Unknown Source)
-	at tv.osmosys.sdk.launching.MHPLaunchConfiguration.launch(Unknown Source)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1069)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
-!SUBENTRY 1 tv.osmosys.sdk.launching 4 1 2014-06-02 15:24:04.138
-!MESSAGE Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
-
-!ENTRY tv.osmosys.sdk.launching 4 1 2014-06-02 15:25:32.570
-!MESSAGE Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
-!STACK 1
-org.eclipse.core.runtime.CoreException: Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
-	at tv.osmosys.sdk.launching.j.a(Unknown Source)
-	at tv.osmosys.sdk.launching.MHPLaunchConfiguration.launch(Unknown Source)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1069)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
-!SUBENTRY 1 tv.osmosys.sdk.launching 4 1 2014-06-02 15:25:32.570
-!MESSAGE Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
-
-!ENTRY tv.osmosys.sdk.launching 4 1 2014-06-02 15:26:45.480
-!MESSAGE Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
-!STACK 1
-org.eclipse.core.runtime.CoreException: Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
-	at tv.osmosys.sdk.launching.j.a(Unknown Source)
-	at tv.osmosys.sdk.launching.MHPLaunchConfiguration.launch(Unknown Source)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1069)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
-!SUBENTRY 1 tv.osmosys.sdk.launching 4 1 2014-06-02 15:26:45.481
-!MESSAGE Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
-
-!ENTRY tv.osmosys.sdk.launching 4 1 2014-06-02 15:29:31.327
-!MESSAGE Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
-!STACK 1
-org.eclipse.core.runtime.CoreException: Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
-	at tv.osmosys.sdk.launching.j.a(Unknown Source)
-	at tv.osmosys.sdk.launching.MHPLaunchConfiguration.launch(Unknown Source)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1069)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
-!SUBENTRY 1 tv.osmosys.sdk.launching 4 1 2014-06-02 15:29:31.328
-!MESSAGE Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
-
-!ENTRY tv.osmosys.sdk.launching 4 1 2014-06-02 15:29:33.659
-!MESSAGE Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
-!STACK 1
-org.eclipse.core.runtime.CoreException: Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
-	at tv.osmosys.sdk.launching.j.a(Unknown Source)
-	at tv.osmosys.sdk.launching.MHPLaunchConfiguration.launch(Unknown Source)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1069)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
-!SUBENTRY 1 tv.osmosys.sdk.launching 4 1 2014-06-02 15:29:33.659
-!MESSAGE Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
-
-!ENTRY tv.osmosys.sdk.launching 4 1 2014-06-02 15:30:11.980
-!MESSAGE Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
-!STACK 1
-org.eclipse.core.runtime.CoreException: Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
-	at tv.osmosys.sdk.launching.j.a(Unknown Source)
-	at tv.osmosys.sdk.launching.MHPLaunchConfiguration.launch(Unknown Source)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1069)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
-!SUBENTRY 1 tv.osmosys.sdk.launching 4 1 2014-06-02 15:30:11.980
-!MESSAGE Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
-
-!ENTRY tv.osmosys.sdk.launching 4 1 2014-06-02 15:30:14.350
-!MESSAGE Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
-!STACK 1
-org.eclipse.core.runtime.CoreException: Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
-	at tv.osmosys.sdk.launching.j.a(Unknown Source)
-	at tv.osmosys.sdk.launching.MHPLaunchConfiguration.launch(Unknown Source)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1069)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
-!SUBENTRY 1 tv.osmosys.sdk.launching 4 1 2014-06-02 15:30:14.350
-!MESSAGE Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
-
-!ENTRY tv.osmosys.sdk.launching 4 1 2014-06-02 15:30:55.191
-!MESSAGE Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
-!STACK 1
-org.eclipse.core.runtime.CoreException: Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
-	at tv.osmosys.sdk.launching.j.a(Unknown Source)
-	at tv.osmosys.sdk.launching.MHPLaunchConfiguration.launch(Unknown Source)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1069)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
-!SUBENTRY 1 tv.osmosys.sdk.launching 4 1 2014-06-02 15:30:55.192
-!MESSAGE Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
-
-!ENTRY tv.osmosys.sdk.launching 4 1 2014-06-02 15:33:24.882
-!MESSAGE Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
-!STACK 1
-org.eclipse.core.runtime.CoreException: Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
-	at tv.osmosys.sdk.launching.j.a(Unknown Source)
-	at tv.osmosys.sdk.launching.MHPLaunchConfiguration.launch(Unknown Source)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1069)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
-!SUBENTRY 1 tv.osmosys.sdk.launching 4 1 2014-06-02 15:33:24.882
-!MESSAGE Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
-
-!ENTRY tv.osmosys.sdk.launching 4 1 2014-06-02 16:03:58.448
-!MESSAGE Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
-!STACK 1
-org.eclipse.core.runtime.CoreException: Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
-	at tv.osmosys.sdk.launching.j.a(Unknown Source)
-	at tv.osmosys.sdk.launching.MHPLaunchConfiguration.launch(Unknown Source)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1069)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
-!SUBENTRY 1 tv.osmosys.sdk.launching 4 1 2014-06-02 16:03:58.449
-!MESSAGE Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
-
-!ENTRY tv.osmosys.sdk.launching 4 1 2014-06-02 17:01:15.326
-!MESSAGE Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
-!STACK 1
-org.eclipse.core.runtime.CoreException: Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
-	at tv.osmosys.sdk.launching.j.a(Unknown Source)
-	at tv.osmosys.sdk.launching.MHPLaunchConfiguration.launch(Unknown Source)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1069)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
-!SUBENTRY 1 tv.osmosys.sdk.launching 4 1 2014-06-02 17:01:15.326
-!MESSAGE Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
-
-!ENTRY tv.osmosys.sdk.launching 4 1 2014-06-02 17:01:41.861
-!MESSAGE Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
-!STACK 1
-org.eclipse.core.runtime.CoreException: Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
-	at tv.osmosys.sdk.launching.j.a(Unknown Source)
-	at tv.osmosys.sdk.launching.MHPLaunchConfiguration.launch(Unknown Source)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1069)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
-!SUBENTRY 1 tv.osmosys.sdk.launching 4 1 2014-06-02 17:01:41.861
-!MESSAGE Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
-!SESSION 2014-06-02 17:06:16.576 -----------------------------------------------
-eclipse.buildId=I20090611-1540
-java.version=1.5.0_22
-java.vendor=Sun Microsystems Inc.
-BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=nl_BE
-Framework arguments:  -product org.eclipse.epp.package.java.product
-Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
-
-!ENTRY tv.osmosys.sdk.launching 4 4 2014-06-02 17:08:03.857
-!MESSAGE connot send query
-!STACK 0
-java.io.IOException: connot send query
-	at tv.osmosys.sdk.platforms.mhp4win.connection.d.executeQuery(Unknown Source)
-	at tv.osmosys.stb.Protocol.open(Unknown Source)
-	at tv.osmosys.sdk.core.connection.AbstractConnection$InternalOutputStream.<init>(Unknown Source)
-	at tv.osmosys.sdk.core.connection.AbstractConnection.openFileOutputStream(Unknown Source)
-	at tv.osmosys.sdk.launching.process.f.run(Unknown Source)
-	at tv.osmosys.sdk.launching.process.e.terminate(Unknown Source)
-	at org.eclipse.debug.internal.core.commands.TerminateCommand.execute(TerminateCommand.java:29)
-	at org.eclipse.debug.internal.core.commands.ForEachCommand.doExecute(ForEachCommand.java:30)
-	at org.eclipse.debug.internal.core.commands.DebugCommand$1.run(DebugCommand.java:204)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
-
-!ENTRY tv.osmosys.sdk.launching 4 1 2014-06-02 17:09:20.814
+!ENTRY tv.osmosys.sdk.launching 4 1 2014-06-03 11:06:56.916
 !MESSAGE Application with the same OID and AID is already running on 'MHP 1.1.2'. Terminate old application or change OID/AID.
 !STACK 1
 org.eclipse.core.runtime.CoreException: Application with the same OID and AID is already running on 'MHP 1.1.2'. Terminate old application or change OID/AID.
@@ -571,214 +151,10 @@ org.eclipse.core.runtime.CoreException: Application with the same OID and AID is
 	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
 	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1069)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
-!SUBENTRY 1 tv.osmosys.sdk.launching 4 1 2014-06-02 17:09:20.814
+!SUBENTRY 1 tv.osmosys.sdk.launching 4 1 2014-06-03 11:06:56.916
 !MESSAGE Application with the same OID and AID is already running on 'MHP 1.1.2'. Terminate old application or change OID/AID.
 
-!ENTRY tv.osmosys.sdk.launching 4 4 2014-06-02 17:10:59.974
-!MESSAGE connot send query
-!STACK 0
-java.io.IOException: connot send query
-	at tv.osmosys.sdk.platforms.mhp4win.connection.d.executeQuery(Unknown Source)
-	at tv.osmosys.stb.Protocol.open(Unknown Source)
-	at tv.osmosys.sdk.core.connection.AbstractConnection$InternalOutputStream.<init>(Unknown Source)
-	at tv.osmosys.sdk.core.connection.AbstractConnection.openFileOutputStream(Unknown Source)
-	at tv.osmosys.sdk.launching.process.f.run(Unknown Source)
-	at tv.osmosys.sdk.launching.process.e.terminate(Unknown Source)
-	at org.eclipse.debug.internal.core.commands.TerminateCommand.execute(TerminateCommand.java:29)
-	at org.eclipse.debug.internal.core.commands.ForEachCommand.doExecute(ForEachCommand.java:30)
-	at org.eclipse.debug.internal.core.commands.DebugCommand$1.run(DebugCommand.java:204)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
-
-!ENTRY tv.osmosys.sdk.launching 4 4 2014-06-02 17:22:48.174
-!MESSAGE connot send query
-!STACK 0
-java.io.IOException: connot send query
-	at tv.osmosys.sdk.platforms.mhp4win.connection.d.executeQuery(Unknown Source)
-	at tv.osmosys.stb.Protocol.open(Unknown Source)
-	at tv.osmosys.sdk.core.connection.AbstractConnection$InternalOutputStream.<init>(Unknown Source)
-	at tv.osmosys.sdk.core.connection.AbstractConnection.openFileOutputStream(Unknown Source)
-	at tv.osmosys.sdk.launching.process.f.run(Unknown Source)
-	at tv.osmosys.sdk.launching.process.e.terminate(Unknown Source)
-	at org.eclipse.debug.internal.core.commands.TerminateCommand.execute(TerminateCommand.java:29)
-	at org.eclipse.debug.internal.core.commands.ForEachCommand.doExecute(ForEachCommand.java:30)
-	at org.eclipse.debug.internal.core.commands.DebugCommand$1.run(DebugCommand.java:204)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
-
-!ENTRY tv.osmosys.sdk.launching 4 1 2014-06-02 17:28:11.774
-!MESSAGE Application with the same OID and AID is already running on 'MHP 1.1.2'. Terminate old application or change OID/AID.
-!STACK 1
-org.eclipse.core.runtime.CoreException: Application with the same OID and AID is already running on 'MHP 1.1.2'. Terminate old application or change OID/AID.
-	at tv.osmosys.sdk.launching.j.a(Unknown Source)
-	at tv.osmosys.sdk.launching.MHPLaunchConfiguration.launch(Unknown Source)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1069)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
-!SUBENTRY 1 tv.osmosys.sdk.launching 4 1 2014-06-02 17:28:11.775
-!MESSAGE Application with the same OID and AID is already running on 'MHP 1.1.2'. Terminate old application or change OID/AID.
-
-!ENTRY tv.osmosys.sdk.launching 4 4 2014-06-02 18:17:07.555
-!MESSAGE connot send query
-!STACK 0
-java.io.IOException: connot send query
-	at tv.osmosys.sdk.platforms.mhp4win.connection.d.executeQuery(Unknown Source)
-	at tv.osmosys.stb.Protocol.open(Unknown Source)
-	at tv.osmosys.sdk.core.connection.AbstractConnection$InternalOutputStream.<init>(Unknown Source)
-	at tv.osmosys.sdk.core.connection.AbstractConnection.openFileOutputStream(Unknown Source)
-	at tv.osmosys.sdk.launching.process.f.run(Unknown Source)
-	at tv.osmosys.sdk.launching.process.e.terminate(Unknown Source)
-	at org.eclipse.debug.core.Launch.terminate(Launch.java:252)
-	at org.eclipse.debug.internal.core.LaunchManager.shutdown(LaunchManager.java:2314)
-	at org.eclipse.debug.core.DebugPlugin.stop(DebugPlugin.java:592)
-	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(BundleContextImpl.java:840)
-	at java.security.AccessController.doPrivileged(Native Method)
-	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:833)
-	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:474)
-	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:546)
-	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1098)
-	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:593)
-	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:261)
-	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:216)
-	at org.eclipse.osgi.framework.internal.core.InternalSystemBundle.suspend(InternalSystemBundle.java:266)
-	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:685)
-	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:583)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:409)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:200)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
-!SESSION 2014-06-02 18:17:09.877 -----------------------------------------------
-eclipse.buildId=I20090611-1540
-java.version=1.5.0_22
-java.vendor=Sun Microsystems Inc.
-BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=nl_BE
-Framework arguments:  -product org.eclipse.epp.package.java.product
-Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
-
-!ENTRY tv.osmosys.sdk.launching 4 1 2014-06-02 18:19:06.566
-!MESSAGE No target selected
-
-!ENTRY tv.osmosys.sdk.launching 4 4 2014-06-02 18:19:08.417
-!MESSAGE connot send query
-!STACK 0
-java.io.IOException: connot send query
-	at tv.osmosys.sdk.platforms.mhp4win.connection.d.executeQuery(Unknown Source)
-	at tv.osmosys.stb.Protocol.open(Unknown Source)
-	at tv.osmosys.sdk.core.connection.AbstractConnection$InternalOutputStream.<init>(Unknown Source)
-	at tv.osmosys.sdk.core.connection.AbstractConnection.openFileOutputStream(Unknown Source)
-	at tv.osmosys.sdk.launching.process.f.run(Unknown Source)
-	at tv.osmosys.sdk.launching.process.e.terminate(Unknown Source)
-	at org.eclipse.debug.internal.core.commands.TerminateCommand.execute(TerminateCommand.java:29)
-	at org.eclipse.debug.internal.core.commands.ForEachCommand.doExecute(ForEachCommand.java:30)
-	at org.eclipse.debug.internal.core.commands.DebugCommand$1.run(DebugCommand.java:204)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
-
-!ENTRY tv.osmosys.sdk.launching 4 4 2014-06-02 18:23:04.599
-!MESSAGE connot send query
-!STACK 0
-java.io.IOException: connot send query
-	at tv.osmosys.sdk.platforms.mhp4win.connection.d.executeQuery(Unknown Source)
-	at tv.osmosys.stb.Protocol.open(Unknown Source)
-	at tv.osmosys.sdk.core.connection.AbstractConnection$InternalOutputStream.<init>(Unknown Source)
-	at tv.osmosys.sdk.core.connection.AbstractConnection.openFileOutputStream(Unknown Source)
-	at tv.osmosys.sdk.launching.process.f.run(Unknown Source)
-	at tv.osmosys.sdk.launching.process.e.terminate(Unknown Source)
-	at org.eclipse.debug.internal.core.commands.TerminateCommand.execute(TerminateCommand.java:29)
-	at org.eclipse.debug.internal.core.commands.ForEachCommand.doExecute(ForEachCommand.java:30)
-	at org.eclipse.debug.internal.core.commands.DebugCommand$1.run(DebugCommand.java:204)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
-
-!ENTRY tv.osmosys.sdk.launching 4 4 2014-06-02 18:27:55.281
-!MESSAGE connot send query
-!STACK 0
-java.io.IOException: connot send query
-	at tv.osmosys.sdk.platforms.mhp4win.connection.d.executeQuery(Unknown Source)
-	at tv.osmosys.stb.Protocol.open(Unknown Source)
-	at tv.osmosys.sdk.core.connection.AbstractConnection$InternalOutputStream.<init>(Unknown Source)
-	at tv.osmosys.sdk.core.connection.AbstractConnection.openFileOutputStream(Unknown Source)
-	at tv.osmosys.sdk.launching.process.f.run(Unknown Source)
-	at tv.osmosys.sdk.launching.process.e.terminate(Unknown Source)
-	at org.eclipse.debug.internal.core.commands.TerminateCommand.execute(TerminateCommand.java:29)
-	at org.eclipse.debug.internal.core.commands.ForEachCommand.doExecute(ForEachCommand.java:30)
-	at org.eclipse.debug.internal.core.commands.DebugCommand$1.run(DebugCommand.java:204)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
-
-!ENTRY tv.osmosys.sdk.launching 4 4 2014-06-02 18:36:34.294
-!MESSAGE connot send query
-!STACK 0
-java.io.IOException: connot send query
-	at tv.osmosys.sdk.platforms.mhp4win.connection.d.executeQuery(Unknown Source)
-	at tv.osmosys.stb.Protocol.open(Unknown Source)
-	at tv.osmosys.sdk.core.connection.AbstractConnection$InternalOutputStream.<init>(Unknown Source)
-	at tv.osmosys.sdk.core.connection.AbstractConnection.openFileOutputStream(Unknown Source)
-	at tv.osmosys.sdk.launching.process.f.run(Unknown Source)
-	at tv.osmosys.sdk.launching.process.e.terminate(Unknown Source)
-	at org.eclipse.debug.internal.core.commands.TerminateCommand.execute(TerminateCommand.java:29)
-	at org.eclipse.debug.internal.core.commands.ForEachCommand.doExecute(ForEachCommand.java:30)
-	at org.eclipse.debug.internal.core.commands.DebugCommand$1.run(DebugCommand.java:204)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
-
-!ENTRY tv.osmosys.sdk.launching 4 4 2014-06-02 18:39:02.534
-!MESSAGE connot send query
-!STACK 0
-java.io.IOException: connot send query
-	at tv.osmosys.sdk.platforms.mhp4win.connection.d.executeQuery(Unknown Source)
-	at tv.osmosys.stb.Protocol.open(Unknown Source)
-	at tv.osmosys.sdk.core.connection.AbstractConnection$InternalOutputStream.<init>(Unknown Source)
-	at tv.osmosys.sdk.core.connection.AbstractConnection.openFileOutputStream(Unknown Source)
-	at tv.osmosys.sdk.launching.process.f.run(Unknown Source)
-	at tv.osmosys.sdk.launching.process.e.terminate(Unknown Source)
-	at org.eclipse.debug.internal.core.commands.TerminateCommand.execute(TerminateCommand.java:29)
-	at org.eclipse.debug.internal.core.commands.ForEachCommand.doExecute(ForEachCommand.java:30)
-	at org.eclipse.debug.internal.core.commands.DebugCommand$1.run(DebugCommand.java:204)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
-
-!ENTRY tv.osmosys.sdk.launching 4 4 2014-06-02 18:40:22.078
-!MESSAGE connot send query
-!STACK 0
-java.io.IOException: connot send query
-	at tv.osmosys.sdk.platforms.mhp4win.connection.d.executeQuery(Unknown Source)
-	at tv.osmosys.stb.Protocol.open(Unknown Source)
-	at tv.osmosys.sdk.core.connection.AbstractConnection$InternalOutputStream.<init>(Unknown Source)
-	at tv.osmosys.sdk.core.connection.AbstractConnection.openFileOutputStream(Unknown Source)
-	at tv.osmosys.sdk.launching.process.f.run(Unknown Source)
-	at tv.osmosys.sdk.launching.process.e.terminate(Unknown Source)
-	at org.eclipse.debug.internal.core.commands.TerminateCommand.execute(TerminateCommand.java:29)
-	at org.eclipse.debug.internal.core.commands.ForEachCommand.doExecute(ForEachCommand.java:30)
-	at org.eclipse.debug.internal.core.commands.DebugCommand$1.run(DebugCommand.java:204)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
-
-!ENTRY tv.osmosys.sdk.launching 4 4 2014-06-02 18:45:29.406
-!MESSAGE connot send query
-!STACK 0
-java.io.IOException: connot send query
-	at tv.osmosys.sdk.platforms.mhp4win.connection.d.executeQuery(Unknown Source)
-	at tv.osmosys.stb.Protocol.open(Unknown Source)
-	at tv.osmosys.sdk.core.connection.AbstractConnection$InternalOutputStream.<init>(Unknown Source)
-	at tv.osmosys.sdk.core.connection.AbstractConnection.openFileOutputStream(Unknown Source)
-	at tv.osmosys.sdk.launching.process.f.run(Unknown Source)
-	at tv.osmosys.sdk.launching.process.e.terminate(Unknown Source)
-	at org.eclipse.debug.internal.core.commands.TerminateCommand.execute(TerminateCommand.java:29)
-	at org.eclipse.debug.internal.core.commands.ForEachCommand.doExecute(ForEachCommand.java:30)
-	at org.eclipse.debug.internal.core.commands.DebugCommand$1.run(DebugCommand.java:204)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
-!SESSION 2014-06-02 19:33:50.026 -----------------------------------------------
-eclipse.buildId=I20090611-1540
-java.version=1.5.0_22
-java.vendor=Sun Microsystems Inc.
-BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=nl_BE
-Framework arguments:  -product org.eclipse.epp.package.java.product
-Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
-
-!ENTRY tv.osmosys.sdk.launching 4 1 2014-06-02 21:35:43.870
-!MESSAGE No target selected
-
-!ENTRY tv.osmosys.sdk.launching 4 1 2014-06-03 09:09:44.803
+!ENTRY tv.osmosys.sdk.launching 4 1 2014-06-03 11:07:01.126
 !MESSAGE connot send query
 !STACK 0
 java.io.IOException: connot send query
@@ -793,22 +169,21 @@ java.io.IOException: connot send query
 	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1069)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
 
-!ENTRY tv.osmosys.sdk.launching 4 4 2014-06-03 09:09:46.738
-!MESSAGE connot send query
-!STACK 0
-java.io.IOException: connot send query
-	at tv.osmosys.sdk.platforms.mhp4win.connection.d.executeQuery(Unknown Source)
-	at tv.osmosys.stb.Protocol.open(Unknown Source)
-	at tv.osmosys.sdk.core.connection.AbstractConnection$InternalOutputStream.<init>(Unknown Source)
-	at tv.osmosys.sdk.core.connection.AbstractConnection.openFileOutputStream(Unknown Source)
-	at tv.osmosys.sdk.launching.process.f.run(Unknown Source)
-	at tv.osmosys.sdk.launching.process.e.terminate(Unknown Source)
-	at org.eclipse.debug.internal.core.commands.TerminateCommand.execute(TerminateCommand.java:29)
-	at org.eclipse.debug.internal.core.commands.ForEachCommand.doExecute(ForEachCommand.java:30)
-	at org.eclipse.debug.internal.core.commands.DebugCommand$1.run(DebugCommand.java:204)
+!ENTRY tv.osmosys.sdk.launching 4 1 2014-06-03 11:46:43.016
+!MESSAGE Application with the same OID and AID is already running on 'MHP 1.1.2'. Terminate old application or change OID/AID.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Application with the same OID and AID is already running on 'MHP 1.1.2'. Terminate old application or change OID/AID.
+	at tv.osmosys.sdk.launching.j.a(Unknown Source)
+	at tv.osmosys.sdk.launching.MHPLaunchConfiguration.launch(Unknown Source)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1069)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 tv.osmosys.sdk.launching 4 1 2014-06-03 11:46:43.016
+!MESSAGE Application with the same OID and AID is already running on 'MHP 1.1.2'. Terminate old application or change OID/AID.
 
-!ENTRY tv.osmosys.sdk.launching 4 4 2014-06-03 09:10:09.923
+!ENTRY tv.osmosys.sdk.launching 4 4 2014-06-03 11:48:59.415
 !MESSAGE connot send query
 !STACK 0
 java.io.IOException: connot send query
@@ -842,7 +217,7 @@ java.io.IOException: connot send query
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
-!SESSION 2014-06-03 09:10:12.959 -----------------------------------------------
+!SESSION 2014-06-03 11:50:48.300 -----------------------------------------------
 eclipse.buildId=I20090611-1540
 java.version=1.5.0_22
 java.vendor=Sun Microsystems Inc.
@@ -850,50 +225,7 @@ BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=nl_BE
 Framework arguments:  -product org.eclipse.epp.package.java.product
 Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
 
-!ENTRY tv.osmosys.sdk.launching 4 4 2014-06-03 09:12:00.461
-!MESSAGE connot send query
-!STACK 0
-java.io.IOException: connot send query
-	at tv.osmosys.sdk.platforms.mhp4win.connection.d.executeQuery(Unknown Source)
-	at tv.osmosys.stb.Protocol.open(Unknown Source)
-	at tv.osmosys.sdk.core.connection.AbstractConnection$InternalOutputStream.<init>(Unknown Source)
-	at tv.osmosys.sdk.core.connection.AbstractConnection.openFileOutputStream(Unknown Source)
-	at tv.osmosys.sdk.launching.process.f.run(Unknown Source)
-	at tv.osmosys.sdk.launching.process.e.terminate(Unknown Source)
-	at org.eclipse.debug.internal.core.commands.TerminateCommand.execute(TerminateCommand.java:29)
-	at org.eclipse.debug.internal.core.commands.ForEachCommand.doExecute(ForEachCommand.java:30)
-	at org.eclipse.debug.internal.core.commands.DebugCommand$1.run(DebugCommand.java:204)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
-
-!ENTRY tv.osmosys.sdk.launching 4 1 2014-06-03 09:51:56.018
-!MESSAGE Application with the same OID and AID is already running on 'MHP 1.1.2'. Terminate old application or change OID/AID.
-!STACK 1
-org.eclipse.core.runtime.CoreException: Application with the same OID and AID is already running on 'MHP 1.1.2'. Terminate old application or change OID/AID.
-	at tv.osmosys.sdk.launching.j.a(Unknown Source)
-	at tv.osmosys.sdk.launching.MHPLaunchConfiguration.launch(Unknown Source)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1069)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
-!SUBENTRY 1 tv.osmosys.sdk.launching 4 1 2014-06-03 09:51:56.019
-!MESSAGE Application with the same OID and AID is already running on 'MHP 1.1.2'. Terminate old application or change OID/AID.
-
-!ENTRY tv.osmosys.sdk.launching 4 1 2014-06-03 09:51:59.187
-!MESSAGE Application with the same OID and AID is already running on 'MHP 1.1.2'. Terminate old application or change OID/AID.
-!STACK 1
-org.eclipse.core.runtime.CoreException: Application with the same OID and AID is already running on 'MHP 1.1.2'. Terminate old application or change OID/AID.
-	at tv.osmosys.sdk.launching.j.a(Unknown Source)
-	at tv.osmosys.sdk.launching.MHPLaunchConfiguration.launch(Unknown Source)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1069)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
-!SUBENTRY 1 tv.osmosys.sdk.launching 4 1 2014-06-03 09:51:59.187
-!MESSAGE Application with the same OID and AID is already running on 'MHP 1.1.2'. Terminate old application or change OID/AID.
-
-!ENTRY tv.osmosys.sdk.launching 4 1 2014-06-03 10:16:51.297
+!ENTRY tv.osmosys.sdk.launching 4 1 2014-06-03 11:51:57.844
 !MESSAGE connot send query
 !STACK 0
 java.io.IOException: connot send query
@@ -908,105 +240,7 @@ java.io.IOException: connot send query
 	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1069)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
 
-!ENTRY tv.osmosys.sdk.launching 4 1 2014-06-03 10:18:28.218
-!MESSAGE Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
-!STACK 1
-org.eclipse.core.runtime.CoreException: Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
-	at tv.osmosys.sdk.launching.j.a(Unknown Source)
-	at tv.osmosys.sdk.launching.MHPLaunchConfiguration.launch(Unknown Source)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1069)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
-!SUBENTRY 1 tv.osmosys.sdk.launching 4 1 2014-06-03 10:18:28.219
-!MESSAGE Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
-
-!ENTRY tv.osmosys.sdk.launching 4 1 2014-06-03 10:18:30.894
-!MESSAGE Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
-!STACK 1
-org.eclipse.core.runtime.CoreException: Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
-	at tv.osmosys.sdk.launching.j.a(Unknown Source)
-	at tv.osmosys.sdk.launching.MHPLaunchConfiguration.launch(Unknown Source)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1069)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
-!SUBENTRY 1 tv.osmosys.sdk.launching 4 1 2014-06-03 10:18:30.895
-!MESSAGE Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
-
-!ENTRY tv.osmosys.sdk.launching 4 1 2014-06-03 10:18:33.657
-!MESSAGE Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
-!STACK 1
-org.eclipse.core.runtime.CoreException: Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
-	at tv.osmosys.sdk.launching.j.a(Unknown Source)
-	at tv.osmosys.sdk.launching.MHPLaunchConfiguration.launch(Unknown Source)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1069)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
-!SUBENTRY 1 tv.osmosys.sdk.launching 4 1 2014-06-03 10:18:33.657
-!MESSAGE Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
-
-!ENTRY tv.osmosys.sdk.launching 4 1 2014-06-03 10:19:41.478
-!MESSAGE Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
-!STACK 1
-org.eclipse.core.runtime.CoreException: Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
-	at tv.osmosys.sdk.launching.j.a(Unknown Source)
-	at tv.osmosys.sdk.launching.MHPLaunchConfiguration.launch(Unknown Source)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1069)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
-!SUBENTRY 1 tv.osmosys.sdk.launching 4 1 2014-06-03 10:19:41.478
-!MESSAGE Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
-
-!ENTRY tv.osmosys.sdk.launching 4 1 2014-06-03 10:19:44.500
-!MESSAGE Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
-!STACK 1
-org.eclipse.core.runtime.CoreException: Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
-	at tv.osmosys.sdk.launching.j.a(Unknown Source)
-	at tv.osmosys.sdk.launching.MHPLaunchConfiguration.launch(Unknown Source)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1069)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
-!SUBENTRY 1 tv.osmosys.sdk.launching 4 1 2014-06-03 10:19:44.501
-!MESSAGE Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
-
-!ENTRY tv.osmosys.sdk.launching 4 1 2014-06-03 10:19:46.582
-!MESSAGE Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
-!STACK 1
-org.eclipse.core.runtime.CoreException: Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
-	at tv.osmosys.sdk.launching.j.a(Unknown Source)
-	at tv.osmosys.sdk.launching.MHPLaunchConfiguration.launch(Unknown Source)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1069)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
-!SUBENTRY 1 tv.osmosys.sdk.launching 4 1 2014-06-03 10:19:46.583
-!MESSAGE Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
-
-!ENTRY tv.osmosys.sdk.launching 4 1 2014-06-03 10:20:20.956
-!MESSAGE Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
-!STACK 1
-org.eclipse.core.runtime.CoreException: Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
-	at tv.osmosys.sdk.launching.j.a(Unknown Source)
-	at tv.osmosys.sdk.launching.MHPLaunchConfiguration.launch(Unknown Source)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
-	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
-	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1069)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
-!SUBENTRY 1 tv.osmosys.sdk.launching 4 1 2014-06-03 10:20:20.956
-!MESSAGE Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
-
-!ENTRY tv.osmosys.sdk.launching 4 4 2014-06-03 10:21:16.509
+!ENTRY tv.osmosys.sdk.launching 4 4 2014-06-03 11:52:17.372
 !MESSAGE connot send query
 !STACK 0
 java.io.IOException: connot send query
@@ -1020,15 +254,23 @@ java.io.IOException: connot send query
 	at org.eclipse.debug.internal.core.commands.ForEachCommand.doExecute(ForEachCommand.java:30)
 	at org.eclipse.debug.internal.core.commands.DebugCommand$1.run(DebugCommand.java:204)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
-!SESSION 2014-06-03 10:24:45.073 -----------------------------------------------
-eclipse.buildId=I20090611-1540
-java.version=1.5.0_22
-java.vendor=Sun Microsystems Inc.
-BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=nl_BE
-Framework arguments:  -product org.eclipse.epp.package.java.product
-Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
 
-!ENTRY tv.osmosys.sdk.launching 4 4 2014-06-03 10:25:19.709
+!ENTRY tv.osmosys.sdk.launching 4 4 2014-06-03 11:52:40.146
+!MESSAGE connot send query
+!STACK 0
+java.io.IOException: connot send query
+	at tv.osmosys.sdk.platforms.mhp4win.connection.d.executeQuery(Unknown Source)
+	at tv.osmosys.stb.Protocol.open(Unknown Source)
+	at tv.osmosys.sdk.core.connection.AbstractConnection$InternalOutputStream.<init>(Unknown Source)
+	at tv.osmosys.sdk.core.connection.AbstractConnection.openFileOutputStream(Unknown Source)
+	at tv.osmosys.sdk.launching.process.f.run(Unknown Source)
+	at tv.osmosys.sdk.launching.process.e.terminate(Unknown Source)
+	at org.eclipse.debug.internal.core.commands.TerminateCommand.execute(TerminateCommand.java:29)
+	at org.eclipse.debug.internal.core.commands.ForEachCommand.doExecute(ForEachCommand.java:30)
+	at org.eclipse.debug.internal.core.commands.DebugCommand$1.run(DebugCommand.java:204)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY tv.osmosys.sdk.launching 4 4 2014-06-03 12:33:23.754
 !MESSAGE connot send query
 !STACK 0
 java.io.IOException: connot send query

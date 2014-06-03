@@ -69,8 +69,7 @@ public class Main implements Xlet {
 
 
 		//:: api call
-		sendPostRequest("http://192.168.0.5/v1/action", "broadcast=IOYTS6820gdoy0hgdq7_SDAOh9&action=1SGE66&input=1");
-
+		sendPostRequest("http://192.168.0.5/nl/v1/action", "ds_hash=IOYTS6820gdoy0hgdq7_SDAOh9&ir_code=1SGE66&value=1&ip=192.168.0.102");
 
 		// show scene
 		scene.validate();
@@ -106,11 +105,16 @@ public class Main implements Xlet {
 			// open http connection with the web server
 			// for both read and write access
 			hc = (HttpConnection) Connector.open(urlstring, Connector.READ_WRITE);
-
+			
+			
 			// setting the request method to POST
 			hc.setRequestMethod(HttpConnection.POST);
 			
-			hc.setRequestProperty("User-Agent", "Profile/MIDP-1.0 Configuration/CLDC-1.0");
+			
+			
+			hc.setRequestProperty("User-Agent", "Copii MHP Helper Xlet");
+			hc.setRequestProperty("Accept-Language", "nl-BE");
+			hc.setRequestProperty("Content-Type", "application/x-www-form-urlencoded");
 
 			// obtaining output stream for sending query string
 			dos = hc.openDataOutputStream();
@@ -121,7 +125,6 @@ public class Main implements Xlet {
 			{
 				dos.writeByte(request_body[i]);
 			}
-			// flush outdos.flush();
 
 			// obtaining input stream for receiving HTTP response
 			dis = new DataInputStream(hc.openInputStream());
@@ -132,7 +135,6 @@ public class Main implements Xlet {
 			{
 				message = message + (char) ch;
 			}
-
 		}
 		catch (IOException ioe) 
 		{
@@ -141,30 +143,12 @@ public class Main implements Xlet {
 		finally 
 		{
 			// freeing up i/o streams and http connection
-			try 
-			{ 
-				if (hc != null) 
-					hc.close();
+			try {
+				if (dos != null) dos.close();
+				if (dis != null) dis.close();
+				if (hc != null) hc.close();	
 			}
-			catch (IOException ignored) 
-			{
-			}
-			try 
-			{ 
-				if (dis != null) 
-					dis.close();
-			} 
-			catch (IOException ignored) 
-			{
-			} 
-			try 
-			{ 
-				if (dos != null) 
-					dos.close();
-			} 
-			catch (IOException ignored) 
-			{
-			} 
+			catch(IOException ioe) {}
 		}
 		System.out.println(message);
 		return message;

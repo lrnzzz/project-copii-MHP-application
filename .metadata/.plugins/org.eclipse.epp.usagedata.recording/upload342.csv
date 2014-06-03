@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401786124513
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401786128061
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1401786138909
+started,bundle,org.tigris.subversion.clientadapter.javahl,1.6.5,"org.tigris.subversion.clientadapter.javahl",1401786139024
+started,bundle,org.tigris.subversion.clientadapter.svnkit,1.6.4,"org.tigris.subversion.clientadapter.svnkit",1401786139027
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1401786141273
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401786301157
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1401786333868
+started,bundle,org.eclipse.help.base,3.4.0.v200906111540,"org.eclipse.help.base",1401786352539
+started,bundle,org.eclipse.help.ui,3.4.0.v20090528,"org.eclipse.help.ui",1401786352546
+started,bundle,org.eclipse.equinox.http.jetty,2.0.0.v20090520-1800,"org.eclipse.equinox.http.jetty",1401786352580
+started,bundle,org.eclipse.equinox.http.servlet,1.0.200.v20090520-1800,"org.eclipse.equinox.http.servlet",1401786352612
+started,bundle,org.eclipse.equinox.http.registry,1.0.200.v20090520-1800,"org.eclipse.equinox.http.registry",1401786352753
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1401786392112
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1401786394061
+error,log,,,"Application with the same OID and AID is already running on 'MHP 1.1.2'. Terminate old application or change OID/AID.",1401786413142
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401786413188
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401786414052
+error,log,,,"Application with the same OID and AID is already running on 'MHP 1.1.2'. Terminate old application or change OID/AID.",1401786414988
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401786415032
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401786415852
+error,log,,,"Application with the same OID and AID is already running on 'MHP 1.1.2'. Terminate old application or change OID/AID.",1401786416917
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401786416939
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401786417738
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401786418764

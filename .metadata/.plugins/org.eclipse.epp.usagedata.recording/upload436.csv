@@ -1,0 +1,22 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401812705835
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401812709060
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401812712389
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401812712434
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401812741955
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401812744448
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401812745596
+error,log,,,"Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.",1401812745788
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401812745846
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401812746866
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1401812884605
+error,log,,,"connot send query",1401812885644
+activated,view,org.eclipse.ui.views.log,1.0.100.v20090527,"org.eclipse.pde.runtime.LogView",1401812885662
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401812892410
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401812893369
+closed,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401812893540
+stopped,bundle,org.eclipse.mylyn.ide.ant,3.2.1.v20090722-0200-e3x,"org.eclipse.mylyn.ide.ant",1401812893955
+stopped,bundle,org.eclipse.ant.ui,3.4.0.v20090520,"org.eclipse.ant.ui",1401812893957
+stopped,bundle,org.eclipse.compare.win32,1.0.0.I20090430-0408,"org.eclipse.compare.win32",1401812893957
+stopped,bundle,org.eclipse.mylyn.java.tasks,3.2.1.v20090722-0200-e3x,"org.eclipse.mylyn.java.tasks",1401812893958
+stopped,bundle,org.eclipse.mylyn.java.ui,3.2.1.v20090722-0200-e3x,"org.eclipse.mylyn.java.ui",1401812893958

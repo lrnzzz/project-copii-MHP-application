@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+java.specification.version,sysinfo,,,"1.5",1401811968255
+java.vendor,sysinfo,,,"Sun Microsystems Inc.",1401811968255
+java.version,sysinfo,,,"1.5.0_22",1401811968255
+java.vm.info,sysinfo,,,"mixed mode, sharing",1401811968255
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1401811968255
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1401811968255
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1401811968255
+java.vm.specification.version,sysinfo,,,"1.0",1401811968255
+java.vm.vendor,sysinfo,,,"Sun Microsystems Inc.",1401811968255
+java.vm.version,sysinfo,,,"1.5.0_22-b03",1401811968255
+started,bundle,org.eclipse.jsch.core,1.1.100.I20090430-0408,"org.eclipse.jsch.core",1401811968699
+started,bundle,org.eclipse.team.cvs.core,3.3.200.I20090430-0408,"org.eclipse.team.cvs.core",1401811968701
+started,bundle,org.eclipse.team.cvs.ui,3.3.200.I20090521-1750,"org.eclipse.team.cvs.ui",1401811968762
+started,bundle,org.eclipse.debug.ui,3.5.0.v20090603,"org.eclipse.debug.ui",1401812136870
+started,bundle,tv.osmosys.sdk.launching,2.2.1,"tv.osmosys.sdk.launching",1401812137019
+started,bundle,org.eclipse.jdt.debug,3.5.0.v20090526,"org.eclipse.jdt.debug",1401812137129
+started,bundle,org.eclipse.jdt.debug.ui,3.4.0.v20090527,"org.eclipse.jdt.debug.ui",1401812137315
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401812137437
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401812138433
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401812141743
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401812145014
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401812145060
+opened,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1401812145858
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401812145876
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1401812145880

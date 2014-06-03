@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+java.specification.name,sysinfo,,,"Java Platform API Specification",1401816527061
+java.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1401816527061
+java.specification.version,sysinfo,,,"1.5",1401816527061
+java.vendor,sysinfo,,,"Sun Microsystems Inc.",1401816527061
+java.version,sysinfo,,,"1.5.0_22",1401816527061
+java.vm.info,sysinfo,,,"mixed mode, sharing",1401816527061
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1401816527061
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1401816527061
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1401816527061
+java.vm.specification.version,sysinfo,,,"1.0",1401816527061
+java.vm.vendor,sysinfo,,,"Sun Microsystems Inc.",1401816527061
+java.vm.version,sysinfo,,,"1.5.0_22-b03",1401816527061
+started,bundle,org.eclipse.debug.ui,3.5.0.v20090603,"org.eclipse.debug.ui",1401816581758
+started,bundle,tv.osmosys.sdk.launching,2.2.1,"tv.osmosys.sdk.launching",1401816581869
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401816581974
+started,bundle,org.eclipse.jdt.debug,3.5.0.v20090526,"org.eclipse.jdt.debug",1401816582051
+started,bundle,org.eclipse.jdt.debug.ui,3.4.0.v20090527,"org.eclipse.jdt.debug.ui",1401816582158
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401816583339
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401816583418
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401816586027
+error,log,,,"Unhandled event loop exception",1401816586037
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401816586080
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401816592718
+closed,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401816592897
+stopped,bundle,org.eclipse.mylyn.ide.ant,3.2.1.v20090722-0200-e3x,"org.eclipse.mylyn.ide.ant",1401816593300

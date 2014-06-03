@@ -8,7 +8,6 @@ import java.awt.event.KeyEvent;
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
-
 import org.dvb.event.EventManager;
 import org.dvb.event.UserEventListener;
 import org.dvb.event.UserEventRepository;
@@ -17,6 +16,7 @@ import org.havi.ui.*;
 import org.havi.ui.event.HRcEvent;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
+
 
 public class Main implements Xlet, UserEventListener {
 
@@ -36,7 +36,11 @@ public class Main implements Xlet, UserEventListener {
 
 	//text labels
 	private HStaticText lblCopii;
-
+	private HStaticText lblFbText;
+	private HStaticText lblFbCount;
+	
+	//images
+	private CImage imgLogo = new CImage("be/copii/resource/logo.png", 10, 10);
 
 	public void initXlet(XletContext ctx) throws XletStateChangeException {
 		System.out.println("init copii remote helper");
@@ -56,17 +60,40 @@ public class Main implements Xlet, UserEventListener {
 		//:: LABELS
 		//create label objects
 		lblCopii = new HStaticText("Copii xlet is running");
+		lblFbText = new HStaticText("Feedback");
+		lblFbCount = new HStaticText("8990");
 
 		//label properties
-		lblCopii.setLocation(0,0);
-		lblCopii.setSize(720, 40);
+		lblCopii.setLocation(0, 0);
+		lblCopii.setSize(720, 20);
+		lblCopii.setFont(new Font("Helvetica", 200, 14));
 		lblCopii.setForeground(clr6);
-		lblCopii.setBackground(clr3);
+		lblCopii.setBackground(clr8);
 		lblCopii.setBackgroundMode(HVisible.BACKGROUND_FILL);
+		
+		lblFbText.setLocation(100, 500);
+		lblFbText.setSize(520, 40);
+		lblFbText.setFont(new Font("Helvetica", 100, 15));
+		lblFbText.setForeground(clr6);
+		lblFbText.setBackground(clr2);
+		lblFbText.setBackgroundMode(HVisible.BACKGROUND_FILL);
+		
+		lblFbCount.setLocation(620, 480);
+		lblFbCount.setSize(80, 60);
+		lblFbCount.setFont(new Font("Helvetica", 100, 25));
+		lblFbCount.setForeground(clr2);
+		lblFbCount.setBackground(clr6);
+		lblFbCount.setBackgroundMode(HVisible.BACKGROUND_FILL);
+		lblFbCount.setVisible(false);
 
-		//lblCopii.setTextContent("Lorenz", HState.NORMAL_STATE);
+		//lblFbCount.setTextContent("Lorenz", HState.NORMAL_STATE);
 		//add labels to scene
-		scene.add(lblCopii);
+		
+		//scene.add(lblCopii);
+		scene.add(lblFbText);
+		scene.add(lblFbCount);
+		
+		scene.add(imgLogo);
 	}
 
 	public void startXlet() throws XletStateChangeException {
@@ -168,34 +195,64 @@ public class Main implements Xlet, UserEventListener {
 		}
 		//System.out.println(message);
 		
-		//parse json
+		//::Parse json
+		
 		JSONObject json;
+		JSONObject jsonParts;
 		
 		try {
+			//parse message
 			json = (JSONObject)new JSONParser().parse(message);
-			
-			String status = json.get("status").toString();
 			String type = json.get("type").toString();
 			String msg = json.get("message").toString();
 			
+			//show feedback on the screen
+			lblFbText.setTextContent(msg, HState.NORMAL_STATE);
 			
-			System.out.println("status: " + status);
-			System.out.println("type: " + type);
-			System.out.println("message: " + msg);
-	
+			//process data and do the right actions dependant from the command
+			if((type).equals("success")) {
+				String actionType = json.get("action_type").toString();
+				
+				//parse the parts object
+				String parts = json.get("parts").toString();
+				jsonParts = (JSONObject)new JSONParser().parse(parts);
+				
+				//Push
+				if((actionType).equals("push")) {
+					String message1 = jsonParts.get("message_1").toString();
+					String message2 = jsonParts.get("message_2").toString();
+					String action = jsonParts.get("action").toString();
+					String times = jsonParts.get("times").toString();
+					
+					//show feedback on the screen
+					lblFbCount.setVisible(true);
+					lblFbCount.setTextContent(times + " X", HState.NORMAL_STATE);
+				}
+				
+				//Audio
+				if((actionType).equals("audio")) {
+					String dB = jsonParts.get("dB").toString();
+					
+					//show feedback on the screen
+					lblFbCount.setVisible(true);
+					lblFbCount.setTextContent(dB + "\n dB", HState.NORMAL_STATE);
+				}	
+			}
+			else {
+				System.out.println("Opgelet: " + msg);
+			}
+			
 
-			
-			
-			
 		} catch (org.json.simple.parser.ParseException e) {
 			e.printStackTrace();
-		}
+		}		
+
 		return message;
 	}
 	
 	public void doApiCall(String ds_hash, String ir_code, String value, String ip) {
 		//ds_hash=IOYTS6820gdoy0hgdq7_SDAOh9&ir_code=1SGE66&value=1&ip=192.168.0.102"
-		sendPostRequest("http://192.168.0.5/nl/v1/action", "ds_hash=" + ds_hash + "&ir_code=" + ir_code + "&value=" + value + "&ip=" + ip);
+		sendPostRequest("http://192.168.0.6/nl/v1/action", "ds_hash=" + ds_hash + "&ir_code=" + ir_code + "&value=" + value + "&ip=" + ip);
 	}
 	
 	// Opvangen van de Key Events

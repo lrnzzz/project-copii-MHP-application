@@ -1,0 +1,9 @@
+package be.copii;
+
+import org.havi.ui.*;
+import java.awt.*;
+
+
+public class CImage {
+
+}

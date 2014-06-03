@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+executed,command,,,"AUTOGEN:::org.eclipse.jdt.internal.ui.CompilationUnitEditor.ruler.actions/org.eclipse.jdt.internal.ui.javaeditor.JavaSelectRulerAction",1401819952421
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401819954715
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401819954907
+executed,command,,,"AUTOGEN:::org.eclipse.jdt.internal.ui.CompilationUnitEditor.ruler.actions/org.eclipse.jdt.internal.ui.javaeditor.JavaSelectRulerAction",1401819956990
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401819958178
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401819958331
+executed,command,,,"AUTOGEN:::org.eclipse.jdt.internal.ui.CompilationUnitEditor.ruler.actions/org.eclipse.jdt.internal.ui.javaeditor.JavaSelectRulerAction",1401819961642
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401819962922
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401819963066
+executed,command,,,"AUTOGEN:::org.eclipse.jdt.internal.ui.CompilationUnitEditor.ruler.actions/org.eclipse.jdt.internal.ui.javaeditor.JavaSelectRulerAction",1401819965530
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401819966467
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401819966627
+executed,command,,,"AUTOGEN:::org.eclipse.jdt.internal.ui.CompilationUnitEditor.ruler.actions/org.eclipse.jdt.internal.ui.javaeditor.JavaSelectRulerAction",1401819968688
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401819971419
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401819972926
+executed,command,,,"AUTOGEN:::org.eclipse.jdt.internal.ui.CompilationUnitEditor.ruler.actions/org.eclipse.jdt.internal.ui.javaeditor.JavaSelectRulerAction",1401819976228
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401819977987
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401819978173
+executed,command,,,"AUTOGEN:::org.eclipse.jdt.internal.ui.CompilationUnitEditor.ruler.actions/org.eclipse.jdt.internal.ui.javaeditor.JavaSelectRulerAction",1401819981080
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401819984787
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401819984955
+executed,command,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.edit.text.java.indent",1401819994316
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1401820006826
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1401820010618
+error,log,,,"Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.",1401820012255

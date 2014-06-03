@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401816696236
+opened,view,org.eclipse.ui.ide,3.5.0.I20090525-2000,"org.eclipse.ui.views.ProgressView",1401816698792
+activated,view,org.eclipse.ui.ide,3.5.0.I20090525-2000,"org.eclipse.ui.views.ProgressView",1401816698816
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401816700683
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401816701840
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401816702516
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.undo",1401816703600
+executed,command,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.edit.text.java.toggle.comment",1401816733231
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1401816736645
+started,bundle,org.tigris.subversion.clientadapter.javahl,1.6.5,"org.tigris.subversion.clientadapter.javahl",1401816736666
+started,bundle,org.tigris.subversion.clientadapter.svnkit,1.6.4,"org.tigris.subversion.clientadapter.svnkit",1401816736669
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1401816763249
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401816817840
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401816818964
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401816819265
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401816828403
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1401816865588
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1401816866890
+error,log,,,"Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.",1401816871128
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401816871189
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401816872360
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401816892899
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1401816904706
+started,bundle,org.eclipse.mylyn.java.tasks,3.2.1.v20090722-0200-e3x,"org.eclipse.mylyn.java.tasks",1401816904828
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1401816905819

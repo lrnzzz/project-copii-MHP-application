@@ -1,0 +1,378 @@
+package be.copii;
+
+import javax.microedition.io.Connector;
+import javax.microedition.io.HttpConnection;
+import javax.tv.xlet.*;
+import java.awt.*;
+import java.awt.event.KeyEvent;
+import java.io.DataInputStream;
+import java.io.DataOutputStream;
+import java.io.IOException;
+import java.util.Iterator;
+import java.util.LinkedHashMap;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Map;
+
+import org.dvb.event.EventManager;
+import org.dvb.event.UserEventListener;
+import org.dvb.event.UserEventRepository;
+
+import org.havi.ui.*;
+import org.havi.ui.event.HRcEvent;
+import org.json.simple.JSONObject;
+import org.json.simple.JSONValue;
+import org.json.simple.parser.ContainerFactory;
+import org.json.simple.parser.JSONParser;
+import org.json.simple.parser.ParseException;
+
+public class Main implements Xlet, UserEventListener {
+
+	//store actual xlet-context
+	private XletContext actualXletContext;
+	private HScene scene;
+
+	//colors
+	Color clr1 = new Color(0xff, 0x5f, 0x22);
+	Color clr2 = new Color(0xe8, 0x39, 0x1f);
+	Color clr3 = new Color(0xff, 0x2f, 0x3b);
+	Color clr4 = new Color(0xff, 0xc4, 0x21);
+	Color clr5 = new Color(0xf8, 0x22, 0xff);
+	Color clr6 = new Color(0xfa, 0xfa, 0xfa);
+	Color clr7 = new Color(0xb2, 0xb2, 0xb2);
+	Color clr8 = new Color(0x33, 0x33, 0x33);
+
+	//text labels
+	private HStaticText lblCopii;
+	private HStaticText lblFeedback;
+
+
+	public void initXlet(XletContext ctx) throws XletStateChangeException {
+		System.out.println("init copii remote helper");
+
+		this.actualXletContext = ctx;
+
+		//create template
+		HSceneTemplate sceneTemplate = new HSceneTemplate();
+
+		//size & position
+		sceneTemplate.setPreference(HSceneTemplate.SCENE_SCREEN_DIMENSION, new HScreenDimension(1.0f, 1.0f), HSceneTemplate.REQUIRED);
+		sceneTemplate.setPreference(HSceneTemplate.SCENE_SCREEN_LOCATION, new HScreenPoint(0.0f, 0.0f), HSceneTemplate.REQUIRED);
+
+		//get Scene instance from factory
+		scene = HSceneFactory.getInstance().getBestScene(sceneTemplate);
+
+		//:: LABELS
+		//create label objects
+		lblCopii = new HStaticText("Copii xlet is running");
+		lblFeedback = new HStaticText("Feedback");
+
+		//label properties
+		lblCopii.setLocation(0, 0);
+		lblCopii.setSize(720, 20);
+		lblCopii.setFont(new Font("Helvetica", 200, 14));
+		lblCopii.setForeground(clr6);
+		lblCopii.setBackground(clr8);
+		lblCopii.setBackgroundMode(HVisible.BACKGROUND_FILL);
+		
+		lblFeedback.setLocation(100, 500);
+		lblFeedback.setSize(520, 40);
+		lblFeedback.setFont(new Font("Helvetica", 100, 15));
+		lblFeedback.setForeground(clr6);
+		lblFeedback.setBackground(clr2);
+		lblFeedback.setBackgroundMode(HVisible.BACKGROUND_FILL);
+
+		//lblFeedback.setTextContent("Lorenz", HState.NORMAL_STATE);
+		//add labels to scene
+		scene.add(lblCopii);
+		scene.add(lblFeedback);
+	}
+
+	public void startXlet() throws XletStateChangeException {
+		System.out.println("start copii remote helper");
+		
+		//::IR
+		//request EventManager
+		EventManager eventManager = EventManager.getInstance();
+		// Repository
+		UserEventRepository eventRepository = new UserEventRepository("Voorbeeld");
+		// Events toevoegen
+		eventRepository.addAllArrowKeys();
+		eventRepository.addAllNumericKeys();
+		// Bekend maken bij EventManager
+		eventManager.addUserEventListener(this, eventRepository);
+
+
+
+		
+		
+		//:: show scene
+		scene.validate();
+		scene.setVisible(true);
+	}
+
+
+	public void destroyXlet(boolean unconditional) throws XletStateChangeException {
+		if(unconditional) {
+			System.out.println("The Xlet must be terminated");
+		}
+		else {
+			throw new XletStateChangeException("Undefined exception");
+		}
+	}
+
+
+	public void pauseXlet() {
+		System.out.println("pause copii remote helper");
+	}
+	
+	public String sendPostRequest(String urlstring, String requeststring) 
+	{
+		HttpConnection hc = null;
+		DataInputStream dis = null;
+		DataOutputStream dos = null;
+
+		String message = "";
+
+		// specifying the query string
+		try 
+		{
+			// open http connection with the web server
+			// for both read and write access
+			hc = (HttpConnection) Connector.open(urlstring, Connector.READ_WRITE);
+			
+			
+			// setting the request method to POST
+			hc.setRequestMethod(HttpConnection.POST);
+			
+			
+			
+			hc.setRequestProperty("User-Agent", "Copii MHP Helper Xlet");
+			hc.setRequestProperty("Accept-Language", "nl-BE");
+			hc.setRequestProperty("Content-Type", "application/x-www-form-urlencoded");
+
+			// obtaining output stream for sending query string
+			dos = hc.openDataOutputStream();
+			byte[] request_body = requeststring.getBytes();
+
+			// sending query string to web server
+			for (int i = 0; i < request_body.length; i++)
+			{
+				dos.writeByte(request_body[i]);
+			}
+
+			// obtaining input stream for receiving HTTP response
+			dis = new DataInputStream(hc.openInputStream());
+
+			// reading the response from web server character by character
+			int ch;
+			while ((ch = dis.read()) != -1) 
+			{
+				message = message + (char) ch;
+			}
+		}
+		catch (IOException ioe) 
+		{
+			message = "ERROR";
+		} 
+		finally 
+		{
+			// freeing up i/o streams and http connection
+			try {
+				if (dos != null) dos.close();
+				if (dis != null) dis.close();
+				if (hc != null) hc.close();	
+			}
+			catch(IOException ioe) {}
+		}
+		//System.out.println(message);
+		
+		//parse json
+//		JSONObject json;
+//		JSONObject jsonParts;
+//		
+//		try {
+//			//parse message
+//			json = (JSONObject)new JSONParser().parse(message);
+//			String status = json.get("status").toString();
+//			String type = json.get("type").toString();
+//			String msg = json.get("message").toString();
+//			
+//			
+//			//parse message parts
+//			
+//			String partsMessage1 = null;
+//			String partsMessage2 = null;
+//			String partsAction = null;
+//			String partsTimes = null;
+//			
+//			if(json.get("parts")!= null) {
+//				String parts = json.get("parts").toString();
+//				jsonParts = (JSONObject)new JSONParser().parse(parts);
+//				
+//				partsMessage1 = jsonParts.get("message_1").toString();
+//				
+//				if(jsonParts.get("message_2")!=null) {
+//					partsMessage2 = jsonParts.get("message_2").toString();
+//					System.out.println("msg 2: " + partsMessage2);
+//				}
+//				
+//				partsAction = jsonParts.get("action").toString();
+//				partsTimes = jsonParts.get("times").toString();
+//				
+//				//debug print
+//				System.out.println("msg 1: " + partsMessage1);
+//				System.out.println("action: " + partsAction);
+//				System.out.println("times: " + partsTimes);
+//			}
+//			
+//			//show feedback on the screen
+//			lblFeedback.setTextContent(msg, HState.NORMAL_STATE);
+//			
+//			System.out.println("status: " + status);
+//			System.out.println("type: " + type);
+//			System.out.println("message: " + msg);
+//
+//		} catch (org.json.simple.parser.ParseException e) {
+//			e.printStackTrace();
+//		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		JSONObject json;
+		
+		try {
+			//parse message
+			json = (JSONObject)new JSONParser().parse(message);
+			String type = json.get("type").toString();
+			String actionType = json.get("action_type").toString();
+			String msg = json.get("message").toString();
+			
+			//show feedback on the screen
+			lblFeedback.setTextContent(msg, HState.NORMAL_STATE);
+			
+			
+			if((type).equals("success")) {
+				String parts = json.get("parts").toString();
+				
+				System.out.println("AT: " + actionType);
+				
+				if((actionType).equals("push")) {
+					System.out.println("push: " + parts);
+				}
+				if((actionType).equals("audio")) {
+					System.out.println("audio: " + parts);
+				}	
+			}
+			
+
+		} catch (org.json.simple.parser.ParseException e) {
+			e.printStackTrace();
+		}		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+//		JSONParser parser = new JSONParser();
+//		ContainerFactory containerFactory = new ContainerFactory(){
+//			public List creatArrayContainer() {
+//				return new LinkedList();
+//			}
+//
+//			public Map createObjectContainer() {
+//				return new LinkedHashMap();
+//			}
+//
+//		};
+//
+//		try{
+//			Map json = (Map)parser.parse(message, containerFactory);
+//			Iterator iter = json.entrySet().iterator();
+//			System.out.println("==iterate result==");
+//			while(iter.hasNext()){
+//				Map.Entry entry = (Map.Entry)iter.next();
+//				System.out.println(entry.getKey() + "=>" + entry.getValue());
+//			}
+//		}
+//		catch(ParseException pe){
+//			System.out.println(pe);
+//		}
+		
+		
+		
+		
+		return message;
+	}
+	
+	public void doApiCall(String ds_hash, String ir_code, String value, String ip) {
+		//ds_hash=IOYTS6820gdoy0hgdq7_SDAOh9&ir_code=1SGE66&value=1&ip=192.168.0.102"
+		sendPostRequest("http://192.168.0.6/nl/v1/action", "ds_hash=" + ds_hash + "&ir_code=" + ir_code + "&value=" + value + "&ip=" + ip);
+	}
+	
+	// Opvangen van de Key Events
+	public void userEventReceived(org.dvb.event.UserEvent e) {
+		String ip = "192.168.0.102";
+		String ds_hash = "IOYTS6820gdoy0hgdq7_SDAOh9";
+		
+		if (e.getType() == KeyEvent.KEY_PRESSED) {
+			switch (e.getCode()) {
+				//Button 1
+				case HRcEvent.VK_1:
+					doApiCall(ds_hash, "1SGE66", "", ip);
+					break;
+				//Button 2
+				case HRcEvent.VK_2:
+					doApiCall(ds_hash, "2ID778", "", ip);
+					break;
+				//Button 3
+				case HRcEvent.VK_3:
+					doApiCall(ds_hash, "389SQN", "", ip);
+					break;
+					
+				//Spinner Left
+				case HRcEvent.VK_4:
+					//doApiCall(ds_hash, "457DSI", "left", ip);
+					break;
+				//Spinner Right
+				case HRcEvent.VK_5:
+					//doApiCall(ds_hash, "457DSI", "right", ip);
+					break;
+					
+				//Shaker
+				case HRcEvent.VK_6:
+					//doApiCall(ds_hash, "554POU", "", ip);
+					break;
+				
+				//Micro Niveau 1
+				case HRcEvent.VK_7:
+					doApiCall(ds_hash, "6ZDZFD", "1", ip);
+					break;
+				//Micro Niveau 2
+				case HRcEvent.VK_8:
+					doApiCall(ds_hash, "6ZDZFD", "2", ip);
+					break;
+				//Micro Niveau 3
+				case HRcEvent.VK_9:
+					doApiCall(ds_hash, "6ZDZFD", "3", ip);
+					break;
+				//Micro Niveau 4
+				case HRcEvent.VK_0:
+					doApiCall(ds_hash, "6ZDZFD", "4", ip);
+					break;
+			}
+		}
+	}
+}

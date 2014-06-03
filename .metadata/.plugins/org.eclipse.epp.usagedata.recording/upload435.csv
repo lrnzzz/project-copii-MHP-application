@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401812317890
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401812327562
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401812327680
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1401812509232
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401812510525
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401812512304
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401812512606
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401812513756
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401812516960
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401812520254
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401812520293
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401812534106
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1401812539403
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401812540681
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401812541965
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401812542248
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401812543856
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401812547139
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401812550472
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401812550521
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401812701247
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1401812702224
+error,log,,,"connot send query",1401812702310
+activated,view,org.eclipse.ui.views.log,1.0.100.v20090527,"org.eclipse.pde.runtime.LogView",1401812702330
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401812704534

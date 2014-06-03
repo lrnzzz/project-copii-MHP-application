@@ -14,4 +14,20 @@
 <fullyQualifiedTypeName name="org.dvb.event.UserEventRepository"/>
 <fullyQualifiedTypeName name="org.havi.ui.event.HRcEvent"/>
 <fullyQualifiedTypeName name="java.awt.event.KeyEvent"/>
+<fullyQualifiedTypeName name="java.util.Vector"/>
+<fullyQualifiedTypeName name="org.json.me.JSONObject"/>
+<fullyQualifiedTypeName name="org.json.me.JSONArray"/>
+<fullyQualifiedTypeName name="org.json.me.JSONException"/>
+<fullyQualifiedTypeName name="org.json.parser.JSONParser"/>
+<fullyQualifiedTypeName name="java.text.ParseException"/>
+<fullyQualifiedTypeName name="org.json.simple.JSONObject"/>
+<fullyQualifiedTypeName name="org.json.simple.parser.JSONParser"/>
+<fullyQualifiedTypeName name="org.json.simple.parser.ContainerFactory"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.LinkedList"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.util.LinkedHashMap"/>
+<fullyQualifiedTypeName name="java.util.Iterator"/>
+<fullyQualifiedTypeName name="org.json.simple.JSONValue"/>
+<fullyQualifiedTypeName name="org.json.simple.parser.ParseException"/>
 </qualifiedTypeNameHistroy>

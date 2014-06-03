@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,view,org.eclipse.ui.views.log,1.0.100.v20090527,"org.eclipse.pde.runtime.LogView",1401811916527
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401811917750
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401811917859
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401811920674
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401811921727
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1401811922553
+error,log,,,"Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.",1401811933437
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401811933870
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401811933940
+activated,view,org.eclipse.ui.views.log,1.0.100.v20090527,"org.eclipse.pde.runtime.LogView",1401811933948
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401811935382
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401811935539
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401811946931
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401811947909
+closed,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401811948209
+stopped,bundle,org.eclipse.mylyn.ide.ant,3.2.1.v20090722-0200-e3x,"org.eclipse.mylyn.ide.ant",1401811949104
+stopped,bundle,org.eclipse.ant.ui,3.4.0.v20090520,"org.eclipse.ant.ui",1401811949121
+stopped,bundle,org.eclipse.compare.win32,1.0.0.I20090430-0408,"org.eclipse.compare.win32",1401811949144
+stopped,bundle,org.eclipse.mylyn.java.tasks,3.2.1.v20090722-0200-e3x,"org.eclipse.mylyn.java.tasks",1401811949145
+stopped,bundle,org.eclipse.mylyn.java.ui,3.2.1.v20090722-0200-e3x,"org.eclipse.mylyn.java.ui",1401811949145
+stopped,bundle,org.eclipse.jdt.junit,3.5.0.v20090526-2000,"org.eclipse.jdt.junit",1401811949145
+stopped,bundle,org.eclipse.jdt.apt.ui,3.3.200.v20090528-1135,"org.eclipse.jdt.apt.ui",1401811949145
+stopped,bundle,tv.osmosys.sdk.launching,2.2.1,"tv.osmosys.sdk.launching",1401811949145
+stopped,bundle,org.eclipse.jdt.debug.ui,3.4.0.v20090527,"org.eclipse.jdt.debug.ui",1401811949145
+stopped,bundle,tv.osmosys.sdk.cheatsheets,2.2.1,"tv.osmosys.sdk.cheatsheets",1401811949159

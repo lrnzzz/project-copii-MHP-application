@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workbench progressCount="29" version="2.0">
 <workbenchAdvisor/>
-<window height="768" maximized="true" width="1024" x="601" y="162">
+<window height="768" maximized="true" width="1024" x="136" y="139">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="247"/>
@@ -33,27 +33,17 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
-<part id="2"/>
-<part id="3"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
 <editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Main.java" partName="Main.java" path="C:/Users/MHP-dev/Documents/GitHub/project-copii-MHP-application/Copii/src/be/copii/Main.java" title="Main.java" tooltip="Copii/src/be/copii/Main.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Copii/src/be/copii/Main.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4976" selectionTopPixel="2537"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1256" selectionTopPixel="561"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Main.java" partName="Main.java" path="C:/Users/MHP-dev/Documents/GitHub/project-copii-MHP-application/TestProj3/src/be/telenet/Main.java" title="Main.java" tooltip="TestProj3/src/be/telenet/Main.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TestProj3/src/be/telenet/Main.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="983" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MoreInfoPage.java" partName="MoreInfoPage.java" path="C:/Users/MHP-dev/Documents/GitHub/project-copii-MHP-application/TestProj3/src/be/telenet/MoreInfoPage.java" title="MoreInfoPage.java" tooltip="TestProj3/src/be/telenet/MoreInfoPage.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TestProj3/src/be/telenet/MoreInfoPage.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4976" selectionTopPixel="1394"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Engine.java" partName="Engine.java" path="C:/Users/MHP-dev/Documents/GitHub/project-copii-MHP-application/TestProj3/src/be/telenet/Engine.java" title="Engine.java" tooltip="TestProj3/src/be/telenet/Engine.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TestProj3/src/be/telenet/Engine.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="13" selectionOffset="5253" selectionTopPixel="1445"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CImage.java" partName="CImage.java" path="C:/Users/MHP-dev/Documents/GitHub/project-copii-MHP-application/Copii/src/be/copii/CImage.java" title="CImage.java" tooltip="Copii/src/be/copii/CImage.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Copii/src/be/copii/CImage.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="330" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -135,7 +125,6 @@
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
 <category IMemento.internal.id="Warnings"/>
-<category IMemento.internal.id="Errors"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="0" org.eclipse.ui.ide.markerType="0" org.eclipse.ui.ide.pathField="0" org.eclipse.ui.ide.resourceField="0" org.eclipse.ui.ide.severityAndDescriptionField="0"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
@@ -184,58 +173,39 @@
 <view id="org.eclipse.ui.console.ConsoleView"/>
 <view id="tv.osmosys.sdk.ui.console.ConsoleView"/>
 <fastViewBars/>
-<layout>
-<mainWindow>
-<info part="org.eclipse.ui.editorss"/>
-<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="1434" ratioRight="478" relationship="2" relative="org.eclipse.ui.editorss">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<layout>&#x0A;<mainWindow>&#x0A;<info part="org.eclipse.ui.editorss"/>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="1434" ratioRight="478" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info folder="true" part="right" ratio="0.82949793" ratioLeft="1586" ratioRight="326" relationship="2" relative="org.eclipse.ui.editorss">
-<folder activePageID="tv.osmosys.sdk.ui.rcu.RCUView" appearance="2" expanded="2">
-<page content="tv.osmosys.sdk.ui.rcu.RCUView" label="RCU"/>
+<info folder="true" part="right" ratio="0.82949793" ratioLeft="1586" ratioRight="326" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="tv.osmosys.sdk.ui.rcu.RCUView" appearance="2" expanded="2">&#x0A;<page content="tv.osmosys.sdk.ui.rcu.RCUView" label="RCU"/>
 <page content="org.eclipse.ui.views.ProgressView" label="Progress"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 <part id="1"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="bottom" ratio="0.749763" ratioLeft="791" ratioRight="264" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="tv.osmosys.sdk.ui.memorymonitor.MemoryView" appearance="2" expanded="2">
-<page content="tv.osmosys.sdk.ui.memorymonitor.MemoryView" label="Memory tracker"/>
+<info folder="true" part="bottom" ratio="0.749763" ratioLeft="791" ratioRight="264" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="tv.osmosys.sdk.ui.memorymonitor.MemoryView" appearance="2" expanded="2">&#x0A;<page content="tv.osmosys.sdk.ui.memorymonitor.MemoryView" label="Memory tracker"/>
 <page content="tv.osmosys.sdk.ui.snapshot.SnapShotView" label="Snapshot"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 <part id="1"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="middle" ratio="0.6687737" ratioLeft="529" ratioRight="262" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="tv.osmosys.sdk.ui.taskmonitor.TasksView" appearance="2" expanded="2">
-<page content="tv.osmosys.sdk.ui.taskmonitor.TasksView" label="Threads"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<info folder="true" part="middle" ratio="0.6687737" ratioLeft="529" ratioRight="262" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="tv.osmosys.sdk.ui.taskmonitor.TasksView" appearance="2" expanded="2">&#x0A;<page content="tv.osmosys.sdk.ui.taskmonitor.TasksView" label="Threads"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="console" ratio="0.5" ratioLeft="793" ratioRight="793" relationship="2" relative="middle">
-<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
-<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<info folder="true" part="console" ratio="0.5" ratioLeft="793" ratioRight="793" relationship="2" relative="middle">&#x0A;<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@10fe215" ratio="0.6994329" ratioLeft="370" ratioRight="159" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="tv.osmosys.sdk.ui.console.ConsoleView" appearance="2" expanded="2">
-<page content="tv.osmosys.sdk.ui.console.ConsoleView" label="SDK Console "/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@10fe215" ratio="0.6994329" ratioLeft="370" ratioRight="159" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="tv.osmosys.sdk.ui.console.ConsoleView" appearance="2" expanded="2">&#x0A;<page content="tv.osmosys.sdk.ui.console.ConsoleView" label="SDK Console "/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
@@ -334,8 +304,8 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.15767418" ratioLeft="301" ratioRight="1608" relationship="2" relative="left"/>
-<info folder="true" part="bottom" ratio="0.83460075" ratioLeft="878" ratioRight="174" relationship="4" relative="org.eclipse.ui.editorss">
+<info part="org.eclipse.ui.editorss" ratio="0.19381875" ratioLeft="370" ratioRight="1539" relationship="2" relative="left"/>
+<info folder="true" part="bottom" ratio="0.7376426" ratioLeft="776" ratioRight="276" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
@@ -381,160 +351,161 @@
 <navigationHistory>
 <editors>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Copii/src/be/copii/Main.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TestProj3/src/be/telenet/Main.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TestProj3/src/be/telenet/MoreInfoPage.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TestProj3/src/be/telenet/Engine.java"/>
-<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=TestProj3/C:\/eclipse\/plugins\/tv.osmosys.sdk.ui.mhp_2.2.1\/additional_libs\/TelenetAPI18032011.jar&lt;com.zappware.ixc(TelenetAPI.class"/>
+<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=Copii/C:\/Users\/MHP-dev\/Downloads\/json-simple-1.1.1.jar&lt;org.json.simple(JSONObject.class"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Copii/src/be/copii/CImage.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Flappy Bird/src/Pipes.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Flappy Bird/src/Sprite.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Flappy Bird/src/GUIText.java"/>
 </editors>
 <item historyLabel="Main.java" index="0">
-<position/>
+<position info="not_deleted" x="5057" y="4"/>
 </item>
-<item historyLabel="Main.java" index="0">
-<position/>
-</item>
-<item historyLabel="Main.java" index="0">
-<position/>
-</item>
-<item historyLabel="Main.java" index="0">
-<position/>
-</item>
-<item historyLabel="Main.java" index="1">
-<position info="not_deleted" x="3" y="0"/>
-</item>
-<item historyLabel="Main.java" index="1">
-<position/>
-</item>
-<item historyLabel="Main.java" index="1">
-<position info="not_deleted" x="983" y="0"/>
-</item>
-<item historyLabel="Main.java" index="1">
-<position info="not_deleted" x="983" y="0"/>
-</item>
-<item historyLabel="Main.java" index="0">
-<position/>
-</item>
-<item historyLabel="Main.java" index="0">
-<position/>
-</item>
-<item historyLabel="Main.java" index="0">
-<position info="not_deleted" x="4965" y="0"/>
-</item>
-<item historyLabel="Main.java" index="0">
-<position info="not_deleted" x="4913" y="0"/>
-</item>
-<item historyLabel="Main.java" index="1">
-<position info="not_deleted" x="983" y="0"/>
-</item>
-<item historyLabel="MoreInfoPage.java" index="2">
-<position info="not_deleted" x="4976" y="0"/>
-</item>
-<item historyLabel="Engine.java" index="3">
-<position info="not_deleted" x="5049" y="11"/>
-</item>
-<item historyLabel="Engine.java" index="3">
-<position info="not_deleted" x="5084" y="0"/>
-</item>
-<item historyLabel="Engine.java" index="3">
-<position info="not_deleted" x="894" y="8"/>
-</item>
-<item historyLabel="Engine.java" index="3">
-<position info="not_deleted" x="1690" y="0"/>
-</item>
-<item historyLabel="Engine.java" index="3">
-<position info="not_deleted" x="865" y="8"/>
-</item>
-<item historyLabel="Engine.java" index="3">
-<position info="not_deleted" x="1791" y="0"/>
-</item>
-<item historyLabel="Engine.java" index="3">
-<position info="not_deleted" x="4433" y="17"/>
-</item>
-<item historyLabel="Engine.java" index="3">
-<position info="not_deleted" x="4746" y="0"/>
-</item>
-<item historyLabel="Engine.java" index="3">
-<position info="not_deleted" x="5231" y="192"/>
-</item>
-<item historyLabel="Main.java" index="0">
-<position info="not_deleted" x="4965" y="0"/>
-</item>
-<item historyLabel="Main.java" index="0">
-<position info="not_deleted" x="4798" y="0"/>
-</item>
-<item historyLabel="Main.java" index="0">
-<position/>
-</item>
-<item historyLabel="Engine.java" index="3">
-<position info="not_deleted" x="5231" y="192"/>
-</item>
-<item historyLabel="Engine.java" index="3">
-<position info="not_deleted" x="729" y="3"/>
-</item>
-<item historyLabel="Main.java" index="0">
-<position/>
-</item>
-<item historyLabel="MoreInfoPage.java" index="2">
-<position info="not_deleted" x="4976" y="0"/>
-</item>
-<item historyLabel="Engine.java" index="3">
-<position info="not_deleted" x="708" y="25"/>
-</item>
-<item historyLabel="Main.java" index="0">
-<position info="not_deleted" x="5859" y="0"/>
-</item>
-<item historyLabel="Engine.java" index="3">
-<position info="not_deleted" x="708" y="25"/>
-</item>
-<item historyLabel="Engine.java" index="3">
-<position info="not_deleted" x="4196" y="0"/>
-</item>
-<item historyLabel="Engine.java" index="3">
-<position info="not_deleted" x="5049" y="11"/>
-</item>
-<item historyLabel="Engine.java" index="3">
-<position info="not_deleted" x="5083" y="0"/>
-</item>
-<item historyLabel="Engine.java" index="3">
-<position info="not_deleted" x="894" y="8"/>
-</item>
-<item historyLabel="Main.java" index="0">
-<position info="not_deleted" x="5972" y="0"/>
-</item>
-<item historyLabel="Engine.java" index="3">
-<position info="not_deleted" x="4761" y="0"/>
-</item>
-<item historyLabel="TelenetAPI.class" index="4">
+<item historyLabel="JSONObject.class" index="1">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Engine.java" index="3">
-<position info="not_deleted" x="4738" y="38"/>
+<item historyLabel="Main.java" index="0">
+<position info="not_deleted" x="5057" y="4"/>
 </item>
 <item historyLabel="Main.java" index="0">
-<position info="not_deleted" x="5038" y="0"/>
-</item>
-<item historyLabel="Engine.java" index="3">
-<position info="not_deleted" x="4738" y="38"/>
-</item>
-<item historyLabel="Engine.java" index="3">
-<position info="not_deleted" x="5253" y="13"/>
+<position/>
 </item>
 <item historyLabel="Main.java" index="0">
-<position info="not_deleted" x="5038" y="0"/>
+<position info="not_deleted" x="5165" y="0"/>
 </item>
 <item historyLabel="Main.java" index="0">
-<position info="not_deleted" x="5791" y="0"/>
+<position info="not_deleted" x="5187" y="0"/>
 </item>
 <item historyLabel="Main.java" index="0">
-<position info="not_deleted" x="5516" y="0"/>
+<position info="not_deleted" x="5156" y="9"/>
 </item>
 <item historyLabel="Main.java" index="0">
-<position info="not_deleted" x="5526" y="0"/>
+<position/>
 </item>
 <item historyLabel="Main.java" index="0">
-<position info="not_deleted" x="5530" y="0"/>
+<position info="not_deleted" x="5157" y="18"/>
+</item>
+<item historyLabel="Main.java" index="0">
+<position info="not_deleted" x="1917" y="0"/>
+</item>
+<item historyLabel="Main.java" index="0">
+<position info="not_deleted" x="1878" y="11"/>
+</item>
+<item historyLabel="Main.java" index="0">
+<position/>
+</item>
+<item historyLabel="Main.java" index="0">
+<position info="not_deleted" x="5834" y="0"/>
+</item>
+<item historyLabel="Main.java" index="0">
+<position/>
+</item>
+<item historyLabel="Main.java" index="0">
+<position/>
+</item>
+<item historyLabel="Main.java" index="0">
+<position/>
+</item>
+<item historyLabel="Main.java" index="0">
+<position/>
+</item>
+<item historyLabel="Main.java" index="0">
+<position/>
+</item>
+<item historyLabel="Main.java" index="0">
+<position/>
+</item>
+<item historyLabel="Main.java" index="0">
+<position/>
+</item>
+<item historyLabel="Main.java" index="0">
+<position/>
+</item>
+<item historyLabel="Main.java" index="0">
+<position/>
+</item>
+<item historyLabel="Main.java" index="0">
+<position/>
+</item>
+<item historyLabel="Main.java" index="0">
+<position info="not_deleted" x="7239" y="0"/>
+</item>
+<item historyLabel="Main.java" index="0">
+<position/>
+</item>
+<item historyLabel="Main.java" index="0">
+<position/>
+</item>
+<item historyLabel="Main.java" index="0">
+<position info="not_deleted" x="6083" y="0"/>
+</item>
+<item historyLabel="Main.java" index="0">
+<position info="not_deleted" x="6083" y="0"/>
+</item>
+<item historyLabel="Main.java" index="0">
+<position info="not_deleted" x="3700" y="0"/>
+</item>
+<item historyLabel="Main.java" index="0">
+<position/>
+</item>
+<item historyLabel="Main.java" index="0">
+<position/>
+</item>
+<item historyLabel="Main.java" index="0">
+<position/>
+</item>
+<item historyLabel="Main.java" index="0">
+<position/>
+</item>
+<item historyLabel="Main.java" index="0">
+<position info="not_deleted" x="497" y="0"/>
+</item>
+<item historyLabel="CImage.java" index="2">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="CImage.java" index="2">
+<position info="not_deleted" x="825" y="0"/>
+</item>
+<item historyLabel="CImage.java" index="2">
+<position info="not_deleted" x="107" y="0"/>
+</item>
+<item historyLabel="Pipes.java" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Sprite.java" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="CImage.java" index="2">
+<position info="not_deleted" x="107" y="0"/>
+</item>
+<item historyLabel="Sprite.java" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="CImage.java" index="2">
+<position info="not_deleted" x="107" y="0"/>
+</item>
+<item historyLabel="Sprite.java" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="CImage.java" index="2">
+<position info="not_deleted" x="330" y="0"/>
+</item>
+<item historyLabel="Sprite.java" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="GUIText.java" index="5">
+<position info="not_deleted" x="677" y="0"/>
+</item>
+<item historyLabel="CImage.java" index="2">
+<position info="not_deleted" x="330" y="0"/>
+</item>
+<item historyLabel="Main.java" index="0">
+<position info="not_deleted" x="1256" y="0"/>
+</item>
+<item historyLabel="CImage.java" index="2">
+<position info="not_deleted" x="330" y="0"/>
 </item>
 <item active="true" historyLabel="Main.java" index="0">
-<position info="not_deleted" x="5547" y="0"/>
+<position info="not_deleted" x="1256" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -553,50 +524,29 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="TelenetAPI.class" tooltip="com.zappware.ixc.TelenetAPI">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=TestProj3/C:\/eclipse\/plugins\/tv.osmosys.sdk.ui.mhp_2.2.1\/additional_libs\/TelenetAPI18032011.jar&lt;com.zappware.ixc(TelenetAPI.class"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GUIText.java" tooltip="Flappy Bird/src/GUIText.java">
+<persistable path="/Flappy Bird/src/GUIText.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Engine.java" tooltip="TestProj3/src/be/telenet/Engine.java">
-<persistable path="/TestProj3/src/be/telenet/Engine.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MoreInfoPage.java" tooltip="TestProj3/src/be/telenet/MoreInfoPage.java">
-<persistable path="/TestProj3/src/be/telenet/MoreInfoPage.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Main.java" tooltip="TestProj3/src/be/telenet/Main.java">
-<persistable path="/TestProj3/src/be/telenet/Main.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Main.java" tooltip="Copii/src/be/copii/Main.java">
-<persistable path="/Copii/src/be/copii/Main.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CHttpRequest.java" tooltip="Copii/src/be/copii/utils/CHttpRequest.java">
-<persistable path="/Copii/src/be/copii/utils/CHttpRequest.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FlappyB.java" tooltip="Flappy Bird/src/FlappyB.java">
-<persistable path="/Flappy Bird/src/FlappyB.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Sprite.java" tooltip="Flappy Bird/src/Sprite.java">
+<persistable path="/Flappy Bird/src/Sprite.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Pipes.java" tooltip="Flappy Bird/src/Pipes.java">
 <persistable path="/Flappy Bird/src/Pipes.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GUIText.java" tooltip="Flappy Bird/src/GUIText.java">
-<persistable path="/Flappy Bird/src/GUIText.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CImage.java" tooltip="Copii/src/be/copii/CImage.java">
+<persistable path="/Copii/src/be/copii/CImage.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Grond.java" tooltip="Flappy Bird/src/Grond.java">
-<persistable path="/Flappy Bird/src/Grond.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="xlet-running.png" tooltip="Copii/src/be/copii/resource/xlet-running.png">
+<persistable path="/Copii/src/be/copii/resource/xlet-running.png"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FloorTimer.java" tooltip="Flappy Bird/src/FloorTimer.java">
-<persistable path="/Flappy Bird/src/FloorTimer.java"/>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="JSONObject.class" tooltip="org.json.simple.JSONObject">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Copii/C:\/Users\/MHP-dev\/Downloads\/json-simple-1.1.1.jar&lt;org.json.simple(JSONObject.class"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Flappy.java" tooltip="Flappy Bird/src/Flappy.java">
-<persistable path="/Flappy Bird/src/Flappy.java"/>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="HashMap.class" tooltip="java.util.HashMap">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Copii/C:\/eclipse\/plugins\/tv.osmosys.sdk.ui.mhp_2.2.1\/lib\/jvm.jar&lt;java.util(HashMap.class"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ApiRequest.java" tooltip="Copii/src/be/copii/ApiRequest.java">
-<persistable path="/Copii/src/be/copii/ApiRequest.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AjaxCall.java" tooltip="t-ajax-call/src/be/copii/ajaxCall/AjaxCall.java">
-<persistable path="/t-ajax-call/src/be/copii/ajaxCall/AjaxCall.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Homepage.java" tooltip="TestProj2/src/be/telenet/Homepage.java">
-<persistable path="/TestProj2/src/be/telenet/Homepage.java"/>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Reader.class" tooltip="java.io.Reader">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Copii/C:\/eclipse\/plugins\/tv.osmosys.sdk.ui.mhp_2.2.1\/lib\/jvm.jar&lt;java.io(Reader.class"/>
 </file>
 </mruList>
 </workbench>

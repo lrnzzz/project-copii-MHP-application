@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401832553326
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1401832554508
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401832574900
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401832585687
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401832585723
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1401832587364
+error,log,,,"Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.",1401832589332
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401832589832
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401832590718
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401832620659
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401832632431
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401832632461
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1401832648334
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1401832649685
+error,log,,,"Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.",1401832652819
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401832652835
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401832653866
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401832669891
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401832676511
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401832676533
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1401832683436
+error,log,,,"Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.",1401832685228
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401832685246
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401832686195
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401832792868

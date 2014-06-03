@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1401831343539
+error,log,,,"Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.",1401831346663
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401831346684
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401831347633
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401831350340
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401831405933
+activated,view,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.PackageExplorer",1401831407679
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401831411617
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401831418539
+opened,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401831418973
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401831419099
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401831423163
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401831426669
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401831428315
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401831434541
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.paste",1401831437090
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401831453516
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401831457173
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1401831461845
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401831464171
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401831471509
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.paste",1401831472970
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401831476099
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401831483254
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.paste",1401831485294

@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+error,log,,,"Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.",1401798216256
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401798216292
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401798217447
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401798242460
+started,bundle,org.eclipse.jdt.junit,3.5.0.v20090526-2000,"org.eclipse.jdt.junit",1401798245105
+opened,view,org.eclipse.ui.ide,3.5.0.I20090525-2000,"org.eclipse.ui.views.ProblemView",1401798249999
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1401798252473
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1401798254292
+error,log,,,"Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.",1401798258756
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401798258778
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401798260296
+executed,command,org.eclipse.debug.ui,3.5.0.v20090603,"org.eclipse.debug.ui.commands.eof",1401798333986
+executed,command,org.eclipse.debug.ui,3.5.0.v20090603,"org.eclipse.debug.ui.commands.eof",1401798336850
+started,bundle,org.eclipse.mylyn.java.tasks,3.2.1.v20090722-0200-e3x,"org.eclipse.mylyn.java.tasks",1401798337282
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401798338295
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.undo",1401798339684
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.undo",1401798340200
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.undo",1401798340649
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.undo",1401798341276
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.undo",1401798341698
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.undo",1401798342071
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.undo",1401798342513
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.undo",1401798342900
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1401798379048
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1401798381046

@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1401801425349
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.copy",1401801448252
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401801449573
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401801468315
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401801485149
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.copy",1401801814860
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.paste",1401801815806
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.paste",1401801816553
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.paste",1401801817247
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1401801818269
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1401801819532
+error,log,,,"Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.",1401801821450
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401801821475
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401801823007
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401802746728
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401802983621
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401803136735
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.paste",1401803147843
+executed,command,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.edit.text.java.indent",1401803153366
+executed,command,,,"AUTOGEN:::org.eclipse.jdt.internal.ui.CompilationUnitEditor.ruler.actions/org.eclipse.jdt.internal.ui.javaeditor.JavaSelectRulerAction",1401803157059
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401803159029
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401803159275
+executed,command,,,"AUTOGEN:::org.eclipse.jdt.internal.ui.CompilationUnitEditor.ruler.actions/org.eclipse.jdt.internal.ui.javaeditor.JavaSelectRulerAction",1401803161336
+executed,command,,,"AUTOGEN:::org.eclipse.jdt.internal.ui.CompilationUnitEditor.ruler.actions/org.eclipse.jdt.internal.ui.javaeditor.JavaSelectRulerAction",1401803164543
+executed,command,,,"AUTOGEN:::org.eclipse.jdt.internal.ui.CompilationUnitEditor.ruler.actions/org.eclipse.jdt.internal.ui.javaeditor.JavaSelectRulerAction",1401803167633

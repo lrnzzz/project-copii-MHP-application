@@ -4,16 +4,21 @@ import javax.microedition.io.Connector;
 import javax.microedition.io.HttpConnection;
 import javax.tv.xlet.*;
 import java.awt.*;
-import java.io.ByteArrayOutputStream;
+import java.awt.event.KeyEvent;
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
+
+import org.dvb.event.EventManager;
+import org.dvb.event.UserEventListener;
+import org.dvb.event.UserEventRepository;
 
 import org.havi.ui.*;
+import org.havi.ui.event.HRcEvent;
+import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
 
-public class Main implements Xlet {
+public class Main implements Xlet, UserEventListener {
 
 	//store actual xlet-context
 	private XletContext actualXletContext;
@@ -66,12 +71,23 @@ public class Main implements Xlet {
 
 	public void startXlet() throws XletStateChangeException {
 		System.out.println("start copii remote helper");
+		
+		//::IR
+		//request EventManager
+		EventManager eventManager = EventManager.getInstance();
+		// Repository
+		UserEventRepository eventRepository = new UserEventRepository("Voorbeeld");
+		// Events toevoegen
+		eventRepository.addAllArrowKeys();
+		eventRepository.addAllNumericKeys();
+		// Bekend maken bij EventManager
+		eventManager.addUserEventListener(this, eventRepository);
 
 
-		//:: api call
-		sendPostRequest("http://192.168.0.5/nl/v1/action", "ds_hash=IOYTS6820gdoy0hgdq7_SDAOh9&ir_code=1SGE66&value=1&ip=192.168.0.102");
 
-		// show scene
+		
+		
+		//:: show scene
 		scene.validate();
 		scene.setVisible(true);
 	}
@@ -150,8 +166,89 @@ public class Main implements Xlet {
 			}
 			catch(IOException ioe) {}
 		}
-		System.out.println(message);
+		//System.out.println(message);
+		
+		//parse json
+		JSONObject json;
+		
+		try {
+			json = (JSONObject)new JSONParser().parse(message);
+			
+			String status = json.get("status").toString();
+			String type = json.get("type").toString();
+			String msg = json.get("message").toString();
+			
+			
+			System.out.println("status: " + status);
+			System.out.println("type: " + type);
+			System.out.println("message: " + msg);
+	
+
+			
+			
+			
+		} catch (org.json.simple.parser.ParseException e) {
+			e.printStackTrace();
+		}
 		return message;
 	}
-
+	
+	public void doApiCall(String ds_hash, String ir_code, String value, String ip) {
+		//ds_hash=IOYTS6820gdoy0hgdq7_SDAOh9&ir_code=1SGE66&value=1&ip=192.168.0.102"
+		sendPostRequest("http://192.168.0.5/nl/v1/action", "ds_hash=" + ds_hash + "&ir_code=" + ir_code + "&value=" + value + "&ip=" + ip);
+	}
+	
+	// Opvangen van de Key Events
+	public void userEventReceived(org.dvb.event.UserEvent e) {
+		String ip = "192.168.0.102";
+		String ds_hash = "IOYTS6820gdoy0hgdq7_SDAOh9";
+		
+		if (e.getType() == KeyEvent.KEY_PRESSED) {
+			switch (e.getCode()) {
+				//Button 1
+				case HRcEvent.VK_1:
+					doApiCall(ds_hash, "1SGE66", "", ip);
+					break;
+				//Button 2
+				case HRcEvent.VK_2:
+					doApiCall(ds_hash, "2ID778", "", ip);
+					break;
+				//Button 3
+				case HRcEvent.VK_3:
+					doApiCall(ds_hash, "389SQN", "", ip);
+					break;
+					
+				//Spinner Left
+				case HRcEvent.VK_4:
+					//doApiCall(ds_hash, "457DSI", "left", ip);
+					break;
+				//Spinner Right
+				case HRcEvent.VK_5:
+					//doApiCall(ds_hash, "457DSI", "right", ip);
+					break;
+					
+				//Shaker
+				case HRcEvent.VK_6:
+					//doApiCall(ds_hash, "554POU", "", ip);
+					break;
+				
+				//Micro Niveau 1
+				case HRcEvent.VK_7:
+					doApiCall(ds_hash, "6ZDZFD", "1", ip);
+					break;
+				//Micro Niveau 2
+				case HRcEvent.VK_8:
+					doApiCall(ds_hash, "6ZDZFD", "2", ip);
+					break;
+				//Micro Niveau 3
+				case HRcEvent.VK_9:
+					doApiCall(ds_hash, "6ZDZFD", "3", ip);
+					break;
+				//Micro Niveau 4
+				case HRcEvent.VK_0:
+					doApiCall(ds_hash, "6ZDZFD", "4", ip);
+					break;
+			}
+		}
+	}
 }

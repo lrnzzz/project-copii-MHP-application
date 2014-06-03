@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.delete",1401807114719
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401807116092
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1401807125306
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401807128303
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401807561745
+activated,view,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.PackageExplorer",1401807565642
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401807567740
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401807570244
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.properties",1401807570253
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401807572785
+error,log,,,"VariableBlock: Classpath variable with null value: JUNIT_SRC_HOME",1401807575395
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.ui.workbench"".",1401807590783
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.ui.workbench"".",1401807590850
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.ui.workbench"".",1401807590886
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.ui.workbench"".",1401807590895
+started,bundle,org.eclipse.ui.externaltools,3.2.0.v20090504,"org.eclipse.ui.externaltools",1401807598228
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401807778526
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401807780778
+started,bundle,org.eclipse.mylyn.wikitext.ui,1.1.1.v20090722-0200-e3x,"org.eclipse.mylyn.wikitext.ui",1401807802065
+started,bundle,org.eclipse.mylyn.wikitext.core,1.1.1.v20090722-0200-e3x,"org.eclipse.mylyn.wikitext.core",1401807802126
+started,bundle,org.eclipse.wst.common.frameworks.ui,1.1.300.v200904160730,"org.eclipse.wst.common.frameworks.ui",1401807802646
+started,bundle,org.eclipse.wst.validation.ui,1.2.104.v200904232035,"org.eclipse.wst.validation.ui",1401807802647
+started,bundle,org.eclipse.wst.validation,1.2.102.v200905201610,"org.eclipse.wst.validation",1401807802693
+started,bundle,org.eclipse.wst.common.project.facet.core,1.4.0.v200906080535,"org.eclipse.wst.common.project.facet.core",1401807802701
+started,bundle,org.eclipse.wst.sse.ui,1.1.100.v200905141750,"org.eclipse.wst.sse.ui",1401807804551

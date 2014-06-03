@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+java.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1401798137291
+java.specification.version,sysinfo,,,"1.5",1401798137291
+java.vendor,sysinfo,,,"Sun Microsystems Inc.",1401798137291
+java.version,sysinfo,,,"1.5.0_22",1401798137291
+java.vm.info,sysinfo,,,"mixed mode, sharing",1401798137291
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1401798137291
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1401798137291
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1401798137291
+java.vm.specification.version,sysinfo,,,"1.0",1401798137291
+java.vm.vendor,sysinfo,,,"Sun Microsystems Inc.",1401798137291
+java.vm.version,sysinfo,,,"1.5.0_22-b03",1401798137291
+started,bundle,org.eclipse.debug.ui,3.5.0.v20090603,"org.eclipse.debug.ui",1401798140519
+started,bundle,tv.osmosys.sdk.launching,2.2.1,"tv.osmosys.sdk.launching",1401798140652
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401798140775
+started,bundle,org.eclipse.jdt.debug,3.5.0.v20090526,"org.eclipse.jdt.debug",1401798140847
+started,bundle,org.eclipse.jdt.debug.ui,3.4.0.v20090527,"org.eclipse.jdt.debug.ui",1401798140949
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401798141970
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401798142289
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401798143897
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401798146607
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401798161139
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1401798211150
+started,bundle,org.tigris.subversion.clientadapter.javahl,1.6.5,"org.tigris.subversion.clientadapter.javahl",1401798211163
+started,bundle,org.tigris.subversion.clientadapter.svnkit,1.6.4,"org.tigris.subversion.clientadapter.svnkit",1401798211163
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1401798213152

@@ -32,6 +32,7 @@ public class Main implements Xlet {
                 Engine.getInstance().logEvent("Application started");
             }
         }).start();
+
     }
 
     public void pauseXlet() {

@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401798391741
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401798392947
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401798396813
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401798400108
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401798400156
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401798405216
+opened,view,tv.osmosys.sdk.ui.tools,2.2.1,"tv.osmosys.sdk.ui.rcu.RCUView",1401798405366
+opened,view,tv.osmosys.sdk.ui.tools,2.2.1,"tv.osmosys.sdk.ui.memorymonitor.MemoryView",1401798405408
+opened,view,tv.osmosys.sdk.ui.tools,2.2.1,"tv.osmosys.sdk.ui.taskmonitor.TasksView",1401798405450
+opened,view,tv.osmosys.sdk.ui.tools,2.2.1,"tv.osmosys.sdk.ui.console.ConsoleView",1401798405530
+activated,perspective,tv.osmosys.sdk.perspective,,"tv.osmosys.sdk.perspective.PerspectiveFactory",1401798405621
+activated,view,tv.osmosys.sdk.ui.tools,2.2.1,"tv.osmosys.sdk.ui.rcu.RCUView",1401798407204
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401798409862
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401798450238
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401798450451
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401798451552
+activated,perspective,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.JavaPerspective",1401798453199
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1401798453205
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401798455988
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401798459726
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401798462519
+activated,view,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.PackageExplorer",1401798462556
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401798470393
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1401798486734
+error,log,,,"connot send query",1401798486803

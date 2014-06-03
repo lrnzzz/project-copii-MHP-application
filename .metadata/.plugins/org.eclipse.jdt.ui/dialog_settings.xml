@@ -3,8 +3,8 @@
 	<item key="org.eclipse.jdt.ui.lastextjar" value="C:\Users\MHP-dev\Dropbox\copii\mhp\Telenet voorbeelden\Telenet_IApps_Framework"/>
 	<section name="libs-section">
 		<item key="dvr.jar" value="false"/>
-		<item key="TelenetAPI18032011.jar" value="true"/>
 		<item key="ocf.jar" value="false"/>
+		<item key="TelenetAPI18032011.jar" value="true"/>
 		<item key="Telenet_IApps_Framework.jar" value="true"/>
 	</section>
 	<section name="JavaElementSearchActions">
@@ -25,8 +25,8 @@
 		<item key="updateQualifiedNames" value="false"/>
 	</section>
 	<section name="version-section">
-		<item key="is-mhp" value="true"/>
 		<item key="mhp-version" value="3"/>
+		<item key="is-mhp" value="true"/>
 		<item key="ocap-version" value="0"/>
 	</section>
 	<section name="org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart">

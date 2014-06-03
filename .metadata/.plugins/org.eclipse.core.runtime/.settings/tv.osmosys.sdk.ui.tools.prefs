@@ -1,3 +1,5 @@
-#Wed May 28 20:00:15 CEST 2014
+#Tue Jun 03 17:02:58 CEST 2014
+memCol_gc_old=255,0,255
 tv.osmosys.sdk.ui.manager.actions.ManageTools.last_action=STB Telenet
 eclipse.preferences.version=1
+memCol_gc_young=255,255,0

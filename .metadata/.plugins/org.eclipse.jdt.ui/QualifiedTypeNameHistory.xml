@@ -9,4 +9,9 @@
 <fullyQualifiedTypeName name="java.io.OutputStream"/>
 <fullyQualifiedTypeName name="java.io.DataInputStream"/>
 <fullyQualifiedTypeName name="java.io.DataOutputStream"/>
+<fullyQualifiedTypeName name="org.dvb.event.UserEventListener"/>
+<fullyQualifiedTypeName name="org.dvb.event.EventManager"/>
+<fullyQualifiedTypeName name="org.dvb.event.UserEventRepository"/>
+<fullyQualifiedTypeName name="org.havi.ui.event.HRcEvent"/>
+<fullyQualifiedTypeName name="java.awt.event.KeyEvent"/>
 </qualifiedTypeNameHistroy>

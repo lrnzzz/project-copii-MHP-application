@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.refresh",1401805569220
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1401805571755
+error,log,,,"Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.",1401805575004
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401805575030
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401805576089
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401805601872
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.delete",1401805603898
+activated,view,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.PackageExplorer",1401805605353
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401805615359
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401805629257
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.refresh",1401805633970
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401805642087
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401805646383
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.delete",1401805646399
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401805665674
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401805671702
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.properties",1401805671711
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401805681712
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401805709966
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.properties",1401805709977
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401805714940
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401805715048
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401805727448
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401805729635
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401805787733

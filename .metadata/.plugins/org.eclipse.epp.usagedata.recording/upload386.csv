@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1401799015173
+error,log,,,"Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.",1401799018024
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401799018058
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401799019353
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401799037334
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1401799040379
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1401799041501
+error,log,,,"Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.",1401799045202
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401799045225
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401799046480
+error,log,,,"Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.",1401799047772
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401799047797
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401799048976
+started,bundle,org.eclipse.help.base,3.4.0.v200906111540,"org.eclipse.help.base",1401799067144
+started,bundle,org.eclipse.help.ui,3.4.0.v20090528,"org.eclipse.help.ui",1401799067155
+started,bundle,org.eclipse.equinox.http.jetty,2.0.0.v20090520-1800,"org.eclipse.equinox.http.jetty",1401799067185
+started,bundle,org.eclipse.equinox.http.servlet,1.0.200.v20090520-1800,"org.eclipse.equinox.http.servlet",1401799067216
+started,bundle,org.eclipse.equinox.http.registry,1.0.200.v20090520-1800,"org.eclipse.equinox.http.registry",1401799067346
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401799069510
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.cut",1401799071349
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.paste",1401799074614
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1401799079314
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1401799089817
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1401799091621
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401799358300

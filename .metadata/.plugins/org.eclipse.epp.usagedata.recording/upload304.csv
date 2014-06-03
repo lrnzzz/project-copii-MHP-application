@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401737743917
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401737744985
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401737747275
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401737748282
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401737748571
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401737749635
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401737752447
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401737755729
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401737755774
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401737756436
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401779101652
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401779299809
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1401779361235
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1401779365031
+closed,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401779365042
+activated,view,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.PackageExplorer",1401779366054
+opened,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401779368381
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401779368509
+started,bundle,org.eclipse.jdt.junit,3.5.0.v20090526-2000,"org.eclipse.jdt.junit",1401779368687
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1401779376829
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401779381045
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401779384749
+error,log,,,"connot send query",1401779384807
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401779384825
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401779385934

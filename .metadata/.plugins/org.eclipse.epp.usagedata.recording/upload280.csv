@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401726142560
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401726148209
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1401726184490
+error,log,,,"connot send query",1401726184599
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401726194827
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401726196093
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401726198747
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401726202031
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401726202073
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401726220827
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401726429718
+started,bundle,org.eclipse.mylyn.java.tasks,3.2.1.v20090722-0200-e3x,"org.eclipse.mylyn.java.tasks",1401726434381
+started,bundle,org.tigris.subversion.clientadapter.javahl,1.6.5,"org.tigris.subversion.clientadapter.javahl",1401726434395
+started,bundle,org.tigris.subversion.clientadapter.svnkit,1.6.4,"org.tigris.subversion.clientadapter.svnkit",1401726434398
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1401726434938
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1401726437238
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401726447646
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1401726449271
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401726452451
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401726455135
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401726455426
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401726455477
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1401726461132
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401726463913
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401726466974

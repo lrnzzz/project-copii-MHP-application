@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401722752941
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1401722764381
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401722783551
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401722824776
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401722824984
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1401722829214
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1401722831623
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401722840543
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1401722846587
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1401722848659
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401722869127
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1401722871389
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401722872924
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401722873998
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401722874287
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401722874338
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1401722887949
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401722890174
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401722891472
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401722891763
+error,log,,,"Application with the same OID and AID is already running on 'MHP 1.1.2'. Terminate old application or change OID/AID.",1401722891775
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401722891817
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401722891854
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401722892901
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1401722893810

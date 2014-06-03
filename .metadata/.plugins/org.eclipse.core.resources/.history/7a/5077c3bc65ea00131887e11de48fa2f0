@@ -1,0 +1,49 @@
+package be.copii.utils;
+
+import javax.microedition.io.Connector;
+import javax.microedition.io.HttpConnection;
+import javax.tv.xlet.*;
+import org.dvb.ui.*;
+import java.awt.*;
+import java.io.ByteArrayOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+
+public class CHttpRequest {
+	
+	public httpGet(String url) {
+		HttpConnection connection = null;
+		InputStream inputStream = null;
+		ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
+
+		try {
+			// open http connection
+			connection = (HttpConnection) Connector.open(url);
+
+			//Set request method
+			connection.setRequestMethod(HttpConnection.GET); 			
+			//Set header information (this header is optional)			
+			connection.setRequestProperty("User-Agent", "Profile/MIDP-1.0 Configuration/CLDC-1.0"); 			
+
+
+			// establishing input stream from the connection
+			inputStream = connection.openInputStream();
+
+			byte[] buffer = new byte[512];
+			// reading the response from web server, character by character
+			int red;
+			while ((red = inputStream.read(buffer)) != -1 ) {
+				outputStream.write(buffer, 0, red);
+			}
+		} 
+		catch (IOException ioe) {
+			return -1;
+		} 
+
+		finally {
+			try { if(connection != null)  connection.close(); } catch (IOException ignored) {}
+			try { if(inputStream != null) inputStream.close();} catch (IOException ignored) {} 
+		}
+		return new String(outputStream.toByteArray());
+	}
+}

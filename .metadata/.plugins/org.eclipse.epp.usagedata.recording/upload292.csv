@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+java.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1401728221162
+java.specification.version,sysinfo,,,"1.5",1401728221162
+java.vendor,sysinfo,,,"Sun Microsystems Inc.",1401728221162
+java.version,sysinfo,,,"1.5.0_22",1401728221162
+java.vm.info,sysinfo,,,"mixed mode, sharing",1401728221162
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1401728221162
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1401728221162
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1401728221162
+java.vm.specification.version,sysinfo,,,"1.0",1401728221162
+java.vm.vendor,sysinfo,,,"Sun Microsystems Inc.",1401728221162
+java.vm.version,sysinfo,,,"1.5.0_22-b03",1401728221162
+started,bundle,org.eclipse.debug.ui,3.5.0.v20090603,"org.eclipse.debug.ui",1401728235892
+started,bundle,tv.osmosys.sdk.launching,2.2.1,"tv.osmosys.sdk.launching",1401728236000
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401728236100
+started,bundle,org.eclipse.jdt.debug,3.5.0.v20090526,"org.eclipse.jdt.debug",1401728236206
+started,bundle,org.eclipse.jdt.debug.ui,3.4.0.v20090527,"org.eclipse.jdt.debug.ui",1401728236271
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401728237072
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401728237409
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401728238793
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401728241489
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401728244767
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401728244804
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401728249816
+started,bundle,org.eclipse.jdt.junit,3.5.0.v20090526-2000,"org.eclipse.jdt.junit",1401728251626
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401728256809

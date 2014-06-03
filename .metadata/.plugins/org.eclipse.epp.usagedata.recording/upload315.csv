@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1401783577001
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1401783578268
+error,log,,,"Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.",1401783581478
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401783581501
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401783582919
+error,log,,,"Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.",1401783584501
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401783584524
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401783585627
+error,log,,,"Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.",1401783586583
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401783586618
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401783587203
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401783613938
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1401783615583
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1401783616844
+error,log,,,"Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.",1401783620957
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401783620979
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401783622231
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401783656360
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401783657745
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401783660490
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401783663777
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401783663819
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401783674709
+error,log,,,"connot send query",1401783676513
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401783676530

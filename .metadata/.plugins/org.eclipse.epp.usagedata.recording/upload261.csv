@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401721818162
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1401721853891
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401721855683
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401721859592
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1401721859873
+error,log,,,"connot send query",1401721859974
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401722113958
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401722115405
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401722118542
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401722121793
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401722121840
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401722126932
+opened,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401722129788
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401722129919
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401722138681
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.findReplace",1401722138718
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401722145831
+activated,view,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.PackageExplorer",1401722162156
+opened,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401722168219
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401722168340
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401722201869
+opened,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401722206448
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401722206557
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401722238782
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401722243458

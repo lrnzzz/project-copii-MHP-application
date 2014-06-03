@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401725941716
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401725943041
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401725943326
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401725946548
+error,log,,,"No target selected",1401725946567
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401725946606
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401725947462
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1401725948330
+error,log,,,"connot send query",1401725948421
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401725949674
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401725951271
+started,bundle,org.eclipse.help.base,3.4.0.v200906111540,"org.eclipse.help.base",1401725953230
+started,bundle,org.eclipse.help.ui,3.4.0.v20090528,"org.eclipse.help.ui",1401725953238
+started,bundle,org.eclipse.equinox.http.jetty,2.0.0.v20090520-1800,"org.eclipse.equinox.http.jetty",1401725953277
+started,bundle,org.eclipse.equinox.http.servlet,1.0.200.v20090520-1800,"org.eclipse.equinox.http.servlet",1401725953308
+started,bundle,org.eclipse.equinox.http.registry,1.0.200.v20090520-1800,"org.eclipse.equinox.http.registry",1401725953460
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401725954052
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401725957348
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401725957391
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401726105025
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401726116313
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401726119545
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401726120569
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401726137769
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401726141001

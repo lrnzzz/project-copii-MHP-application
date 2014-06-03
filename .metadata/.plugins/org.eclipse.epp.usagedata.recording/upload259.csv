@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401721634694
+started,bundle,org.eclipse.help.base,3.4.0.v200906111540,"org.eclipse.help.base",1401721637694
+started,bundle,org.eclipse.help.ui,3.4.0.v20090528,"org.eclipse.help.ui",1401721637701
+started,bundle,org.eclipse.equinox.http.jetty,2.0.0.v20090520-1800,"org.eclipse.equinox.http.jetty",1401721637729
+started,bundle,org.eclipse.equinox.http.servlet,1.0.200.v20090520-1800,"org.eclipse.equinox.http.servlet",1401721637766
+started,bundle,org.eclipse.equinox.http.registry,1.0.200.v20090520-1800,"org.eclipse.equinox.http.registry",1401721637887
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401721646608
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1401721671738
+started,bundle,org.tigris.subversion.clientadapter.javahl,1.6.5,"org.tigris.subversion.clientadapter.javahl",1401721671887
+started,bundle,org.tigris.subversion.clientadapter.svnkit,1.6.4,"org.tigris.subversion.clientadapter.svnkit",1401721671889
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1401721679823
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1401721683786
+error,log,,,"connot send query",1401721683865
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401721685980
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401721687582
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401721690725
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401721694000
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401721694043
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401721705127
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401721707619
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.undo",1401721722230
+started,bundle,org.eclipse.mylyn.java.ui,3.2.1.v20090722-0200-e3x,"org.eclipse.mylyn.java.ui",1401721740660
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1401721752446
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401721759234
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401721760519

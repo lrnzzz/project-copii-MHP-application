@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1401727220798
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1401727222016
+error,log,,,"connot send query",1401727222079
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401727489733
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401727491190
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401727494077
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401727497352
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401727497395
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401727508726
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401727510755
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401727513123
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401727514448
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1401727527795
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1401727529320
+error,log,,,"connot send query",1401727529406
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401727531708
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401727532851
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401727535575
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401727538821
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401727538865
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401727684350
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401727898362
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1401727919686
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1401727921274
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401727933810

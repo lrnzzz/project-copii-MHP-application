@@ -455,3 +455,52 @@ org.eclipse.core.runtime.CoreException: Application with the same OID and AID is
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
 !SUBENTRY 1 tv.osmosys.sdk.launching 4 1 2014-06-04 00:02:06.513
 !MESSAGE Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
+!SESSION 2014-06-04 00:02:59.518 -----------------------------------------------
+eclipse.buildId=I20090611-1540
+java.version=1.5.0_22
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=nl_BE
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY tv.osmosys.sdk.launching 4 1 2014-06-04 11:31:50.822
+!MESSAGE Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
+	at tv.osmosys.sdk.launching.j.a(Unknown Source)
+	at tv.osmosys.sdk.launching.MHPLaunchConfiguration.launch(Unknown Source)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1069)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 tv.osmosys.sdk.launching 4 1 2014-06-04 11:31:50.823
+!MESSAGE Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
+
+!ENTRY tv.osmosys.sdk.launching 4 1 2014-06-04 11:35:31.000
+!MESSAGE Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
+	at tv.osmosys.sdk.launching.j.a(Unknown Source)
+	at tv.osmosys.sdk.launching.MHPLaunchConfiguration.launch(Unknown Source)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1069)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 tv.osmosys.sdk.launching 4 1 2014-06-04 11:35:31.001
+!MESSAGE Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
+
+!ENTRY tv.osmosys.sdk.launching 4 1 2014-06-04 11:35:35.141
+!MESSAGE Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.
+	at tv.osmosys.sdk.launching.j.a(Unknown Source)
+	at tv.osmosys.sdk.launching.MHPLaunchConfiguration.launch(Unknown Source)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1069)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 tv.osmosys.sdk.launching 4 1 2014-06-04 11:35:35.142
+!MESSAGE Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.

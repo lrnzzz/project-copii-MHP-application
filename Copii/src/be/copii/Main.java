@@ -3,6 +3,7 @@ package be.copii;
 import javax.microedition.io.Connector;
 import javax.microedition.io.HttpConnection;
 import javax.tv.xlet.*;
+
 import java.awt.*;
 import java.awt.event.KeyEvent;
 import java.io.DataInputStream;
@@ -11,6 +12,7 @@ import java.io.IOException;
 import org.dvb.event.EventManager;
 import org.dvb.event.UserEventListener;
 import org.dvb.event.UserEventRepository;
+import org.dvb.ui.DVBColor;
 
 import org.havi.ui.*;
 import org.havi.ui.event.HRcEvent;
@@ -25,14 +27,23 @@ public class Main implements Xlet, UserEventListener {
 	private HScene scene;
 
 	//colors
-	Color clr1 = new Color(0xff, 0x5f, 0x22);
-	Color clr2 = new Color(0xe8, 0x39, 0x1f);
-	Color clr3 = new Color(0xff, 0x2f, 0x3b);
-	Color clr4 = new Color(0xff, 0xc4, 0x21);
-	Color clr5 = new Color(0xf8, 0x22, 0xff);
-	Color clr6 = new Color(0xfa, 0xfa, 0xfa);
-	Color clr7 = new Color(0xb2, 0xb2, 0xb2);
-	Color clr8 = new Color(0x33, 0x33, 0x33);
+//	Color clr1 = new Color(0xff, 0x5f, 0x22);
+//	Color clr2 = new Color(0xe8, 0x39, 0x1f);
+//	Color clr3 = new Color(0xff, 0x2f, 0x3b);
+//	Color clr4 = new Color(0xff, 0xc4, 0x21);
+//	Color clr5 = new Color(0xf8, 0x22, 0xff);
+//	Color clr6 = new Color(0xfa, 0xfa, 0xfa);
+//	Color clr7 = new Color(0xb2, 0xb2, 0xb2);
+//	Color clr8 = new Color(0x33, 0x33, 0x33);
+	
+	Color clr1 = new DVBColor(255, 95, 34, 200);
+	Color clr2 = new DVBColor(232, 57, 31, 200);
+	Color clr3 = new DVBColor(255, 47, 59, 200);
+	Color clr4 = new DVBColor(255, 196, 33, 200);
+	Color clr5 = new DVBColor(248, 34, 255, 200);
+	Color clr6 = new DVBColor(250, 250, 250, 200);
+	Color clr7 = new DVBColor(204, 204, 204, 200);
+	Color clr8 = new DVBColor(51, 51, 51, 200);
 
 	//text labels
 	private HStaticText lblCopii;
@@ -77,6 +88,7 @@ public class Main implements Xlet, UserEventListener {
 		lblFbText.setForeground(clr6);
 		lblFbText.setBackground(clr2);
 		lblFbText.setBackgroundMode(HVisible.BACKGROUND_FILL);
+
 		
 		lblFbCount.setLocation(620, 480);
 		lblFbCount.setSize(80, 60);
@@ -107,6 +119,8 @@ public class Main implements Xlet, UserEventListener {
 		// Events toevoegen
 		eventRepository.addAllArrowKeys();
 		eventRepository.addAllNumericKeys();
+		eventRepository.addKey(27); //exit
+		eventRepository.addKey(org.havi.ui.event.HRcEvent.VK_COLORED_KEY_0);
 		// Bekend maken bij EventManager
 		eventManager.addUserEventListener(this, eventRepository);
 
@@ -122,7 +136,14 @@ public class Main implements Xlet, UserEventListener {
 
 	public void destroyXlet(boolean unconditional) throws XletStateChangeException {
 		if(unconditional) {
-			System.out.println("The Xlet must be terminated");
+			//Destroy exlet
+			System.out.println("The COPII Xlet will be terminated");
+			if (scene != null) {
+				scene.setVisible(false);
+				HSceneFactory.getInstance().dispose(scene);
+				scene.dispose();
+				scene = null;
+			}
 		}
 		else {
 			throw new XletStateChangeException("Undefined exception");
@@ -259,52 +280,66 @@ public class Main implements Xlet, UserEventListener {
 	public void userEventReceived(org.dvb.event.UserEvent e) {
 		String ip = "192.168.0.102";
 		String ds_hash = "IOYTS6820gdoy0hgdq7_SDAOh9";
-		
+
 		if (e.getType() == KeyEvent.KEY_PRESSED) {
 			switch (e.getCode()) {
-				//Button 1
-				case HRcEvent.VK_1:
-					doApiCall(ds_hash, "1SGE66", "", ip);
-					break;
+			//Button 1
+			case HRcEvent.VK_1:
+				doApiCall(ds_hash, "1SGE66", "", ip);
+				break;
 				//Button 2
-				case HRcEvent.VK_2:
-					doApiCall(ds_hash, "2ID778", "", ip);
-					break;
+			case HRcEvent.VK_2:
+				doApiCall(ds_hash, "2ID778", "", ip);
+				break;
 				//Button 3
-				case HRcEvent.VK_3:
-					doApiCall(ds_hash, "389SQN", "", ip);
-					break;
-					
+			case HRcEvent.VK_3:
+				doApiCall(ds_hash, "389SQN", "", ip);
+				break;
+
 				//Spinner Left
-				case HRcEvent.VK_4:
-					//doApiCall(ds_hash, "457DSI", "left", ip);
-					break;
+			case HRcEvent.VK_4:
+				//doApiCall(ds_hash, "457DSI", "left", ip);
+				break;
 				//Spinner Right
-				case HRcEvent.VK_5:
-					//doApiCall(ds_hash, "457DSI", "right", ip);
-					break;
-					
+			case HRcEvent.VK_5:
+				//doApiCall(ds_hash, "457DSI", "right", ip);
+				break;
+
 				//Shaker
-				case HRcEvent.VK_6:
-					//doApiCall(ds_hash, "554POU", "", ip);
-					break;
-				
+			case HRcEvent.VK_6:
+				//doApiCall(ds_hash, "554POU", "", ip);
+				break;
+
 				//Micro Niveau 1
-				case HRcEvent.VK_7:
-					doApiCall(ds_hash, "6ZDZFD", "1", ip);
-					break;
+			case HRcEvent.VK_7:
+				doApiCall(ds_hash, "6ZDZFD", "1", ip);
+				break;
 				//Micro Niveau 2
-				case HRcEvent.VK_8:
-					doApiCall(ds_hash, "6ZDZFD", "2", ip);
-					break;
+			case HRcEvent.VK_8:
+				doApiCall(ds_hash, "6ZDZFD", "2", ip);
+				break;
 				//Micro Niveau 3
-				case HRcEvent.VK_9:
-					doApiCall(ds_hash, "6ZDZFD", "3", ip);
-					break;
+			case HRcEvent.VK_9:
+				doApiCall(ds_hash, "6ZDZFD", "3", ip);
+				break;
 				//Micro Niveau 4
-				case HRcEvent.VK_0:
-					doApiCall(ds_hash, "6ZDZFD", "4", ip);
-					break;
+			case HRcEvent.VK_0:
+				doApiCall(ds_hash, "6ZDZFD", "4", ip);
+				break;
+				
+				//RED KEY
+			case HRcEvent.VK_COLORED_KEY_0:
+				System.out.println("PRESSED RODE KNOP");
+				break;
+
+				//EXIT
+			case 27:
+				try {
+					destroyXlet(true);
+				} catch (XletStateChangeException e1) {
+					e1.printStackTrace();
+				}
+				break;
 			}
 		}
 	}

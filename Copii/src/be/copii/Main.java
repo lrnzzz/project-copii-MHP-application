@@ -2,40 +2,45 @@ package be.copii;
 
 import javax.microedition.io.Connector;
 import javax.microedition.io.HttpConnection;
+import javax.tv.service.SIRequest;
 import javax.tv.xlet.*;
 
 import java.awt.*;
 import java.awt.event.KeyEvent;
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
+import java.io.File;
 import java.io.IOException;
+import java.rmi.NotBoundException;
+import java.rmi.RemoteException;
+
 import org.dvb.event.EventManager;
 import org.dvb.event.UserEventListener;
 import org.dvb.event.UserEventRepository;
+import org.dvb.io.ixc.IxcRegistry;
+import org.dvb.si.SIDatabase;
 import org.dvb.ui.DVBColor;
+import org.dvb.ui.FontFormatException;
 
 import org.havi.ui.*;
 import org.havi.ui.event.HRcEvent;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 
+import com.zappware.ixc.TelenetAPI;
+
 
 public class Main implements Xlet, UserEventListener {
+	
+	//global settings vars
+	String SERVER_URL = "http://192.168.0.6";
+	String ACCOUNT_NAME = "VTM KZOOM";
 
 	//store actual xlet-context
-	private XletContext actualXletContext;
+	private XletContext ctx;
 	private HScene scene;
 
 	//colors
-//	Color clr1 = new Color(0xff, 0x5f, 0x22);
-//	Color clr2 = new Color(0xe8, 0x39, 0x1f);
-//	Color clr3 = new Color(0xff, 0x2f, 0x3b);
-//	Color clr4 = new Color(0xff, 0xc4, 0x21);
-//	Color clr5 = new Color(0xf8, 0x22, 0xff);
-//	Color clr6 = new Color(0xfa, 0xfa, 0xfa);
-//	Color clr7 = new Color(0xb2, 0xb2, 0xb2);
-//	Color clr8 = new Color(0x33, 0x33, 0x33);
-	
 	Color clr1 = new DVBColor(255, 95, 34, 200);
 	Color clr2 = new DVBColor(232, 57, 31, 200);
 	Color clr3 = new DVBColor(255, 47, 59, 200);
@@ -52,11 +57,12 @@ public class Main implements Xlet, UserEventListener {
 	
 	//images
 	private CImage imgLogo = new CImage("be/copii/resource/logo.png", 10, 10);
+	
 
 	public void initXlet(XletContext ctx) throws XletStateChangeException {
 		System.out.println("init copii remote helper");
 
-		this.actualXletContext = ctx;
+		this.ctx = ctx;
 
 		//create template
 		HSceneTemplate sceneTemplate = new HSceneTemplate();
@@ -67,6 +73,7 @@ public class Main implements Xlet, UserEventListener {
 
 		//get Scene instance from factory
 		scene = HSceneFactory.getInstance().getBestScene(sceneTemplate);
+		
 
 		//:: LABELS
 		//create label objects
@@ -108,6 +115,7 @@ public class Main implements Xlet, UserEventListener {
 		scene.add(imgLogo);
 	}
 
+	
 	public void startXlet() throws XletStateChangeException {
 		System.out.println("start copii remote helper");
 		
@@ -124,13 +132,16 @@ public class Main implements Xlet, UserEventListener {
 		// Bekend maken bij EventManager
 		eventManager.addUserEventListener(this, eventRepository);
 
-
-
-		
-		
 		//:: show scene
 		scene.validate();
 		scene.setVisible(true);
+		
+		//:: get system inforamtion
+		try {
+			System.out.println("LANG: "+this.getTelenetAPI().getOnScreenLanguage());
+		} catch (Exception e) {
+			e.printStackTrace();
+		} 
 	}
 
 
@@ -214,7 +225,7 @@ public class Main implements Xlet, UserEventListener {
 			}
 			catch(IOException ioe) {}
 		}
-		//System.out.println(message);
+		System.out.println(message);
 		
 		//::Parse json
 		
@@ -273,7 +284,7 @@ public class Main implements Xlet, UserEventListener {
 	
 	public void doApiCall(String ds_hash, String ir_code, String value, String ip) {
 		//ds_hash=IOYTS6820gdoy0hgdq7_SDAOh9&ir_code=1SGE66&value=1&ip=192.168.0.102"
-		sendPostRequest("http://192.168.0.6/nl/v1/action", "ds_hash=" + ds_hash + "&ir_code=" + ir_code + "&value=" + value + "&ip=" + ip);
+		sendPostRequest(SERVER_URL + "/nl/v1/action", "ds_hash=" + ds_hash + "&ir_code=" + ir_code + "&value=" + value + "&ip=" + ip);
 	}
 	
 	// Opvangen van de Key Events
@@ -298,11 +309,11 @@ public class Main implements Xlet, UserEventListener {
 
 				//Spinner Left
 			case HRcEvent.VK_4:
-				//doApiCall(ds_hash, "457DSI", "left", ip);
+				doApiCall(ds_hash, "457DSI", "-1", ip);
 				break;
 				//Spinner Right
 			case HRcEvent.VK_5:
-				//doApiCall(ds_hash, "457DSI", "right", ip);
+				doApiCall(ds_hash, "457DSI", "1", ip);
 				break;
 
 				//Shaker
@@ -343,4 +354,10 @@ public class Main implements Xlet, UserEventListener {
 			}
 		}
 	}
+	
+    public TelenetAPI getTelenetAPI() throws NotBoundException, RemoteException {
+        TelenetAPI api = (TelenetAPI) IxcRegistry.lookup(this.ctx, "/1/1/telenet");
+        return api;
+    }
+    
 }

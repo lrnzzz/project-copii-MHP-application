@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1401972515744
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1401972551035
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1401972556396
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401972693675
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401972746828
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401972749569
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.paste",1401972777839
+executed,command,,,"AUTOGEN:::org.eclipse.jdt.internal.ui.CompilationUnitEditor.ruler.actions/org.eclipse.jdt.internal.ui.javaeditor.JavaSelectRulerAction",1401972826960
+executed,command,,,"AUTOGEN:::org.eclipse.jdt.debug.CompilationUnitEditor.BreakpointRulerActions/org.eclipse.jdt.debug.ui.actions.ManageBreakpointRulerAction",1401972847353
+executed,command,,,"AUTOGEN:::org.eclipse.jdt.debug.CompilationUnitEditor.BreakpointRulerActions/org.eclipse.jdt.debug.ui.actions.ManageBreakpointRulerAction",1401972850021
+executed,command,,,"AUTOGEN:::org.eclipse.jdt.internal.ui.CompilationUnitEditor.ruler.actions/org.eclipse.jdt.internal.ui.javaeditor.JavaSelectRulerAction",1401972852814
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401972890579
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401973486576
+activated,view,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.PackageExplorer",1401973491305
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401973494944
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401973512282
+error,log,,,"JavaBuilder handling ImageBuilderInternalException while building: Copii",1401973512726
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401973514437
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401973924678
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401973924702
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1401973925956
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401973930003
+executed,command,,,"AUTOGEN:::org.eclipse.jdt.internal.ui.CompilationUnitEditor.ruler.actions/org.eclipse.jdt.internal.ui.javaeditor.JavaSelectRulerAction",1401973930634
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401973933052
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401973933237

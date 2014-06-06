@@ -5,8 +5,8 @@
 	<item key="UserLibraryLoadSaveDialog.size" value="480,510"/>
 	<section name="libs-section">
 		<item key="dvr.jar" value="false"/>
-		<item key="TelenetAPI18032011.jar" value="true"/>
 		<item key="ocf.jar" value="false"/>
+		<item key="TelenetAPI18032011.jar" value="true"/>
 		<item key="Telenet_IApps_Framework.jar" value="true"/>
 	</section>
 	<section name="JavaElementSearchActions">
@@ -29,8 +29,8 @@
 	<section name="ProblemSeveritiesConfigurationBlock">
 		<item key="expanded2" value="false"/>
 		<item key="expanded6" value="false"/>
-		<item key="expanded4" value="false"/>
 		<item key="expanded1" value="false"/>
+		<item key="expanded4" value="false"/>
 		<item key="expanded0" value="true"/>
 		<item key="expanded5" value="false"/>
 		<item key="expanded3" value="false"/>
@@ -44,8 +44,8 @@
 		<item key="index" value="2"/>
 	</section>
 	<section name="version-section">
-		<item key="is-mhp" value="true"/>
 		<item key="mhp-version" value="3"/>
+		<item key="is-mhp" value="true"/>
 		<item key="ocap-version" value="0"/>
 	</section>
 	<section name="org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart">
@@ -62,8 +62,8 @@
 	</section>
 	<section name="org.eclipse.jdt.internal.ui.wizards.buildpaths.NewVariableEntryDialog">
 		<item key="DIALOG_X_ORIGIN" value="78"/>
-		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
 		<item key="DIALOG_HEIGHT" value="397"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
 		<item key="DIALOG_Y_ORIGIN" value="13"/>
 		<item key="DIALOG_WIDTH" value="577"/>
 	</section>

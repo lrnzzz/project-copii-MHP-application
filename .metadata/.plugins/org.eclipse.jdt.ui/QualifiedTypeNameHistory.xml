@@ -30,4 +30,6 @@
 <fullyQualifiedTypeName name="java.util.Iterator"/>
 <fullyQualifiedTypeName name="org.json.simple.JSONValue"/>
 <fullyQualifiedTypeName name="org.json.simple.parser.ParseException"/>
+<fullyQualifiedTypeName name="org.dvb.ui.DVBColor"/>
+<fullyQualifiedTypeName name="org.bouncycastle.util.encoders.Base64"/>
 </qualifiedTypeNameHistroy>

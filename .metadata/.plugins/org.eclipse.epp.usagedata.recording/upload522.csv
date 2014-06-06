@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+error,log,,,"JavaBuilder handling ImageBuilderInternalException while building: Copii",1401974220687
+executed,command,,,"AUTOGEN:::org.eclipse.jdt.internal.ui.CompilationUnitEditor.ruler.actions/org.eclipse.jdt.internal.ui.javaeditor.JavaSelectRulerAction",1401974225205
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.copy",1401974233589
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.paste",1401974234680
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1401974237492
+error,log,,,"JavaBuilder handling ImageBuilderInternalException while building: Copii",1401974237613
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401974240451
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401974279026
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401974289075
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401974289205
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401974309558
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401974310853
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401974311155
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401974319174
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401974320804
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401974322135
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401974322425
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401974332921
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401974345724
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401974349335
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401974366850
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401974392371
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1401974394325
+error,log,,,"JavaBuilder handling ImageBuilderInternalException while building: Copii",1401974394470
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401974395939

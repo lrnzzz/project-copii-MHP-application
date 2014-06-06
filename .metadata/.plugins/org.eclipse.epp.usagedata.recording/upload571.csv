@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+executed,command,,,"AUTOGEN:::org.eclipse.jdt.internal.ui.CompilationUnitEditor.ruler.actions/org.eclipse.jdt.internal.ui.javaeditor.JavaSelectRulerAction",1402006682413
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1402006684101
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1402006684490
+executed,command,,,"AUTOGEN:::org.eclipse.jdt.debug.CompilationUnitEditor.BreakpointRulerActions/org.eclipse.jdt.debug.ui.actions.ManageBreakpointRulerAction",1402006687073
+executed,command,,,"AUTOGEN:::org.eclipse.jdt.internal.ui.CompilationUnitEditor.ruler.actions/org.eclipse.jdt.internal.ui.javaeditor.JavaSelectRulerAction",1402006689270
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1402006692157
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1402006692432
+executed,command,,,"AUTOGEN:::org.eclipse.jdt.internal.ui.CompilationUnitEditor.ruler.actions/org.eclipse.jdt.internal.ui.javaeditor.JavaSelectRulerAction",1402006697393
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1402006702732
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1402006703607
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1402007302716
+started,bundle,org.eclipse.equinox.p2.ui,1.0.100.v20090527-1812,"org.eclipse.equinox.p2.ui",1402007308898
+started,bundle,org.eclipse.equinox.p2.ui.sdk,1.0.100.v20090520-1905,"org.eclipse.equinox.p2.ui.sdk",1402007308900
+started,bundle,org.eclipse.equinox.p2.metadata,1.0.100.v20090525,"org.eclipse.equinox.p2.metadata",1402007309061
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1402007309854
+started,bundle,org.eclipse.equinox.p2.extensionlocation,1.0.100.v20090520-1905,"org.eclipse.equinox.p2.extensionlocation",1402007310644
+started,bundle,org.eclipse.equinox.p2.updatesite,1.0.100.v20090525,"org.eclipse.equinox.p2.updatesite",1402007322811
+started,bundle,org.eclipse.equinox.p2.publisher,1.0.0.v20090527-1812,"org.eclipse.equinox.p2.publisher",1402007322866
+error,log,,,"Unable to load the repository http://download.eclipse.org/tools/mylyn/update/e3.4/",1402007323151
+error,log,,,"Unable to load the repository file:/D:/",1402007323252
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1402007328394
+executed,command,org.eclipse.equinox.p2.ui.sdk,1.0.100.v20090520-1905,"org.eclipse.equinox.p2.ui.sdk.install",1402007328421
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1402007329741
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1402007527076
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1402007537301

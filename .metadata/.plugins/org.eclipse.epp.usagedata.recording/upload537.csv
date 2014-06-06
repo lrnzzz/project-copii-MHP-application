@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+java.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1401976204465
+java.specification.version,sysinfo,,,"1.5",1401976204465
+java.vendor,sysinfo,,,"Sun Microsystems Inc.",1401976204465
+java.version,sysinfo,,,"1.5.0_22",1401976204465
+java.vm.info,sysinfo,,,"mixed mode, sharing",1401976204465
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1401976204465
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1401976204465
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1401976204465
+java.vm.specification.version,sysinfo,,,"1.0",1401976204465
+java.vm.vendor,sysinfo,,,"Sun Microsystems Inc.",1401976204465
+java.vm.version,sysinfo,,,"1.5.0_22-b03",1401976204465
+started,bundle,org.eclipse.jdt.junit,3.5.0.v20090526-2000,"org.eclipse.jdt.junit",1401976207155
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401976227012
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401976245607
+started,bundle,org.eclipse.debug.ui,3.5.0.v20090603,"org.eclipse.debug.ui",1401976247948
+started,bundle,tv.osmosys.sdk.launching,2.2.1,"tv.osmosys.sdk.launching",1401976248041
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401976248160
+started,bundle,org.eclipse.jdt.debug,3.5.0.v20090526,"org.eclipse.jdt.debug",1401976248237
+started,bundle,org.eclipse.jdt.debug.ui,3.4.0.v20090527,"org.eclipse.jdt.debug.ui",1401976248329
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401976249148
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401976249478
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401976250954
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1401976355037
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401976357895
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.copy",1401976373939

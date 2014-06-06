@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+opened,view,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.SourceView",1402002518518
+activated,view,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.SourceView",1402002518529
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1402002519050
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1402002521913
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1402002546764
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1402002546990
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1402002565741
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1402002650830
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1402002654269
+error,log,,,"Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.",1402002659633
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1402002659661
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1402002662231
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1402002673256
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1402002759293
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1402002762558
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1402002769809
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1402002769829
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1402002772458
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1402002777126
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1402002778528
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1402002778848
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1402002825385
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.cut",1402003473691
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1402003479136
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.paste",1402003512887

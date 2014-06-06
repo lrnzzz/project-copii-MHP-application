@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.eclipse.help.base,3.4.0.v200906111540,"org.eclipse.help.base",1401975081695
+started,bundle,org.eclipse.help.ui,3.4.0.v20090528,"org.eclipse.help.ui",1401975081707
+started,bundle,org.eclipse.equinox.http.jetty,2.0.0.v20090520-1800,"org.eclipse.equinox.http.jetty",1401975081738
+started,bundle,org.eclipse.equinox.http.servlet,1.0.200.v20090520-1800,"org.eclipse.equinox.http.servlet",1401975081771
+started,bundle,org.eclipse.equinox.http.registry,1.0.200.v20090520-1800,"org.eclipse.equinox.http.registry",1401975081959
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1401975084582
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401975087451
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401975112500
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401975113460
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401975125094
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1401975128958
+error,log,,,"Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.",1401975132494
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401975132514
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401975133670
+opened,view,org.eclipse.ui.ide,3.5.0.I20090525-2000,"org.eclipse.ui.views.ProgressView",1401975138651
+activated,view,org.eclipse.ui.ide,3.5.0.I20090525-2000,"org.eclipse.ui.views.ProgressView",1401975138668
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401975258306
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401975273888
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401975275874
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.paste",1401975277741
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.cut",1401975281284
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.paste",1401975283079
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.copy",1401975289456
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.paste",1401975290631
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.delete",1401975293663

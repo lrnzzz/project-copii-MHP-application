@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401974545019
+executed,command,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.edit.text.java.toggle.comment",1401974592016
+started,bundle,org.eclipse.mylyn.java.tasks,3.2.1.v20090722-0200-e3x,"org.eclipse.mylyn.java.tasks",1401974593941
+started,bundle,org.tigris.subversion.clientadapter.javahl,1.6.5,"org.tigris.subversion.clientadapter.javahl",1401974593955
+started,bundle,org.tigris.subversion.clientadapter.svnkit,1.6.4,"org.tigris.subversion.clientadapter.svnkit",1401974593957
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1401974594472
+activated,view,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.PackageExplorer",1401974597873
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401974601388
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401974606496
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.CompilationUnitEditor",1401974607393
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401974610989
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401974612271
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401974612568
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401974614007
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401974661810
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401974667585
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401974680979
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401974729947
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1401974729964
+error,log,,,"Application with the same OID and AID is already running on 'STB Telenet'. Terminate old application or change OID/AID.",1401974733325
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401974733363
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401974734371
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401974736349
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401974737404
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1401974739359
